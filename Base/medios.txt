@@ -88,7 +88,6 @@ diarioadn.co OR
 laopinioncucuta OR
 QhuboCucuta OR
 TvcucutaC OR
-areacucuta OR
 noticucuta OR
 TUKANAL OR
 CucutaEsNoticia OR
@@ -96,7 +95,6 @@ LaVozDelNorteAM OR
 CaracolCucuta OR laopinion.com.co OR
 qhubo.com OR
 tvcucuta.com OR
-areacucuta.com OR
 noticucuta3.blogspot.com OR
 tukanal.tv OR
 cucutaesnoticia.com OR
