@@ -5,6 +5,11 @@ Created on Thu Jan 28 19:08:34 2021
 
 @author: diegoalejandrobermudezsierra
 """
+import pandas as pd
+import re
+import string
+import numpy as np
+
 
 def limpieza_base(df):
     '''
@@ -25,4 +30,17 @@ def limpieza_base(df):
     df=df.iloc[1:,:]
     #Hacemos un reset al index
     df=df.reset_index(drop=True)
+    return df
+
+def search_autor(df, autores):
+    """
+    Retorna una pequeña DataFrame en donde todas las filas tienen almenos una mención de medios o policía
+    """
+    return df[np.logical_or.reduce([df['Snippet'].str.contains(autor) for autor in autores])]
+
+def label_base(df, autores):
+    """
+    Retorna una pequeña DataFrame en donde todas las filas tienen almenos una mención de medios o policía
+    """
+    df['Cita_medios'] = np.logical_or.reduce([df['Snippet'].str.contains(autor) for autor in autores])
     return df
