@@ -1,0 +1,58 @@
+"Chart Data Export",
+"Dimension 1","queries"
+"Dimension 2","cities"
+"Aggregate","volume"
+"Start Date","Fri Jan 01 05:00:00 UTC 2021"
+"End Date","Mon Mar 01 05:00:00 UTC 2021"
+"Project Id","1998268711"
+"Category","Xenofobia "
+"Query Id","[2000474926]"
+
+"queries","[Q] Barómetro migrante Colombia","population"
+"Bogota, Bogota, Colombia",7319,7772000
+"Medellin, Antioquia, Colombia",1422,3816670
+"Cali, Valle del Cauca, Colombia",937,2254000
+"Barranquilla, Atlántico, Colombia",561,2496852
+"Bucaramanga, Santander, Colombia",359,1009000
+"Cucuta, Norte de Santander, Colombia",158,722146
+"Pereira, Risaralda, Colombia",155,568750
+"Cartagena, Bolívar, Colombia",132,937405
+"Villavicencio, Meta, Colombia",132,374763
+"Ibague, Tolima, Colombia",101,421685
+"Santa Marta, Magdalena, Colombia",90,431781
+"Manizales, Caldas, Colombia",77,375848
+"Valledupar, Cesar, Colombia",72,308237
+"Monteria, Córdoba, Colombia",66,275198
+"Armenia, Quindío, Colombia",64,315328
+"Pasto, Nariño, Colombia",44,382236
+"Neiva, Huila, Colombia",41,352855
+"Popayan, Cauca, Colombia",33,258750
+"Barrancabermeja, Santander, Colombia",33,191403
+"Sincelejo, Sucre, Colombia",33,261187
+"Sogamoso, Boyacá, Colombia",31,227707
+"Tulua, Valle del Cauca, Colombia",27,165501
+"Yopal, Casanare, Colombia",25,61029
+"Tunja, Boyacá, Colombia",17,161412
+"Riohacha, La Guajira, Colombia",13,133186
+"Socorro, Santander, Colombia",13,24895
+"Buenaventura, Valle del Cauca, Colombia",13,252805
+"Girardot, Cundinamarca, Colombia",12,130289
+"Ocana, Norte de Santander, Colombia",11,83511
+"San Andres, San Andrés y Providencia, Colombia",9,58257
+"Quibdo, Chocó, Colombia",7,92780
+"Cienaga, Magdalena, Colombia",7,131171
+"Cartago, Valle del Cauca, Colombia",7,134827
+"Florencia, Caquetá, Colombia",6,130337
+"Arauca, Arauca, Colombia",5,69264
+"San Martin, Meta, Colombia",4,16273
+"Pamplona, Norte de Santander, Colombia",3,53587
+"Turbo, Antioquia, Colombia",2,50508
+"Magangue, Bolívar, Colombia",2,100313
+"El Banco, Magdalena, Colombia",2,54522
+"Lorica, Córdoba, Colombia",1,52771
+"Campoalegre, Huila, Colombia",1,22568
+"San Jose del Guaviare, Meta, Colombia",1,22136
+"Ipiales, Nariño, Colombia",1,109618
+"Tumaco, Nariño, Colombia",1,86713
+"Mocoa, Putumayo, Colombia",1,22035
+"Honda, Tolima, Colombia",1,35469
