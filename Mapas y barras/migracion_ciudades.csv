@@ -1,0 +1,63 @@
+"Chart Data Export",
+"Dimension 1","queries"
+"Dimension 2","cities"
+"Aggregate","volume"
+"Start Date","Fri Jan 01 05:00:00 UTC 2021"
+"End Date","Wed Feb 17 05:00:00 UTC 2021"
+"Project Id","1998268711"
+"Query Id","[2000474926]"
+
+"queries","[Q] Barómetro migrante Colombia","population"
+"Bogota, Bogota, Colombia",59410,7772000
+"Medellin, Antioquia, Colombia",11109,3816670
+"Cali, Valle del Cauca, Colombia",5653,2254000
+"Barranquilla, Atlántico, Colombia",4360,2496852
+"Bucaramanga, Santander, Colombia",2854,1009000
+"Cucuta, Norte de Santander, Colombia",2236,722146
+"Cartagena, Bolívar, Colombia",1698,937405
+"Pereira, Risaralda, Colombia",1192,568750
+"Santa Marta, Magdalena, Colombia",1026,431781
+"Valledupar, Cesar, Colombia",813,308237
+"Villavicencio, Meta, Colombia",809,374763
+"Manizales, Caldas, Colombia",771,375848
+"Ibague, Tolima, Colombia",768,421685
+"Monteria, Córdoba, Colombia",661,275198
+"Armenia, Quindío, Colombia",360,315328
+"Pasto, Nariño, Colombia",338,382236
+"Neiva, Huila, Colombia",327,352855
+"Riohacha, La Guajira, Colombia",320,133186
+"Popayan, Cauca, Colombia",280,258750
+"Arauca, Arauca, Colombia",252,69264
+"Tunja, Boyacá, Colombia",250,161412
+"Sogamoso, Boyacá, Colombia",247,227707
+"Yopal, Casanare, Colombia",243,61029
+"Barrancabermeja, Santander, Colombia",220,191403
+"Sincelejo, Sucre, Colombia",202,261187
+"Tulua, Valle del Cauca, Colombia",139,165501
+"Ocana, Norte de Santander, Colombia",86,83511
+"Cartago, Valle del Cauca, Colombia",76,134827
+"Quibdo, Chocó, Colombia",72,92780
+"Florencia, Caquetá, Colombia",68,130337
+"Girardot, Cundinamarca, Colombia",68,130289
+"Buenaventura, Valle del Cauca, Colombia",57,252805
+"Cienaga, Magdalena, Colombia",40,131171
+"San Andres, San Andrés y Providencia, Colombia",40,58257
+"Socorro, Santander, Colombia",40,24895
+"Pamplona, Norte de Santander, Colombia",34,53587
+"Lorica, Córdoba, Colombia",32,52771
+"Magangue, Bolívar, Colombia",20,100313
+"Ipiales, Nariño, Colombia",13,109618
+"Turbo, Antioquia, Colombia",11,50508
+"Honda, Tolima, Colombia",8,35469
+"Sabanalarga, Atlántico, Colombia",7,68535
+"San Jose del Guaviare, Meta, Colombia",7,22136
+"San Martin, Meta, Colombia",6,16273
+"Tumaco, Nariño, Colombia",4,86713
+"El Banco, Magdalena, Colombia",3,54522
+"Tuquerres, Nariño, Colombia",3,33979
+"Mocoa, Putumayo, Colombia",3,22035
+"Chiquinquira, Boyacá, Colombia",2,53975
+"Garzon, Huila, Colombia",2,56603
+"Yarumal, Antioquia, Colombia",1,35315
+"Tame, Arauca, Colombia",1,29099
+"Campoalegre, Huila, Colombia",1,22568
