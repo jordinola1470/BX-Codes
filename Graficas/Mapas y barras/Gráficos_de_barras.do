@@ -1,7 +1,7 @@
 /* Gráficas */
 clear all
 
-cd "C:\Users\JOSE\Desktop\Trabajo\BX\Mapas y barras"
+cd "C:\Users\JOSE\Desktop\Trabajo\BX\Graficas\Mapas y barras"
 
 * Departamentos
 
