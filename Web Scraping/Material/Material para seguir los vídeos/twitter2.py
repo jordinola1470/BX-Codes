@@ -13,12 +13,13 @@ ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
+
 while True:
     print('')
-    acct = input('Enter Twitter Account:')
+    acct = input('Escriba el nombre de un usuario:')
     if (len(acct) < 1): break
     url = twurl.augment(TWITTER_URL,
-                        {'screen_name': acct, 'count': '5'})
+                        {'screen_name': acct, 'count': '10'})
     print('Retrieving', url)
     connection = urllib.request.urlopen(url, context=ctx)
     data = connection.read().decode()
@@ -35,4 +36,4 @@ while True:
             print('   * No status found')
             continue
         s = u['status']['text']
-        print('  ', s[:50])
+        print('  ', s[:100])

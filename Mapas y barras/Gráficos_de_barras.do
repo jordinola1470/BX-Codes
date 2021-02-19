@@ -31,7 +31,9 @@ egen Totales = sum(Xenofobia)
 
 gen porcentaje = Xenofobia/Totales
 
-keep if porcentaje >= .0148028
+keep if porcentaje >= .0087840
+
+drop if Departamento == "Magdalena" || Departamento == "Bolívar" || Departamento == "Risaralda" || Departamento == "Norte de Santander"
 
 set obs `=_N+1'
 
@@ -54,7 +56,7 @@ title("Participación de mensajes de xenofobia por departamentos" ///
 , span size(medium)) ///
 blabel(bar, format(%4.1f)) ///
 intensity(25) ///
-note("Resto: comprende la suma de participación de 23 departamentos con aportación individual baja", size(tiny)) ///
+note("Resto: comprende la suma de participación de 21 departamentos con aportación individual baja", size(tiny)) ///
 caption("Datos tomados entre 1/01/2021 - 16/02/2021", size(tiny)) ///
 graphregion(fcolor(white))
 graph export "Xenofobia_Departamentos.png", as(png) replace
@@ -87,7 +89,9 @@ egen Totales = sum(Migracion)
 
 gen porcentajeM = Migracion/Totales
 
-keep if porcentajeM >= .0315819
+keep if porcentajeM >= .0083518
+
+drop if Departamento == "Magdalena" || Departamento == "Bolívar" || Departamento == "Risaralda" || Departamento == "Norte de Santander" || Departamento == "Cesar"
 
 set obs `=_N+1'
 
@@ -113,8 +117,8 @@ twoway (bar porcentaje DepartamentoEncoded, color(orange%30)) (bar porcentajeM D
 ytitle("Porcentaje por departamentos", size(small)) ///
 xtitle("Departamentos") ///
 title("Participación de mensajes de xenofobia y migración por departamentos", span size(medium)) ///
-xlabel(1 "Antioquia" 2 "Atlántico" 3 "Bogotá" 4 "Resto" 5 "Santander" 6 "Valle del Cauca", labsize(small)) ///
-note("Resto: comprende la suma de participación de 23 departamentos con aportación individual baja", size(tiny)) ///
+xlabel(1 "Antioquia" 2 "Atlántico" 3 "Bogotá" 4 "Meta" 5 "Resto" 6 "Santander" 7 "Tolima" 8 "Valle del Cauca", labsize(small)) ///
+note("Resto: comprende la suma de participación de 21 departamentos con aportación individual baja", size(tiny)) ///
 caption("Datos tomados entre 1/01/2021 - 16/02/2021", size(tiny)) ///
 graphregion(fcolor(white))
 
