@@ -16,7 +16,8 @@ def limpieza_base(df):
     Definimos una función que va a limpiar la base con los tweets
     '''
     #numero corresponde a la posición donde se encuentran los nombres de las columnas
-    numero=int(input('Escriba la fila donde se encuentran los nombres de las columnas - '))
+    #numero=int(input('Escriba la fila donde se encuentran los nombres de las columnas - '))
+    numero = 5
     #Eliminamos las primeras filas del df que tienen información que no necesitamos y 
     #la primera columna que es un conteo dado por brandwatch
     df=df.iloc[numero:len(df),1:]
