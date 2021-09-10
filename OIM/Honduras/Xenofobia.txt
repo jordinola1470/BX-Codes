@@ -1,0 +1,83 @@
+(
+    (
+        veneco* OR veneca* OR venezolan* OR nicarague* OR nicaragüe* OR nica OR nicas OR paisa OR paisita* 
+        OR refugiad* OR haitian*  OR pity OR piti OR mesy OR "pity mesy" OR "pity mesie" OR "pity mesi" OR tico* 
+        OR tica* OR chapin* OR centrac* OR catrach* OR guanac* OR mexican* OR guatemaltec* OR salvadoreñ* 
+        OR salvadoren* OR costarricense* OR panameñ* OR panamen* OR colombian* OR colombo* OR guanac*  
+        OR salvadoreñ* OR salvadoren* OR chapin* OR guachipin* OR turc*
+        OR cham* 
+        OR ((chusma OR ñangara OR cerote* OR ilegal* OR mojad* OR caravan* invasor* OR invaden OR aprovechad* OR malandr* OR usurpa* OR rater* OR choro) NEAR/7 (migrante* OR extranje* OR venezuel* OR nica* OR refugiad* OR haiti*))
+        OR (oleada* NEAR/1 (migrante* OR extranje* OR venezuel* OR nica* OR refugiad*))
+        OR (coyot* NEAR/10 (ilegal* OR migran* OR malandr* OR choro OR extranjero* OR venezuel* OR nica*))
+        OR (
+            (author:"Presidencia_HN" OR author:"migracionhn" OR author:"JuanOrlandoH" OR author:"OIMhonduras" OR author:"XiomaraCastroZ") AND (venez* OR nica* 
+            OR ((invasor* OR invaden OR aprovechad* OR malandr* OR usurpa*) NEAR/7 (migrante* OR veneco* OR veneca* OR extranje* OR nica* OR venez* OR refugiad*)))
+            )
+        OR (("Presidencia_HN" OR "migracionhn" OR "JuanOrlandoH" OR "OIMhonduras" OR "XiomaraCastroZ") NEAR/7 (invasor* OR invaden OR invasi* OR aprovechad* OR malandr* OR usurpa* OR refugiad*))
+    )
+
+    AND(
+    ((nos OR le) NEAR/1 (quita* OR roban)) OR maldito* OR carepich* OR hijueput* OR malparid* 
+    OR playo* OR parir OR ijueput* OR hp* OR (hij* NEAR/2 put*) OR hijaputa OR hijoputa OR cabron* 
+    OR mierda OR comamierda OR comemierda OR "mal cogid*" OR malcogid* OR "mal parid*" OR malparto 
+    OR maldit* OR pendej* OR puta* OR puto* OR ((paisita* OR nica OR nicas OR paisa OR chamo 
+    OR veneco* OR veneca*) NEAR/3 animal*) OR devuelvanse OR devuelvase OR regresense OR regresese
+    OR ((deberia* OR ojala) NEAR/2 (regresar* OR devolver* OR devuelva*)) OR vayanse OR vayase 
+    OR larguese OR amenaza OR ((tiene* OR son) NEAR/4 (culpa*)) OR plaga* OR rater* OR violador*
+    OR ((se OR nos) NEAR/3 (roba* OR quita* OR lleva*)) OR ladron* OR (muert* NEAR/3 hambre) 
+    OR muertodehambre OR muertadehambre OR cochin* OR sucio* OR sucia* OR vandal* OR asqueros* 
+    OR weiso OR (deber* NEAR/2 (matar* OR golpe* OR disparar*)) OR pichasear* OR pichazo* OR flojo*
+    OR ((cerrar OR cierre*) NEAR/3 frontera*) OR satura* OR (se NEAR/1 vaya*) OR malandro* OR floja* 
+    OR estorba* OR estorbo* OR (representa* NEAR/1 problema*) OR zunga* OR (de NEAR/1 mierda)
+    OR ((frenar OR detener) NEAR/1 (migracion OR venezola* OR inmigracio* OR nica* OR haiti* OR paisa* OR paisit* OR cham*)) OR ((tiene* OR debe*) NEAR/1 (regresar* OR volver* OR devolver*)) 
+    OR (destruyen NEAR/1 (pais OR honduras OR nuestr*)) OR (mal NEAR/1 parido*) 
+    OR (hij* NEAR/1 (puta* OR perra*)) OR bruto* OR ignorante* OR pobre* OR (mala* NEAR/1 costumbre*)
+    OR (tiene* NEAR/1 (mas OR derecho*)) OR lichig* OR gorrer* OR huevon OR culipronta* OR fufa
+    OR garbimba OR jueputa OR pichurria OR pirobo OR gurrupleto* OR marica* OR cacorro* 
+    OR (calienta NEAR/1 huevo*)  OR fufurufa OR guaricha OR guisa OR loba OR morronga OR pelitenid* 
+    OR prepago OR ((mosca* OR mosquit*) NEAR/1 muerta*)  OR zuripanta OR chand* OR pecuec* OR bandido
+    OR "hijo de puta" OR cerdo OR malnacido OR cafre OR mendigo OR ñampira OR gonorrea OR caco 
+    OR zarzo OR canchoso* OR jinch* OR jartera OR mamera OR chiviado* OR gamin* OR gurre* 
+    OR ((come OR coman) NEAR/1 mierda) OR guevon OR guebon OR comunist* OR (fuera NEAR/1 honduras)
+    OR ((venec* OR nica* OR pasisa* OR paisita* OR haiti*) NEAR/2 mendig*) 
+    OR ((venec* OR nica* OR pasisa* OR paisita* OR haiti*) NEAR/1 ilegal*) 
+    OR ((venec* OR nica* OR pasisa* OR paisita* OR haiti*) NEAR/1 mierda) 
+    OR (vacuna* NEAR/2 (venec* OR nica* OR pasisa* OR paisita* OR haiti*)) 
+    OR (irregular* NEAR/1 (venec* OR nica* OR pasisa* OR paisita* OR haiti*)) 
+    OR ((venec* OR nica* OR pasisa* OR paisita* OR haiti*) NEAR/3 gratis) OR (anda* NEAR/5 mier*) OR haragan*
+    OR tracala* OR pill* OR rater* OR maje* OR hule* OR maule* OR encachimba* OR ñangara* OR chusma*
+    )
+)
+NOT(
+    (culeo NEAR/1 mejor) OR (saca NEAR/1 leche) OR (venezol* NEAR/1 (tragon* OR rico OR rica OR hermos*)) 
+    OR follar OR masturbar* OR (crisis NEAR/7 venezuela) OR encovi OR (encuesta NEAR/3 condiciones) 
+    OR "encuesta de condiciones de vida" OR (dinero* NEAR/1 venezolan*) OR (culo* NEAR/4 abierto*) 
+    OR (llename NEAR/5 culo*) OR (acaba* NEAR/4 culo) OR (que NEAR/5 culo*) OR (culo* NEAR/7 aguante) 
+    OR (rico* NEAR/9 culo*) OR (leche NEAR/9 cul*) OR (culo* NEAR/8 redondo) OR (culo* NEAR/20 teta*) 
+    OR (culo* NEAR/9 4) OR (probar NEAR/9 culo*) OR (culo*) OR (prepago NEAR/10 sexo) OR cargo* OR desde
+    OR (financi* NEAR/1 campaña) OR (director* NEAR/1 (centro NEAR/1 democratico)) OR dictadura 
+    OR (gobierno NEAR/1 transicion) OR ((en OR ira OR compatriota* OR estudiar OR ridiculo OR patrimonio 
+    OR votar OR financia* OR conocer) NEAR/6 (extranjero)) OR d OR turquia OR narcoterroris* OR 16J
+    OR ((oposicion OR gobierno OR dictadura) NEAR/1 (venezolan* OR venezuela)) OR maduro OR guaido
+    OR (narco NEAR/1 (terroris* OR chavis* OR dictadura)) OR tortura OR "libertad al pueblo venezolano" 
+    OR (asamblea NEAR/1 nacional) OR (diputad* NEAR/1 venezolan*) OR constituyente OR (preso* NEAR/1 politico*) OR tirano OR regimen OR chavis* OR sajarov OR farc OR petro OR chavez OR chaves OR jolie OR odebrecht 
+    OR "rusia2018" OR narcotrafico OR fidel OR castrochavis* OR (papa NEAR/1 francisco) OR nairo OR bolivar 
+    OR trump OR expropia* OR (eleccion* NEAR/1 libre*) OR (cese NEAR/1 usuarpacion) OR (grupo NEAR/1 lima)  
+    OR ((opositor* OR oposicion*) NEAR/1 (venezolan* OR venezuela)) OR (alejandro NEAR/1 guerra) 
+    OR ((lobo OR lobito) NEAR/1 guerra) OR ((estado OR gobierno) NEAR/1 (venezolan* OR venezuela)) 
+    OR (usurpacion NEAR/1 (venezolana OR venezuela OR gobierno)) OR (malandr* NEAR/2 (petro OR izquierd*))  
+    OR (socialismo NEAR/10 venezolano) OR (medicos NEAR/10 cubanos) OR (@jguaido NEAR/3 oposicion) 
+    OR (guerrilleros NEAR/20 virus) OR (Coalicion NEAR/20 cubanos) OR (Vacuna NEAR/1 Rusa) 
+    OR (socialismo NEAR/10 venezolano) OR (medicos NEAR/10 cubanos) OR (darles NEAR/9 necesitadas) 
+    OR (ganas NEAR/8 directo)  OR venequita OR (victoria NEAR/4 venezuela) OR (Lauderdale) 
+    OR (incauta* NEAR/3 rifles) OR congo OR ((1.800 OR 1800) NEAR/3 millones) OR (consulado NEAR/3 saqueado) 
+    OR pastrana OR (año NEAR/1 nuevo) OR pernil OR ñeñe OR (jorge NEAR/1 alfaro) 
+    OR (gasolina NEAR/5 enfrentamiento*) OR (450 NEAR/5 sanear) OR (sucursal NEAR/3 mercantil) OR fanb 
+    OR pdvsa 
+    OR ((soberanía OR beisbol OR economia OR moneda OR petroleo OR petroler* OR futbol* OR equipo 
+    OR "segunda division" OR playa OR seleccion OR rock OR musica OR emisora* OR periodista* OR constitucion 
+    OR actor OR iglesia* OR portal OR modelo OR andes OR prensa OR actriz OR crudo OR delantero) NEAR/2 (venezuel* OR venezolan*)) OR pesca* OR presunt* OR (pobre NEAR/1 pueblo) 
+    OR ((hermano* OR amigo*) NEAR/1 venezolan*) OR venecao OR venecolombia OR (malandr* NEAR/10 (politic* OR izquierd* OR derech*)) OR petroleo OR chilenos OR "amor de lejos" OR sumisa OR (nacion NEAR/2 neonazi) 
+    OR (cadaveres NEAR/1 politicos) 
+    OR ((veneco OR venezolano OR veneca) NEAR/2 (lechero OR verg* OR bisexual OR ajustadora OR flaca OR alta)) OR scort OR verg* OR bisexual OR comunis* OR ((hondure* OR tic*) NEAR/2 xenofobic*)
+)

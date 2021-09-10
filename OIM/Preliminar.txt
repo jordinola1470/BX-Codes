@@ -1,0 +1,99 @@
+
+												GENERAL DOMINICANA
+
+
+
+(
+	veneco* OR veneca* OR venezolan*  
+	OR ((invasor* OR invaden OR aprovechad* OR malandr* OR usurpa*) NEAR/7 (migrante* OR veneco* OR veneca* OR extranje* OR venezolan*  OR haitian*  OR cham* OR  pity OR piti OR mesy OR "pity mesy" OR "pity mesie" OR "pity mesi")) 
+	OR (oleada* NEAR/1 (migrante* OR veneco* OR veneca* OR extranje* OR venezolan* OR venezuel*  OR haitian*  OR cham* OR  pity OR piti OR mesy OR "pity mesy" OR "pity mesie" OR "pity mesi"))
+
+	OR haitian* OR cham* OR pity OR piti OR mesy OR "pity mesy" OR "pity mesie" OR "pity mesi"
+)
+NOT( 
+	(culeo NEAR/1 mejor) OR (saca NEAR/1 leche) OR (venezol* NEAR/1 (tragon* OR rico OR rica OR hermos*)) OR follar OR masturbar* OR (crisis NEAR/7 venezuela) OR encovi OR (encuesta NEAR/3 condiciones) OR "encuesta de condiciones de vida" OR (dinero* NEAR/1 venezolan*) OR (culo* NEAR/4 abierto*) OR (llename NEAR/5 culo*) OR (acaba* NEAR/4 culo) OR (que NEAR/5 culo*) OR (culo* NEAR/7 aguante) OR (rico* NEAR/9 culo*) OR (leche NEAR/9 cul*) OR (culo* NEAR/8 redondo) OR (culo* NEAR/20 teta*) OR (culo* NEAR/9 4) OR (probar NEAR/9 culo*) OR (culo*) OR (prepago NEAR/10 sexo) 
+
+	OR (financi* NEAR/1 campaña)  OR (director* NEAR/1 (centro NEAR/1 democratico)) OR dictadura OR ((en OR ira OR compatriota* OR estudiar OR rid?culo OR patrimonio OR cargo* OR desde OR "en el" OR vista OR votar OR financia* OR conocer ) NEAR/6 (extranjero)) OR ((oposicion OR gobierno OR dictadura) NEAR/1 (venezolan* OR venezuela)) OR d OR turquia OR narcoterroris* OR (narco NEAR/1 (terroris* OR chavis* OR dictadura)) 
+	OR maduro OR guaido OR 16J OR tortura OR "libertad al pueblo venezolano" OR (asamblea NEAR/1 nacional) OR (diputad* NEAR/1 venezolan*) OR constituyente OR (preso* NEAR/1 politico*) OR tirano OR regimen OR chavis* OR sajarov OR farc OR petro OR chavez OR chaves OR jolie OR odebrecht OR #rusia2018 OR narcotrafico OR fidel OR castrochavis* OR (papa NEAR/1 francisco) OR nairo OR bolivar OR trump OR expropia* OR (eleccion* NEAR/1 libre*) OR (cese NEAR/1 usuarpacion) OR (grupo NEAR/1 lima) 
+	OR (gobierno NEAR/1 transicion) OR ((opositor* OR oposicion*) NEAR/1 (venezolan* OR venezuela)) OR (alejandro NEAR/1 guerra) OR ((lobo OR lobito) NEAR/1 guerra) OR ((estado OR gobierno) NEAR/1 (venezolan* OR venezuela)) OR (usurpacion NEAR/1 (venezolana OR venezuela OR gobierno)) OR (malandr* NEAR/2 (petro OR izquierd*)) OR (socialismo NEAR/10 venezolano) OR (medicos NEAR/10 cubanos)  OR (guerrilleros NEAR/20 virus) OR (Coalicion NEAR/20 cubanos) 
+	
+	OR (Vacuna NEAR/1 Rusa) OR ( peru NEAR/1 contagio) OR venequita OR (victoria NEAR/4 venezuela) OR Lauderdale OR (incautar NEAR/3 rifles) OR (Ayala NEAR/10 democracia)  OR (campaña NEAR/10 300) OR (trinidad NEAR/1 tobago)  OR (consulado NEAR/3 saqueado) OR (red NEAR/5 trafico) OR (asesinada NEAR/5 EEUU) OR (Aruba NEAR/5 delincuentes) OR (año NEAR/1 nuevo) OR pernil OR ñeñe OR (jorge NEAR/1 alfaro) OR (gasolina NEAR/5 enfrentamiento) OR (450 NEAR/5 sanear) OR (sucursal NEAR/3 mercantil) OR fanb OR pdvsa 
+
+	OR ( (soberanía OR beisbol OR economia OR moneda OR petroleo OR petroleo OR futbol OR equipo OR "segunda division" OR playa OR seleccion OR rock OR musica OR emisora OR periodista OR constitucion OR actor OR iglesia OR portal OR modelo OR andes OR prensa OR actriz OR crudo OR delantero) NEAR/2 (venezuela OR venezolanos OR venezolanas OR haitianos OR haitianas  OR chamos OR chamas OR  pity OR piti OR mesy OR "pity mesy" OR "pity mesie" OR "pity mesi")) 
+)
+
+												XENOFOBIA COL
+
+
+(
+	(nos NEAR/1 (quita* OR roban)) OR satura* OR (se NEAR/1 vaya*) OR plaga* OR malandro* 
+	OR sucio* OR sucia* OR flojo* OR floja* OR estorba* OR estorbo* OR (representa* NEAR/1 problema*) 
+	OR ((frenar OR detener) NEAR/1 (migracion OR venezola* OR inmigracio*)) OR cabron* OR zunga*
+	OR ((tiene* OR debe*) NEAR/1 (regresar* OR volver* OR devolver*)) OR veneca* OR veneco* 
+	OR (destruyen NEAR/1 (pais OR colombia OR nuestr*)) OR (mal NEAR/1 parido*) OR (de NEAR/1 mierda) 
+	OR (hij* NEAR/1 (puta* OR perra*)) OR puto* OR puta* OR bruto* OR ignorante* OR gonorrea 
+	OR pobre* OR hpta* OR (tiene* NEAR/1 (mas OR derecho*)) OR lichig* OR gorrer* OR huevon 
+	OR (mala* NEAR/1 costumbre*) OR garbimba OR jueputa OR hijueputa OR malpardi* OR pichurria 
+	OR pirobo OR gurrupleto* OR marica* OR cacorro* OR (calienta NEAR/1 huevo*) OR culipronta* 
+	OR fufa OR fufurufa OR guaricha OR guisa OR loba OR morronga OR pelitenid* OR pendej* OR prepago
+	OR ((mosca* OR mosquit*) NEAR/1 muerta*)  OR zuripanta OR chanda OR hpta OR pecuec* OR bandido
+	OR "hijo de puta" OR cerdo OR malnacido OR ijueputa* OR hijueputa* OR cafre OR mendigo OR malandr* 
+	OR ñampira OR gonorrea OR caco OR zarzo OR chandoso* OR canchoso* OR jinch* OR jartera OR mamera 
+	OR chiviado* OR gamin* OR gurre* OR ((come OR coman) NEAR/1f mierda) OR guevon OR guebon 
+	OR (venecos NEAR/2f mendig*) OR (fuera NEAR/1 colombia) OR (venec* NEAR/1 ilegal*) OR comunist*
+	OR (veneco* NEAR/1 mierda) OR (vacuna* NEAR/2 venec*) OR (irregular* NEAR/1 venec*) 
+	OR (venec* NEAR/3 gratis)
+)
+NOT(
+(pobre NEAR/1 pueblo) OR venecao OR venecolombia OR (malandr* NEAR/10 (politic* OR izquierd* OR derech*))
+)
+
+
+
+												XENOFOBIA PERU
+
+
+(
+	((nos OR le) NEAR/1 (quita* OR roban)) OR satura* OR (se NEAR/1 vaya*) OR plaga* OR malandro* 
+	OR sucio* OR sucia* OR flojo* OR floja* OR estorba* OR estorbo* OR (representa* NEAR/1 problema*) 
+	OR ((frenar OR detener) NEAR/1 (migracion OR venezola* OR inmigracio*)) OR bruto* OR ignorante*
+	OR ((tiene* OR debe*) NEAR/1 (regresar* OR volver* OR devolver*)) OR veneca* OR veneco* OR hpta*
+	OR (destruyen NEAR/1 (pais OR colombia OR nuestr*)) OR regresen* OR (mal NEAR/1 parido*) 
+	OR (de NEAR/1 mierda) OR cabron* OR (hij* NEAR/1 (puta* OR perra*)) OR puto* OR puta* OR pobre*  
+	OR (tiene* NEAR/1 (mas OR derecho*)) OR lichig* OR gorrer* OR gonorrea OR zunga* OR huevon 
+	OR (mala* NEAR/1 costumbre*) OR garbimba OR jueputa OR hijueputa OR malpardi* OR pichurria 
+	OR pirobo OR gurrupleto* OR marica* OR cacorro* OR (calienta NEAR/1 huevo*) OR culipronta* 
+	OR fufa OR fufurufa OR perra OR ramera OR arrastrada OR barata OR igualada OR regalada OR pendej* 
+	OR guaricha OR guisa OR loba OR morronga OR ((mosca* OR mosquit*) NEAR/1 muerta*) OR pelitenid* 
+	OR pendej* OR prepago OR zuripanta OR chanda OR hpta OR pecuec* OR "hijo de puta" OR cerdo 
+	OR malnacido OR ijueputa* OR hijueputa* OR cafre OR mendigo OR bandido OR malandr* OR ñampira 
+	OR gonorrea OR caco OR zarzo OR chandoso* OR canchoso* OR jinch* OR jartera OR mamera OR chiviado* 
+	OR conchadetumadre OR ctm OR conchesumadre OR conchatumadre OR gamin* OR gurre* OR chucha OR sacavuelta 
+	OR sacavueltero OR choro OR (cabro NEAR/1f mierda) OR ((come OR coman) NEAR/1f mierda) OR guevon 
+	OR guebon OR (venecos NEAR/2f mendig*) OR (fuera NEAR/1 colombia) OR (venec* NEAR/1 ilegal*) 
+	OR (veneco* NEAR/1 mierda) OR comunist* OR (vacuna* NEAR/2 venec*) OR (irregular* NEAR/1 venec*) 
+	OR (venec* NEAR/3 gratis)
+)
+NOT(
+	(pobre NEAR/1 pueblo) OR ((hermano* OR amigo*) NEAR/1f venezolan*) OR venecao OR venecolombia 
+	OR (malandr* NEAR/10 (politic* OR izquierd* OR derech*)) OR petroleo OR chilenos OR "amor de lejos" OR sumisa OR (nacion NEAR/1f neonazi) OR (traidor NEAR/1f salaverry) OR (cadaveres NEAR/1f politicos)
+	OR ((veneco OR venezolano OR veneca) NEAR/1f (lechero OR verg* OR bisexual OR ajustadora OR flaca OR alta)) OR scort OR verg* OR bisexual OR comunis* OR (peruanos NEAR/1f xenofobicos)
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

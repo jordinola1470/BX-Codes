@@ -1,0 +1,39 @@
+xenofob* OR (estigmatiza* NEAR/1 (migran* OR vene* OR hondureñ* OR salvadoreñ* OR haiti*))
+OR (insulto NEAR/1 racista) OR (eliminar NEAR/2 prejuicios) 
+  OR (hijueputa NEAR/3 xenofobia) OR (bajele NEAR/2 xenofobia) OR arribista OR estigmatizacion 
+OR (venezolanos NEAR/1 (sufren OR respetan OR estigmatizados))  OR racismo OR (negarle NEAR/1 vacuna) OR aporafobia OR aporofobia OR (derecho NEAR/2 soñar) OR (proteccion NEAR/3 migrantes) 
+OR ((exilio OR huyen) NEAR/2 (migran* OR hondureñ* OR venec* OR haiti*)) OR (herman* NEAR/1 (migrante* OR hondureñ* OR venec* OR haiti*)) OR (colaborar NEAR/1 ayudando) 
+ OR (pueblo NEAR/1 (venezolano OR haiti* OR hondur* OR salvador*))
+NOT( 
+    (culeo NEAR/1 mejor) OR (saca NEAR/1 leche) OR (venezol* NEAR/1 (tragon* OR rico OR rica OR hermos*)) 
+    OR follar OR masturbar* OR (crisis NEAR/7 venezuela) OR encovi OR (encuesta NEAR/3 condiciones) 
+    OR "encuesta de condiciones de vida" OR (dinero* NEAR/1 venezolan*) OR (culo* NEAR/4 abierto*) 
+    OR (llename NEAR/5 culo*) OR (acaba* NEAR/4 culo) OR (que NEAR/5 culo*) OR (culo* NEAR/7 aguante) 
+    OR (rico* NEAR/9 culo*) OR (leche NEAR/9 cul*) OR (culo* NEAR/8 redondo) OR (culo* NEAR/20 teta*) 
+    OR (culo* NEAR/9 4) OR (probar NEAR/9 culo*) OR (culo*) OR (prepago NEAR/10 sexo) OR cargo* OR desde
+    OR (financi* NEAR/1 campaña) OR (director* NEAR/1 (centro NEAR/1 democratico)) OR dictadura 
+    OR (gobierno NEAR/1 transicion) OR ((en OR ira OR compatriota* OR estudiar OR ridiculo OR patrimonio 
+    OR votar OR financia* OR conocer) NEAR/6 (extranjero)) OR d OR turquia OR narcoterroris* OR 16J
+    OR ((oposicion OR gobierno OR dictadura) NEAR/1 (venezolan* OR venezuela)) OR maduro OR guaido
+    OR (narco NEAR/1 (terroris* OR chavis* OR dictadura)) OR tortura OR "libertad al pueblo venezolano" 
+    OR (asamblea NEAR/1 nacional) OR (diputad* NEAR/1 venezolan*) OR constituyente OR (preso* NEAR/1 politico*) OR tirano OR regimen OR chavis* OR sajarov OR farc OR petro OR chavez OR chaves OR jolie OR odebrecht OR boris
+    OR "rusia2018" OR narcotrafico OR fidel OR castrochavis* OR (papa NEAR/1 francisco) OR nairo OR bolivar 
+    OR trump OR expropia* OR (eleccion* NEAR/1 libre*) OR (cese NEAR/1 usuarpacion) OR (grupo NEAR/1 lima)  
+    OR ((opositor* OR oposicion*) NEAR/1 (venezolan* OR venezuela)) OR (alejandro NEAR/1 guerra) 
+    OR ((lobo OR lobito) NEAR/1 guerra) OR ((estado OR gobierno) NEAR/1 (venezolan* OR venezuela)) 
+    OR (usurpacion NEAR/1 (venezolana OR venezuela OR gobierno)) OR (malandr* NEAR/2 (petro OR izquierd*))  
+    OR (socialismo NEAR/10 venezolano) OR (medicos NEAR/10 cubanos) OR (@jguaido NEAR/3 oposicion) 
+    OR (guerrilleros NEAR/20 virus) OR (Coalicion NEAR/20 cubanos) OR (Vacuna NEAR/1 Rusa) 
+    OR(socialismo NEAR/10 venezolano) OR (medicos NEAR/10 cubanos) OR (darles NEAR/9 necesitadas) 
+    OR (ganas NEAR/8 directo)  OR venequita OR (victoria NEAR/4 venezuela) OR (Lauderdale) 
+    OR (incauta* NEAR/3 rifles) OR congo OR ((1.800 OR 1800) NEAR/3 millones) OR (consulado NEAR/3 saqueado) 
+    OR pastrana OR (año NEAR/1 nuevo) OR pernil OR ñeñe OR (jorge NEAR/1 alfaro) OR bukele
+    OR (gasolina NEAR/5 enfrentamiento*) OR (450 NEAR/5 sanear) OR (sucursal NEAR/3 mercantil) OR fanb 
+    OR pdvsa OR #RenuncienTodos OR #LaVerdaderaLista OR chilenos OR usa OR Ortega OR amarini OR cuba* OR #ComisionAntiFachada
+    OR ((soberanía OR beisbol OR economia OR moneda OR petroleo OR petroler* OR futbol* OR equipo
+    OR "segunda division" OR playa OR seleccion OR rock OR musica OR emisora* OR periodista* OR constitucion 
+    OR actor OR iglesia* OR portal OR modelo OR andes OR prensa OR actriz OR crudo OR delantero) NEAR/2 (venezuel* OR venezolan*)) OR pesca* OR presunt* OR (pobre NEAR/1 pueblo) 
+    OR ((hermano* OR amigo*) NEAR/1 venezolan*) OR venecao OR venecolombia OR (malandr* NEAR/10 (politic* OR izquierd* OR derech*)) OR petroleo OR chilenos OR "amor de lejos" OR sumisa OR (nacion NEAR/2 neonazi) 
+    OR (cadaveres NEAR/1 politicos) 
+    OR ((veneco OR venezolano OR veneca) NEAR/2 (lechero OR verg* OR bisexual OR ajustadora OR flaca OR alta)) OR scort OR verg* OR bisexual OR comunis* OR ((costaricense OR tic*) NEAR/2 xenofobic*)
+)

@@ -1,0 +1,37 @@
+(
+    (   
+veneco* OR veneca* OR chapines OR nicas OR guachipin OR chapin OR chapina OR guachupin OR hondureñ* OR ((Invasor* OR invaden OR aprovechad* OR malandr* OR usurpa OR chapi* OR violad* OR bote OR deportad* OR huevon* OR marero* OR mañoso* OR mojado*) NEAR/7 (migrante OR veneco* OR veneca* OR chapines OR nicas OR guachipin OR venezolano OR chapin OR chapina OR guachupin OR hondureñ* )) OR 
+(oleada* NEAR/1 (migrante* OR veneco* OR veneca* OR chapines OR nicas OR guachipin OR venezolano OR chapin OR chapina OR guachupin OR hondureñ* )) 
+   AND(
+    maldito* OR carepich* OR hijueput* OR malparid* OR playo* OR parir OR ijueput* OR hdpta OR marer* OR hp 
+    OR (hij* NEAR/2 put*) OR hijaputa OR hijoputa OR cabron* OR mierda OR comamierda OR comemierda
+    OR ( (mal) NEAR/2 (parid* OR cogid*))  OR malcogid* OR malparid* OR malparto OR maldit* OR pendej*
+    OR puta* OR puto* OR ((veneco* OR veneca* OR chapines OR nicas OR guachipin OR venezolano OR chapin OR chapina OR guachupin OR hondureñ*) NEAR/3 animal*)
+
+    OR devuelvanse OR devuelvase OR ((deberia* OR ojala) NEAR/2 (regresar* OR devolver* OR devuelva*))
+    OR regresense OR regresese OR vayanse OR vayase OR larguese OR amenaza OR ((tiene* OR son) NEAR/4 (culpa*))
+    OR ((se OR nos) NEAR/3 (roba* OR quita* OR lleva*)) OR plaga* OR rater* OR violador* OR ladron* 
+    OR (muert* NEAR/3 hambre) OR muertodehambre OR muertadehambre OR cochin* OR sucio* OR sucia* OR vandal*
+    OR asqueros* OR weiso OR ag?evado OR ag?evada OR ag?evadas OR ag?evados OR arrimad* OR naco OR webiar OR chollud* OR maños* OR deportad* OR mojad* OR huevon* Or marer* 
+    OR weis* OR cerot* OR ag?evad* OR chollud* 
+
+    OR (deber* NEAR/2 (matar* OR golpe* OR disparar*)) OR pichasear* OR pichazo* 
+    OR ((cerrar OR cierre*) NEAR/3 frontera*)
+    ) 
+)
+NOT( 
+	( culeo NEAR/1 mejor) OR (saca NEAR/1 leche) OR (venezol* NEAR/1 (tragon* OR rico OR rica OR hermos*)) OR follar OR masturbar* OR
+	(crisis NEAR/7 venezuela) OR encovi OR (encuesta NEAR/3 condiciones) OR "encuesta de condiciones de vida" OR (dinero* NEAR/1 venezolan*) OR (culo* NEAR/4 abierto*) OR (llename NEAR/5 culo*) OR (acaba* NEAR/4 culo) OR (que NEAR/5 culo*) OR (culo* NEAR/7 aguante) OR (rico* NEAR/9 culo*) OR (leche NEAR/9 cul*) OR (culo* NEAR/8 redondo) OR (culo* NEAR/20 teta*) OR (culo* NEAR/9 4) OR (probar NEAR/9 culo*) OR (culo*) OR (prepago NEAR/10 sexo) OR pais OR personas OR autoridades OR gobierno OR años OR partido OR terminal OR (gran NEAR/1 gesto) OR federal OR placas OR epidemiológos OR revisión OR agradecimiento OR aprecio OR cálido OR rescate OR nayib OR (enorme NEAR/1 trabajo) OR (primer NEAR/1 sencillo) OR ((cura OR equipo OR olaf) NEAR/2 hondureño) OR bukele OR alimentaria OR (puertos NEAR/1 marítimos) OR #AdelnteHermanosHondureños OR solidaridad OR socorro OR ticktocker OR alimento OR @nayibbukele 
+
+	OR (financi* NEAR/1 campaña)  OR (director* NEAR/1 (centro NEAR/1 democratico)) OR dictadura OR ((en OR ira OR compatriota* OR estudiar OR rid?culo OR patrimonio OR cargo* OR desde OR "en el" OR vista OR votar OR financia* OR conocer ) NEAR/6 (extranjero)) OR ((oposicion OR gobierno OR dictadura) NEAR/1 (venezolan* OR venezuela)) OR d OR turquia OR narcoterroris* OR (narco NEAR/1 (terroris* OR chavis* OR dictadura)) 
+	OR maduro OR guaido OR 16J OR tortura OR "libertad al pueblo venezolano" OR (asamblea NEAR/1 nacional) OR (diputad* NEAR/1 venezolan*) OR constituyente OR (preso* NEAR/1 politico*) OR tirano OR regimen OR chavis* OR sajarov OR farc OR petro OR chavez OR chaves OR jolie OR odebrecht OR #rusia2018 OR narcotrafico OR fidel OR castrochavis* OR (papa NEAR/1 francisco) OR nairo OR bolivar OR trump OR expropia* OR (eleccion* NEAR/1 libre*) OR (cese NEAR/1 usuarpacion) OR (grupo NEAR/1 lima) OR (author: @NicolasMaduro)  OR #tokyo2020 
+	OR (gobierno NEAR/1 transicion) OR ((opositor* OR oposicion*) NEAR/1 (venezolan* OR venezuela)) OR (alejandro NEAR/1 guerra) OR ((lobo OR lobito) NEAR/1 guerra) OR ((estado OR gobierno) NEAR/1 (venezolan* OR venezuela)) OR (usurpacion NEAR/1 (venezolana OR venezuela OR gobierno)) OR (malandr* NEAR/2 (petro OR izquierd*)) OR (socialismo NEAR/10 venezolano) OR (medicos NEAR/10 cubanos)  OR (guerrilleros NEAR/20 virus) OR (Coalicion NEAR/20 cubanos) 
+	
+	OR (Vacuna NEAR/1 Rusa) OR ( peru NEAR/1 contagio) OR venequita OR (victoria NEAR/4 venezuela) OR Lauderdale OR (incautar NEAR/3 rifles) OR (Ayala NEAR/10 democracia)  OR (campaña NEAR/10 300) OR (trinidad NEAR/1 tobago)  OR (consulado NEAR/3 saqueado) OR (red NEAR/5 trafico) OR (asesinada NEAR/5 EEUU) OR (Aruba NEAR/5 delincuentes) OR (año NEAR/1 nuevo) OR pernil OR ñeñe OR (jorge NEAR/1 alfaro) OR (gasolina NEAR/5 enfrentamiento) OR (450 NEAR/5 sanear) OR (sucursal NEAR/3 mercantil) OR fanb OR pdvsa OR jonrón OR futbol OR champions OR #francia OR béisbol OR (guardia NEAR/1 sandinista) OR bonilla OR (hermanos NEAR/1 venezolanos) OR pastrana OR kerling OR sevilla OR jícaro OR (hermanos NEAR/1 hondureños) OR (diputados NEAR/1 hondureños) OR bitcioneros OR (red NEAR/1 privada) OR (nuestra NEAR/1 revista) OR (selección NEAR/1 hondureña) OR (menores NEAR/2 35) OR (ruben NEAR/1 darío) OR turquía OR (variante NEAR/1 brasileña) OR futbol* OR houston OR jerusalén OR earthquakes OR (cobertura NEAR/1 entrega) OR antiCOVID19 OR (huracanes NEAR/1 lota) OR Ortega OR #AlianzaBlancaAzul OR (vender NEAR/1 vacunas) OR “tormentas sobre territorio hondureño” OR (programadores NEAR/1 hondureños) OR ecuestre OR (pasaporte NEAR/2 crack) OR cantarranas OR (via NEAR/1 diplomática) OR (hermanos NEAR/1 nicaragüenses) OR (juego NEAR/1 directo) OR zarco OR “el muchacho no tiene carnet de residencia” OR “comunicadores para cubrir” OR (delantero NEAR/1 hondureño) OR (autoridades NEAR/1 hondureñas) OR (colcha NEAR/1 chapina) OR (basurero NEAR/1 político) OR (bancos NEAR/1 chapines) OR (app NEAR/1 chivo) OR (pobres NEAR/1 hondureños) OR atypical OR (eva* NEAR/2 chapin) OR (perro NEAR/1 coronavirus) OR FMLN OR ((nadadora OR niña) NEAR/1 hondureña) OR “interceptan a 108 migrantes” OR (calentar NEAR/1 agua) OR (tirando NEAR/1 hate) OR (hondureño NEAR/1 503) OR (gordito NEAR/1 trigueño) OR (indicó NEAR/1 valladeras) OR (diputados NEAR/2 hondureños) OR (selección NEAR/1 (chapina OR guatemala)) OR (cobija NEAR/1 chapina) OR españa OR (pollo NEAR/1 campero) OR beldyk OR (rubén NEAR/1 darío)  OR hermandad OR hermano OR "gran corazón" OR eta OR "labores de rescate" OR "herman* chapin*" OR emprendimiento OR "buen* gest*" OR "buen* obra*" OR deporte* OR "NormaJTorres" OR "investiga* federal" OR "sub-23" OR "AlianzaFC_sv" OR "sub 23" OR (xenofob* OR (estigmatiza* NEAR/1 (migran* OR vene* OR hondureñ* OR salvadoreñ*))
+OR (insulto NEAR/1 racista) OR (eliminar NEAR/2 prejuicios) 
+ OR despecti* OR (hijueputa NEAR/3 xenofobia) OR (bajele NEAR/2 xenofobia) OR arribista OR estigmatizacion 
+OR (venezolanos NEAR/1 (sufren OR respetan OR estigmatizados))  OR racismo OR (negarle NEAR/1 vacuna) OR aporafobia OR (derecho NEAR/2 soñar) OR (proteccion NEAR/3 migrantes) 
+OR (exilio NEAR/1 (migran* OR hondureñ* OR venec*)) OR huyen OR (herman* NEAR/1 (migrante* OR hondureñ* OR venec*)) OR (colaborar NEAR/1 ayudando) 
+ OR (pueblo NEAR/1 venezolano)) 
+
+))
