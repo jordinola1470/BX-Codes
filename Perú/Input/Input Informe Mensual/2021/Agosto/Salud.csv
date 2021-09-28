@@ -1,0 +1,25 @@
+"Chart Data Export",
+"Dimension 1","queries"
+"Dimension 2","regions"
+"Aggregate","volume"
+"Start Date","Fri Jun 25 04:00:00 UTC 2021"
+"End Date","Mon Jul 26 04:00:00 UTC 2021"
+"Project Id","1998309817"
+"Category","Salud"
+"Query Id","[2000574935]"
+
+"queries","[Q] Barómetro Migrante Perú"
+"Lima Province, Peru",502
+"La Libertad, Peru",31
+"Arequipa, Peru",10
+"Piura, Peru",5
+"Tacna, Peru",5
+"Huánuco, Peru",3
+"Ica, Peru",2
+"Ancash, Peru",1
+"Cajamarca, Peru",1
+"Cusco, Peru",1
+"Lambayeque, Peru",1
+"Lima, Peru",1
+"Loreto, Peru",1
+"Moquegua, Peru",1

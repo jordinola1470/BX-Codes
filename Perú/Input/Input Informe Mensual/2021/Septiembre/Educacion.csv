@@ -1,0 +1,19 @@
+"Chart Data Export",
+"Dimension 1","queries"
+"Dimension 2","regions"
+"Aggregate","volume"
+"Start Date","Sun Jul 25 04:00:00 UTC 2021"
+"End Date","Thu Aug 26 04:00:00 UTC 2021"
+"Project Id","1998309817"
+"Category","Educación"
+"Query Id","[2000574935]"
+
+"queries","[Q] Barómetro Migrante Perú"
+"Lima Province, Peru",115
+"La Libertad, Peru",19
+"Piura, Peru",9
+"Ica, Peru",5
+"Cajamarca, Peru",2
+"Arequipa, Peru",1
+"Lambayeque, Peru",1
+"Loreto, Peru",1
