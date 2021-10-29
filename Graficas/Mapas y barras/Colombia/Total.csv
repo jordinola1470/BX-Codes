@@ -1,0 +1,39 @@
+"Chart Data Export",
+"Dimension 1","queries"
+"Dimension 2","regions"
+"Aggregate","volume"
+"Start Date","Tue Aug 25 05:00:00 UTC 2020"
+"End Date","Sat Sep 26 05:00:00 UTC 2020"
+"Project Id","1998268711"
+"Query Id","[2000565091]"
+
+"queries","[Q] Barómetro migrante Colombia"
+"Bogota, Colombia",21430
+"Antioquia, Colombia",4219
+"Valle del Cauca, Colombia",2159
+"Atlántico, Colombia",1795
+"Norte de Santander, Colombia",1191
+"Santander, Colombia",1180
+"Bolívar, Colombia",830
+"Cesar, Colombia",455
+"Magdalena, Colombia",433
+"Risaralda, Colombia",384
+"Meta, Colombia",336
+"Córdoba, Colombia",289
+"Tolima, Colombia",247
+"Boyacá, Colombia",240
+"Cundinamarca, Colombia",230
+"Caldas, Colombia",195
+"La Guajira, Colombia",188
+"Quindío, Colombia",155
+"Casanare, Colombia",146
+"Huila, Colombia",141
+"Nariño, Colombia",116
+"Cauca, Colombia",95
+"Sucre, Colombia",89
+"Arauca, Colombia",32
+"Chocó, Colombia",25
+"Caquetá, Colombia",21
+"San Andrés y Providencia, Colombia",13
+"Guaviare, Colombia",5
+"Putumayo, Colombia",4

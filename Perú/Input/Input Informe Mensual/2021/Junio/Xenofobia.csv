@@ -1,0 +1,32 @@
+"Chart Data Export",
+"Dimension 1","queries"
+"Dimension 2","regions"
+"Aggregate","volume"
+"Start Date","Sun Apr 25 04:00:00 UTC 2021"
+"End Date","Wed May 26 04:00:00 UTC 2021"
+"Project Id","1998309817"
+"Category","Xenofobia"
+"Query Id","[2000574935]"
+
+"queries","[Q] Barómetro Migrante Perú"
+"Lima Province, Peru",2006
+"La Libertad, Peru",59
+"Arequipa, Peru",39
+"Lambayeque, Peru",21
+"Piura, Peru",19
+"Cusco, Peru",13
+"Ica, Peru",11
+"Ancash, Peru",9
+"Callao, Peru",9
+"Tacna, Peru",9
+"Loreto, Peru",8
+"Cajamarca, Peru",7
+"San Martín, Peru",5
+"Junín, Peru",4
+"Lima, Peru",4
+"Ucayali, Peru",4
+"Madre de Dios, Peru",3
+"Ayacucho, Peru",2
+"Huánuco, Peru",2
+"Moquegua, Peru",2
+"Tumbes, Peru",2

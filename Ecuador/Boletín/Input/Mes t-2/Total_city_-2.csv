@@ -1,0 +1,33 @@
+"Chart Data Export",
+"Dimension 1","queries"
+"Dimension 2","cities"
+"Aggregate","volume"
+"Start Date","Fri Jun 25 05:00:00 UTC 2021"
+"End Date","Mon Jul 26 05:00:00 UTC 2021"
+"Project Id","1998317449"
+"Query Id","[2000697378]"
+
+"queries","General ","population"
+"Quito, Pichincha, Ecuador",2294,1879582
+"Guayaquil, Guayas, Ecuador",1712,2514000
+"Cuenca, Azuay, Ecuador",332,355965
+"Salinas, Santa Elena, Ecuador",135,43862
+"Machala, El Oro, Ecuador",110,213034
+"Loja, Loja, Ecuador",93,126368
+"Manta, Manabi, Ecuador",93,183166
+"Ambato, Napo, Ecuador",74,281425
+"Portoviejo, Manabi, Ecuador",51,213601
+"Babahoyo, Los Rios, Ecuador",40,76279
+"Esmeraldas, Esmeraldas, Ecuador",37,173101
+"Ibarra, Imbabura, Ecuador",30,146741
+"Riobamba, Chimborazo, Ecuador",21,172464
+"Milagro, Guayas, Ecuador",11,109970
+"Tulcan, Carchi, Ecuador",10,83000
+"Pinas, El Oro, Ecuador",9,16981
+"Latacunga, Cotopaxi, Ecuador",7,94972
+"Macas, Morona Santiago, Ecuador",7,23687
+"Chone, Manabi, Ecuador",6,44751
+"Puyo, Pastaza, Ecuador",6,24881
+"Cayambe, Pichincha, Ecuador",5,27881
+"Tena, Tungurahua, Ecuador",3,31126
+"Santa Cruz, Galápagos, Ecuador",2,11262

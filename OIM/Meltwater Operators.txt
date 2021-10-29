@@ -1,0 +1,27 @@
+									######################################
+									####							  ####
+									#### OPERADORES LOGICOS MELTWATER ####
+									####							  ####
+									######################################
+
+
+1. TITLE -> Me va a permitir buscar la palabra en el titulo de un articulo
+2. INGRESS -> Me va a permitir buscar la palabra en el primer parrafo de un articulo
+3. "Palabra" {n,m} -> Me va a permitir buscar la palabra al menos n veces y como maximo m veces
+4. NEAR/n -> Me va a permitir buscar palabras que esten maximo con una separación de n palabras x
+			(e.g. veneco NEAR/10 ladron = todos los mensajes con veneco y ladron a una distancia no mayor 
+			a 10 caracteres)
+5. NOT -> Aquí incluyo todas las palabras que no quiero que aparezcan
+6. * -> Me permite buscar todas las variaciones de la palbra (e.g. venec* = veneca, veneco, venecolombia).
+	  El asterisco puede incorporarse en palabras compuestas (e.g. "venec* ladron*" = veneco ladron, venecas ladronas)
+7. OR -> Se usa cuando quiero que aparezca una palabra u otra (e.g. venco OR veneca = todos los mensajes con veneco
+		 o veneca - no necesariamente los dos).
+8. AND -> Se usa cuando quiero que aparezcan dos palabras al tiempo sin restricción de distancia (e.g. veneco AND ladron
+		  = todos los mensajes que en algun lado digan veneco y ladron, sin importar su distancia.)
+
+
+
+** Analizar posibles razones de baja captura **
+
+Terminos incorrectos
+Query mal estructurada
