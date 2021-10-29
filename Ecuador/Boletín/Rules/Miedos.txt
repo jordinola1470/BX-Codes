@@ -1,0 +1,16 @@
+
+(
+    (venezola* OR venec* OR venequit* OR migrant* OR refugiad* OR extranjer* OR me OR yo OR nosotros OR mi OR teng*)
+    <<<Miedos y temores>>>
+    AND (
+    	 ((miedo* OR temor* OR susto* OR asusta* OR pavor* OR despavorid* OR recel* OR pánic* OR panic* OR
+    	   timid* OR terror* OR aterrad* OR desconfi* OR canguel* OR turbad* OR desasosi* OR cobard* OR
+    	   atemoriza* OR respet*) NEAR/4f (salud OR acceso OR educa* OR transport* OR p?blico OR public* OR atenci*
+    	   OR comid* OR sali* OR entr* OR hablar OR discut* OR opina* OR pregunt* OR conoce* OR ir OR comer OR vacuna*
+    	   OR dorm*
+	 ))
+	)
+    NOT (
+        Guaid* OR Maduro
+    )
+)

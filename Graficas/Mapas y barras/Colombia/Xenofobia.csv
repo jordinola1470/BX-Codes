@@ -1,0 +1,38 @@
+"Chart Data Export",
+"Dimension 1","queries"
+"Dimension 2","regions"
+"Aggregate","volume"
+"Start Date","Tue Aug 25 05:00:00 UTC 2020"
+"End Date","Sat Sep 26 05:00:00 UTC 2020"
+"Project Id","1998268711"
+"Category","Xenofobia "
+"Query Id","[2000565091]"
+
+"queries","[Q] Barómetro migrante Colombia"
+"Bogota, Colombia",2607
+"Antioquia, Colombia",583
+"Valle del Cauca, Colombia",331
+"Atlántico, Colombia",268
+"Santander, Colombia",143
+"Norte de Santander, Colombia",81
+"Cesar, Colombia",54
+"Magdalena, Colombia",52
+"Bolívar, Colombia",44
+"Meta, Colombia",44
+"Risaralda, Colombia",41
+"Córdoba, Colombia",37
+"Caldas, Colombia",34
+"Tolima, Colombia",34
+"Cundinamarca, Colombia",30
+"Quindío, Colombia",24
+"Boyacá, Colombia",22
+"Cauca, Colombia",16
+"Huila, Colombia",13
+"Sucre, Colombia",11
+"Nariño, Colombia",10
+"La Guajira, Colombia",9
+"Caquetá, Colombia",4
+"Casanare, Colombia",4
+"Chocó, Colombia",1
+"Guaviare, Colombia",1
+"San Andrés y Providencia, Colombia",1
