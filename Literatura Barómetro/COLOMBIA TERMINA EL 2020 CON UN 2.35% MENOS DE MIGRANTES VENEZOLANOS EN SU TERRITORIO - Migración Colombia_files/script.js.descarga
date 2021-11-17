@@ -1,0 +1,125 @@
+let myLabels = document.querySelectorAll('.lbl-toggle');
+
+Array.from(myLabels).forEach(label => {
+  label.addEventListener('keydown', e => {
+    // 32 === spacebar
+    // 13 === enter
+    if (e.which === 32 || e.which === 13) {
+      e.preventDefault();
+      label.click();
+    };
+  });
+});
+
+function mostrar() {
+        var valor = true;
+        var uno = document.getElementById('b0');
+        
+    var x = document.getElementById('txt1');
+    if (x.style.display === 'none') {
+      valor?uno.innerText = "-":uno.innerText = "+";
+      var a1 = document.getElementById('botonOn');
+        x.style.display = 'block';
+    } else {
+      valor?uno.innerText = "+":uno.innerText = "-";
+        x.style.display = 'none';
+    }
+
+}
+
+function mostrar2() {
+        var valor = true;
+        var uno = document.getElementById('b1');
+        
+    var x = document.getElementById('txt2');
+    if (x.style.display === 'none') {
+      valor?uno.innerText = "-":uno.innerText = "+";
+      var a1 = document.getElementById('botonOn');
+        x.style.display = 'block';
+    } else {
+      valor?uno.innerText = "+":uno.innerText = "-";
+        x.style.display = 'none';
+    }
+
+}
+
+function mostrar3() {
+        var valor = true;
+        var uno = document.getElementById('b2');
+        
+    var x = document.getElementById('txt3');
+    if (x.style.display === 'none') {
+      valor?uno.innerText = "-":uno.innerText = "+";
+      var a1 = document.getElementById('botonOn');
+        x.style.display = 'block';
+    } else {
+      valor?uno.innerText = "+":uno.innerText = "-";
+        x.style.display = 'none';
+    }
+
+}
+
+function mostrar4() {
+        var valor = true;
+        var uno = document.getElementById('b3');
+        
+    var x = document.getElementById('txt4');
+    if (x.style.display === 'none') {
+      valor?uno.innerText = "-":uno.innerText = "+";
+      var a1 = document.getElementById('botonOn');
+        x.style.display = 'block';
+    } else {
+      valor?uno.innerText = "+":uno.innerText = "-";
+        x.style.display = 'none';
+    }
+
+}
+
+
+function mostrarg1() {
+        var valor = true;
+        var uno = document.getElementById('vm1');
+        
+    var x = document.getElementById('txt22');
+    if (x.style.display === 'none') {
+      valor?uno.innerText = "Ver menos":uno.innerText = " Ver mas";
+      var a1 = document.getElementById('botonOn');
+        x.style.display = 'block';
+    } else {
+      valor?uno.innerText = "Ver mas":uno.innerText = " Ver menos";
+        x.style.display = 'none';
+    }
+
+}
+
+function mostrarg2() {
+        var valor = true;
+        var uno = document.getElementById('vm2');
+        
+    var x = document.getElementById('txt11');
+    if (x.style.display === 'none') {
+      valor?uno.innerText = "Ver menos":uno.innerText = " Ver mas";
+      var a1 = document.getElementById('botonOn');
+        x.style.display = 'block';
+    } else {
+      valor?uno.innerText = "Ver mas":uno.innerText = " Ver menos";
+        x.style.display = 'none';
+    }
+
+}
+
+function mostrarg3() {
+       var valor = true;
+        var uno = document.getElementById('vm3');
+        
+    var x = document.getElementById('txt33');
+    if (x.style.display === 'none') {
+      valor?uno.innerText = "Ver menos":uno.innerText = " Ver mas";
+      var a1 = document.getElementById('botonOn');
+        x.style.display = 'block';
+    } else {
+      valor?uno.innerText = "Ver mas":uno.innerText = " Ver menos";
+        x.style.display = 'none';
+    }
+
+}

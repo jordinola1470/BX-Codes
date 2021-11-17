@@ -1,0 +1,21 @@
+function insertBefore(el, referenceNode) {
+		referenceNode.parentNode.insertBefore(el, referenceNode);
+		}
+var elemDiv = document.createElement("div");
+elemDiv.setAttribute("id", "kNYLapHqQG")
+		var ref = document.getElementsByClassName("footer")[0]
+insertBefore(elemDiv, ref);
+
+		linkEstilo = "https://footer.woobsing.co/modulos/enlacesDinamicos/migracion.css";
+
+	
+  
+  
+var head = document.head;
+  var link = document.createElement("link")
+
+  link.type = "text/css"
+  link.rel = "stylesheet"
+  link.href = linkEstilo
+
+  head.appendChild(link)
