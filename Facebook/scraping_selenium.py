@@ -39,7 +39,7 @@ def barra_carga(tiempo):
     sys.stdout.write("%s: [" % ('Esperando '+str(tiempo)+' segundos'))
     sys.stdout.flush()
     sys.stdout.write("\b" * (tiempo+1))
-    
+
     for i in range(tiempo):
         time.sleep(1) # do real work here
         # update the bar
@@ -81,5 +81,3 @@ for mensaje in range(2,42):
 with open('readme.txt', 'w', encoding='utf-8') as f:
     f.write(html_del_mensaje)
 # Paso 4: Pre-procesamiento
-
-
