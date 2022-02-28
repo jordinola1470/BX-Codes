@@ -32,17 +32,17 @@ chrome_options.add_experimental_option("prefs", {
   "safebrowsing.enabled": True
   })
 
-start_date = '2020-01-01' # YYYY-MM-DD
+start_date = '2020-05-20' # YYYY-MM-DD 2020-01-01
 
 end_date = '2022-02-04' # PATTERN YYYY-MM-DD - YYYY-MM-DD
 
 constrasena = 'Libertad5%'
 usuario = 'julio.daly@gmail.com'
-path_destino = r'D:\Trabajo\Barómetro\BX\Web Scraping\Pie Charts Colombia' + '\\'
+path_destino = r'D:\Trabajo\Barómetro\BX\Web Scraping\Pie Charts Ecuador' + '\\'
 path_descargas = r'C:\Users\usuario\Downloads' + '\\'
 boton_descargas = '/html/body/div[1]/div/div/div/div/div/div[1]/section/div[2]/section/div[1]/div[4]/article/header/span[1]/ul/li[3]/a/span[2]'
 URL = 'https://app.brandwatch.com/login'
-dashboard = 'https://app.brandwatch.com/project/1998268711/dashboards/1165499'
+dashboard = 'https://app.brandwatch.com/project/1998317449/dashboards/1182073' # Dashboard Ecuador
 apply_btn = '/html/body/div[1]/div/div/div/div/div/div[1]/section/div[2]/section/div[1]/div[4]/article/aside/form/div[2]/div[1]/p/ax-button'
 date_input = '/html/body/div[1]/div/div/div/div/div/div[1]/section/div[2]/section/div[1]/div[4]/article/aside/form/div[2]/div[1]/fieldset[2]/div/input'
 filter_button = '/html/body/div[1]/div/div/div/div/div/div[1]/section/div[2]/section/div[1]/div[4]/article/header/span[1]/ul/li[4]/a/span[2]'
@@ -134,10 +134,10 @@ excel_btn = driver.find_element_by_xpath(excel_download)
 excel_btn.click()
 """
 
-z = 0
+z = 0 #Cambiar a 0
 for i in range(len(fechas)):
     print("Voy en la base número: " + str(z))
-    if z == 0:
+    if z == 0: #Cambiar a 0
         filter_btn = driver.find_element_by_xpath(filter_button)
         filter_btn.click()
     date_input_fechas = driver.find_element_by_xpath(date_input)
@@ -157,9 +157,9 @@ for i in range(len(fechas)):
     os.rename(old_name, new_name)
     z+=1
     
-with open(path_destino + "Semanas_descargadas.txt") as f:
-    for element in fechas:
-        f.write(element + "\n")
+#with open(path_destino + "Semanas_descargadas.txt") as f:
+#    for element in fechas:
+#        f.write(element + "\n")
 
 
 """
