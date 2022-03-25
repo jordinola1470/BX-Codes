@@ -3,9 +3,9 @@
 /////////////////////////////////////////////////Gráficas de datos //////////////////////////////////////////
 ////////////////////////////////////////////////Departamento///////////////////////////////
 clear all
-global user "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo"
-cd "$user"
-
+*global user "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo"
+*cd "$user"
+cd "D:\Trabajo\Barómetro\BX\Racismo"
 
 ////////Por departamento/////////
 *Unir los dos meses más recientes 
@@ -107,13 +107,15 @@ gsort -Incremento
 
 *Ya que tenemos la información, la juntamos con la info de los mapas
 clear all
-global user "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo"
-cd "$user"
+*global user "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo"
+*cd "$user"
+cd "D:\Trabajo\Barómetro\BX\Racismo"
 use "Base_estados_mexicanos_completa.dta", clear
 tempfile Xenofobia 
 save `Xenofobia'
  
-cd "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo\Mapas\Polígonos"
+*cd "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo\Mapas\Polígonos"
+cd "D:\Trabajo\Barómetro\BX\Racismo\Mapas\Polígonos"
 use INEGI_Entidad__shp, clear
 gen obs = _n
 save INEGI_Entidad__shp, replace
@@ -122,8 +124,9 @@ rename ID area
 destring area, replace
 merge 1:m _ID using INEGI_Entidad__shp.dta
 drop _merge
-global user "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo"
-cd "$user"
+*global user "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo"
+*cd "$user"
+cd "D:\Trabajo\Barómetro\BX\Racismo"
 merge m:1 area using Base_estados_mexicanos_completa.dta
 drop _CX _CY rec_header shape_order NOMBRE _merge
 sort obs _ID
