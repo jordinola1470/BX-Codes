@@ -3,9 +3,9 @@
 /////////////////////////////////////////////////Gráficas de datos //////////////////////////////////////////
 ////////////////////////////////////////////////Departamento///////////////////////////////
 clear all
-*global user "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo"
-*cd "$user"
-cd "D:\Trabajo\Barómetro\BX\Racismo"
+global user "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo"
+cd "$user"
+*cd "D:\Trabajo\Barómetro\BX\Racismo"
 
 ////////Por departamento/////////
 *Unir los dos meses más recientes 
