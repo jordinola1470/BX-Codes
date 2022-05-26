@@ -1,28 +1,35 @@
-Estado,Count,Count_negativo,% Odio
-Aguascalientes,18,3,0.16666666666666666
-Baja California,41,4,0.0975609756097561
-Chiapas,18,5,0.2777777777777778
-Chihuahua,2,1,0.5
-Coahuila,2,1,0.5
-Colima,10,5,0.5
-Guanajuato,62,14,0.22580645161290322
-Guerrero,11,2,0.18181818181818182
-Hidalgo,26,7,0.2692307692307692
-Jalisco,139,46,0.33093525179856115
-Mexico City,687,201,0.2925764192139738
-Michoacán,20,9,0.45
-Morelos,53,17,0.32075471698113206
-México,275,70,0.2545454545454545
-Nayarit,3,1,0.3333333333333333
-Nuevo León,160,40,0.25
-Oaxaca,16,5,0.3125
-Puebla,84,20,0.23809523809523808
-Querétaro,77,18,0.23376623376623376
-Sinaloa,10,1,0.1
-Sonora,44,16,0.36363636363636365
-Tabasco,39,8,0.20512820512820512
-Tamaulipas,21,9,0.42857142857142855
-Tlaxcala,8,1,0.125
-Veracruz,50,15,0.3
-Yucatán,39,17,0.4358974358974359
-Zacatecas,16,1,0.0625
+Estado,Estado_copia,Count,Count_negativo,% Odio
+Aguascalientes,Aguascalientes,21,3,0.14285714285714285
+Arizona,Arizona,4,0,0.0
+Baja California,Baja California,29,5,0.1724137931034483
+Baja California Sur,Baja California Sur,1,1,1.0
+California,California,1,0,0.0
+Chiapas,Chiapas,16,7,0.4375
+Chihuahua,Chihuahua,4,0,0.0
+Coahuila,Coahuila,2,0,0.0
+Colima,Colima,22,3,0.13636363636363635
+Guanajuato,Guanajuato,74,10,0.13513513513513514
+Guerrero,Guerrero,17,3,0.17647058823529413
+Hidalgo,Hidalgo,35,4,0.11428571428571428
+Jalisco,Jalisco,184,36,0.1956521739130435
+Mexico,Mexico,2,0,0.0
+Mexico City,Mexico City,687,129,0.18777292576419213
+Michoacán,Michoacán,27,7,0.25925925925925924
+Morelos,Morelos,42,7,0.16666666666666666
+México,México,277,59,0.21299638989169675
+Nayarit,Nayarit,5,2,0.4
+Nuevo León,Nuevo León,242,40,0.1652892561983471
+Oaxaca,Oaxaca,26,2,0.07692307692307693
+Puebla,Puebla,113,39,0.34513274336283184
+Querétaro,Querétaro,95,20,0.21052631578947367
+Quintana Roo,Quintana Roo,6,2,0.3333333333333333
+San Luis Potosí,San Luis Potosí,3,0,0.0
+Sinaloa,Sinaloa,25,5,0.2
+Sonora,Sonora,57,11,0.19298245614035087
+Tabasco,Tabasco,33,9,0.2727272727272727
+Tamaulipas,Tamaulipas,15,1,0.06666666666666667
+Texas,Texas,6,1,0.16666666666666666
+Tlaxcala,Tlaxcala,4,1,0.25
+Veracruz,Veracruz,69,16,0.2318840579710145
+Yucatán,Yucatán,46,11,0.2391304347826087
+Zacatecas,Zacatecas,7,1,0.14285714285714285

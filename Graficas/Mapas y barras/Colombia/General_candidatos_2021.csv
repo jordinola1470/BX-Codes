@@ -1,0 +1,40 @@
+"Chart Data Export",
+"Dimension 1","all"
+"Dimension 2","regions"
+"Aggregate","volume"
+"Start Date","Fri Jan 01 05:00:00 UTC 2021"
+"End Date","Sun May 02 05:00:00 UTC 2021"
+"Project Id","1998268711"
+"Query Id","[2000994664]"
+
+"all","all"
+"Bogota, Colombia",128703
+"Antioquia, Colombia",22445
+"Valle del Cauca, Colombia",12321
+"Atlántico, Colombia",9891
+"Santander, Colombia",6485
+"Norte de Santander, Colombia",5726
+"Bolívar, Colombia",3995
+"Magdalena, Colombia",2442
+"Risaralda, Colombia",2205
+"Meta, Colombia",1909
+"Cesar, Colombia",1745
+"Tolima, Colombia",1729
+"Boyacá, Colombia",1631
+"Caldas, Colombia",1607
+"Córdoba, Colombia",1490
+"Cundinamarca, Colombia",1316
+"La Guajira, Colombia",1055
+"Huila, Colombia",864
+"Nariño, Colombia",820
+"Quindío, Colombia",750
+"Arauca, Colombia",603
+"Cauca, Colombia",590
+"Casanare, Colombia",546
+"Sucre, Colombia",467
+"Caquetá, Colombia",171
+"Chocó, Colombia",145
+"San Andrés y Providencia, Colombia",96
+"Guaviare, Colombia",19
+"Putumayo, Colombia",12
+"Vichada, Colombia",3

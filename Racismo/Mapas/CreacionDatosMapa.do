@@ -21,9 +21,10 @@ use INEGI_Entidad__shp, clear
 gen obs = _n
 merge 1:1 obs using datos_racismo.dta
 replace odio = 0 if odio == .
+replace odio_nacional = 0 if odio_nacional == .
 collapse (lastnm) _X _Y (lastnm) odio odio_nacional, by(_ID)
 gen obs = _n
-spmap odio_nacional using INEGI_Entidad__shp, id(obs) fcolor(Reds2) ndfcolor(dimgray) ndo(black) legstyle (1) name(Grafica_1, replace) title  (% Mensajes de odio mar-13 mar-31) clmethod(custom) clbreaks(0 0.01 0.03 0.05 0.1 0.3) 
+spmap odio using INEGI_Entidad__shp, id(obs) fcolor(Reds2) ndfcolor(dimgray) ndo(black) legstyle (1) name(Grafica_1, replace) title  (% Mensajes de odio abril)
 spmap engagements_n using INEGI_Entidad__shp, id(obs) fcolor(Reds2) ndfcolor(dimgray) ndo(black) label(data(INEGI_Entidad_label) xcoord(_CX) ycoord(_CY) label(NOMBRE) size(*0.7 ..) pos(12 0)) legstyle (1) name(Grafica_2, replace) title  (Normalized Engagement Feb-07 Mar-08)
 *merge 1:m _ID using INEGI_Entidad__shp
 shp2dta using "INEGI_Entidad_.shp", database("INEGI_Entidad_.dbf") coordinates(mexicocoordinates) genid(id) replace

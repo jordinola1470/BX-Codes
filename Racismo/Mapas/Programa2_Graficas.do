@@ -111,13 +111,13 @@ gsort -Incremento
 clear all
 *global user "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo"
 *cd "$user"
-cd "D:\Trabajo\Barómetro\BX\Racismo"
+cd "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo"
 use "Base_estados_mexicanos_completa.dta", clear
 tempfile Xenofobia 
 save `Xenofobia'
  
 *cd "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo\Mapas\Polígonos"
-cd "D:\Trabajo\Barómetro\BX\Racismo\Mapas\Polígonos"
+cd "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo\Mapas\Polígonos"
 use INEGI_Entidad__shp, clear
 gen obs = _n
 save INEGI_Entidad__shp, replace
@@ -128,7 +128,7 @@ merge 1:m _ID using INEGI_Entidad__shp.dta
 drop _merge
 *global user "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo"
 *cd "$user"
-cd "D:\Trabajo\Barómetro\BX\Racismo"
+cd "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo"
 merge m:1 area using Base_estados_mexicanos_completa.dta
 drop _CX _CY rec_header shape_order NOMBRE _merge
 sort obs _ID

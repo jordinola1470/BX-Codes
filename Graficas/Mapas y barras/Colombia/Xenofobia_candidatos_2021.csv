@@ -1,0 +1,40 @@
+"Chart Data Export",
+"Dimension 1","all"
+"Dimension 2","regions"
+"Aggregate","volume"
+"Start Date","Fri Jan 01 05:00:00 UTC 2021"
+"End Date","Sun May 02 05:00:00 UTC 2021"
+"Project Id","1998268711"
+"Any Category","Xenofobia"
+"Query Id","[2000994664]"
+
+"all","all"
+"Bogota, Colombia",12364
+"Antioquia, Colombia",2410
+"Valle del Cauca, Colombia",1545
+"Atlántico, Colombia",1210
+"Santander, Colombia",756
+"Norte de Santander, Colombia",379
+"Risaralda, Colombia",228
+"Meta, Colombia",221
+"Bolívar, Colombia",202
+"Cundinamarca, Colombia",192
+"Magdalena, Colombia",190
+"Tolima, Colombia",168
+"Caldas, Colombia",135
+"Cesar, Colombia",129
+"Córdoba, Colombia",115
+"Nariño, Colombia",114
+"Boyacá, Colombia",107
+"Huila, Colombia",82
+"Quindío, Colombia",74
+"Cauca, Colombia",64
+"La Guajira, Colombia",54
+"Sucre, Colombia",42
+"Casanare, Colombia",35
+"Caquetá, Colombia",20
+"San Andrés y Providencia, Colombia",20
+"Chocó, Colombia",15
+"Arauca, Colombia",14
+"Guaviare, Colombia",4
+"Putumayo, Colombia",1
