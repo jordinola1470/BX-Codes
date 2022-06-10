@@ -1,0 +1,30 @@
+"Chart Data Export",
+"Dimension 1","all"
+"Dimension 2","regions"
+"Aggregate","volume"
+"Start Date","Sat Jan 01 05:00:00 UTC 2022"
+"End Date","Mon May 02 05:00:00 UTC 2022"
+"Project Id","1998268711"
+"Any Category","Peticiones Estado (Generales)"
+"Query Id","[2000994664]"
+
+"all","all"
+"Bogota, Colombia",153
+"Antioquia, Colombia",30
+"Santander, Colombia",26
+"Valle del Cauca, Colombia",18
+"Atlántico, Colombia",14
+"Norte de Santander, Colombia",9
+"Cesar, Colombia",4
+"Boyacá, Colombia",3
+"Risaralda, Colombia",3
+"Caldas, Colombia",2
+"Chocó, Colombia",2
+"Huila, Colombia",2
+"Magdalena, Colombia",2
+"Meta, Colombia",2
+"Córdoba, Colombia",1
+"Cundinamarca, Colombia",1
+"Quindío, Colombia",1
+"San Andrés y Providencia, Colombia",1
+"Sucre, Colombia",1

@@ -17,7 +17,7 @@ cd "C:\Users\JOSE\Desktop\Trabajo\BX\Graficas\Mapas y barras\Colombia"
 *Xenofobia 
 ****
 *CAMBIAR MES
-import delimited "Xenofobia.csv", bindquote(nobind) stripquote(yes) encoding(UTF-8) rowrange(12) colrange(1) clear 
+import delimited "Xenofobia_candidatos.csv", bindquote(nobind) stripquote(yes) encoding(UTF-8) rowrange(12) colrange(1) clear 
 rename (v1 v3) (Region Xenofobia)
 
 *Falta la region de APURIMA, las regiones están ordenadas alfabeticamente en el id del mapa
@@ -55,7 +55,9 @@ replace area = 88 if Region == "San Andrés y Providencia"
 replace area = 86 if Region == "Putumayo"  
 replace area = 95 if Region == "Guaviare"  
 replace area = 99 if Region == "Vichada"  
-
+replace area = 98 if Region == "Amazonas" 
+replace area = 96 if Region == "Guainía" 
+replace area = 97 if Region == "Vaupés" 
 
 drop v2
 

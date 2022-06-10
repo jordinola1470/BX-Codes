@@ -1,28 +1,35 @@
 Estado,Estado_copia,Count,Count_negativo,% Odio
-Aguascalientes,Aguascalientes,12,7,0.5833333333333334
-Baja California,Baja California,13,5,0.38461538461538464
-Chiapas,Chiapas,6,1,0.16666666666666666
-Coahuila,Coahuila,4,0,0.0
-Colima,Colima,5,3,0.6
-Guanajuato,Guanajuato,23,10,0.43478260869565216
-Guerrero,Guerrero,12,5,0.4166666666666667
-Hidalgo,Hidalgo,4,2,0.5
-Jalisco,Jalisco,76,35,0.4605263157894737
-Mexico City,Mexico City,224,90,0.4017857142857143
-Michoacán,Michoacán,11,1,0.09090909090909091
-Morelos,Morelos,25,8,0.32
-México,México,97,45,0.4639175257731959
-Nayarit,Nayarit,1,0,0.0
-Nuevo León,Nuevo León,68,41,0.6029411764705882
-Oaxaca,Oaxaca,11,3,0.2727272727272727
-Puebla,Puebla,23,12,0.5217391304347826
-Querétaro,Querétaro,31,14,0.45161290322580644
-San Luis Potosí,San Luis Potosí,4,4,1.0
-Sinaloa,Sinaloa,7,4,0.5714285714285714
-Sonora,Sonora,31,20,0.6451612903225806
-Tabasco,Tabasco,7,4,0.5714285714285714
-Tamaulipas,Tamaulipas,3,1,0.3333333333333333
-Tlaxcala,Tlaxcala,4,3,0.75
-Veracruz,Veracruz,13,4,0.3076923076923077
-Yucatán,Yucatán,13,4,0.3076923076923077
-Zacatecas,Zacatecas,3,0,0.0
+Aguascalientes,Aguascalientes,21,3,0.14285714285714285
+Arizona,Arizona,4,0,0.0
+Baja California,Baja California,29,5,0.1724137931034483
+Baja California Sur,Baja California Sur,1,1,1.0
+California,California,1,0,0.0
+Chiapas,Chiapas,16,7,0.4375
+Chihuahua,Chihuahua,4,0,0.0
+Coahuila,Coahuila,2,0,0.0
+Colima,Colima,22,3,0.13636363636363635
+Guanajuato,Guanajuato,74,10,0.13513513513513514
+Guerrero,Guerrero,17,3,0.17647058823529413
+Hidalgo,Hidalgo,35,4,0.11428571428571428
+Jalisco,Jalisco,184,36,0.1956521739130435
+Mexico,Mexico,2,0,0.0
+Mexico City,Mexico City,687,129,0.18777292576419213
+Michoacán,Michoacán,27,7,0.25925925925925924
+Morelos,Morelos,42,7,0.16666666666666666
+México,México,277,59,0.21299638989169675
+Nayarit,Nayarit,5,2,0.4
+Nuevo León,Nuevo León,242,40,0.1652892561983471
+Oaxaca,Oaxaca,26,2,0.07692307692307693
+Puebla,Puebla,113,39,0.34513274336283184
+Querétaro,Querétaro,95,20,0.21052631578947367
+Quintana Roo,Quintana Roo,6,2,0.3333333333333333
+San Luis Potosí,San Luis Potosí,3,0,0.0
+Sinaloa,Sinaloa,25,5,0.2
+Sonora,Sonora,57,11,0.19298245614035087
+Tabasco,Tabasco,33,9,0.2727272727272727
+Tamaulipas,Tamaulipas,15,1,0.06666666666666667
+Texas,Texas,6,1,0.16666666666666666
+Tlaxcala,Tlaxcala,4,1,0.25
+Veracruz,Veracruz,69,16,0.2318840579710145
+Yucatán,Yucatán,46,11,0.2391304347826087
+Zacatecas,Zacatecas,7,1,0.14285714285714285
