@@ -140,7 +140,6 @@ D_C_Bogota OR
 	diariodelsur.com.co OR
 	atlinnovacion.com OR
 	diariolalibertad.com OR
-	elcolombiano.com OR
 	extra.com.co OR
 	diariodelcauca.com.co OR
 	hoydiariodelmagdalena.com.co OR
