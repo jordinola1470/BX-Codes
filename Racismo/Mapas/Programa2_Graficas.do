@@ -46,6 +46,7 @@ replace area = 29 if Region == "Tlaxcala"
 replace area = 30 if Region == "Veracruz"  
 replace area = 31 if Region == "Yucatán"  
 replace area = 32 if Region == "Zacatecas"
+drop if area == .
 egen total_negativo = sum(count_negativo)
 gen odio_nacional = count_negativo/total_negativo
 save "Base_estados_mexicanos_completa.dta", replace
@@ -119,6 +120,7 @@ save `Xenofobia'
 *cd "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo\Mapas\Polígonos"
 cd "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo\Mapas\Polígonos"
 use INEGI_Entidad__shp, clear
+cap drop obs
 gen obs = _n
 save INEGI_Entidad__shp, replace
 use INEGI_Entidad_, clear
@@ -128,10 +130,11 @@ merge 1:m _ID using INEGI_Entidad__shp.dta
 drop _merge
 *global user "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo"
 *cd "$user"
-cd "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo"
-merge m:1 area using Base_estados_mexicanos_completa.dta
+*merge m:1 area using Base_estados_mexicanos_completa.dta
+merge m:1 area using `Xenofobia'
 drop _CX _CY rec_header shape_order NOMBRE _merge
 sort obs _ID
+cd "C:\Users\JOSE\Desktop\Trabajo\BX\Racismo"
 save "base_combinada.dta", replace
 use "base_combinada.dta", replace
 *ssc install spmap, replace

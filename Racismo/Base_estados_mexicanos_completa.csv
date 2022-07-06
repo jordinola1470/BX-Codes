@@ -1,35 +1,34 @@
 Estado,Estado_copia,Count,Count_negativo,% Odio
-Aguascalientes,Aguascalientes,21,3,0.14285714285714285
-Arizona,Arizona,4,0,0.0
-Baja California,Baja California,29,5,0.1724137931034483
-Baja California Sur,Baja California Sur,1,1,1.0
-California,California,1,0,0.0
-Chiapas,Chiapas,16,7,0.4375
-Chihuahua,Chihuahua,4,0,0.0
-Coahuila,Coahuila,2,0,0.0
-Colima,Colima,22,3,0.13636363636363635
-Guanajuato,Guanajuato,74,10,0.13513513513513514
-Guerrero,Guerrero,17,3,0.17647058823529413
-Hidalgo,Hidalgo,35,4,0.11428571428571428
-Jalisco,Jalisco,184,36,0.1956521739130435
-Mexico,Mexico,2,0,0.0
-Mexico City,Mexico City,687,129,0.18777292576419213
-Michoacán,Michoacán,27,7,0.25925925925925924
-Morelos,Morelos,42,7,0.16666666666666666
-México,México,277,59,0.21299638989169675
-Nayarit,Nayarit,5,2,0.4
-Nuevo León,Nuevo León,242,40,0.1652892561983471
-Oaxaca,Oaxaca,26,2,0.07692307692307693
-Puebla,Puebla,113,39,0.34513274336283184
-Querétaro,Querétaro,95,20,0.21052631578947367
-Quintana Roo,Quintana Roo,6,2,0.3333333333333333
-San Luis Potosí,San Luis Potosí,3,0,0.0
-Sinaloa,Sinaloa,25,5,0.2
-Sonora,Sonora,57,11,0.19298245614035087
-Tabasco,Tabasco,33,9,0.2727272727272727
-Tamaulipas,Tamaulipas,15,1,0.06666666666666667
-Texas,Texas,6,1,0.16666666666666666
-Tlaxcala,Tlaxcala,4,1,0.25
-Veracruz,Veracruz,69,16,0.2318840579710145
-Yucatán,Yucatán,46,11,0.2391304347826087
-Zacatecas,Zacatecas,7,1,0.14285714285714285
+Aguascalientes,Aguascalientes,27,2,0.07407407407407407
+Arizona,Arizona,10,1,0.1
+Baja California,Baja California,63,15,0.23809523809523808
+Campeche,Campeche,1,0,0.0
+Chiapas,Chiapas,38,19,0.5
+Chihuahua,Chihuahua,6,1,0.16666666666666666
+Coahuila,Coahuila,3,0,0.0
+Colima,Colima,12,2,0.16666666666666666
+Guanajuato,Guanajuato,74,18,0.24324324324324326
+Guerrero,Guerrero,21,2,0.09523809523809523
+Hidalgo,Hidalgo,25,4,0.16
+Jalisco,Jalisco,194,40,0.20618556701030927
+Mexico,Mexico,3,0,0.0
+Mexico City,Mexico City,861,131,0.1521486643437863
+Michoacán,Michoacán,39,6,0.15384615384615385
+Morelos,Morelos,39,5,0.1282051282051282
+México,México,294,45,0.15306122448979592
+Nayarit,Nayarit,6,1,0.16666666666666666
+Nuevo León,Nuevo León,233,46,0.19742489270386265
+Oaxaca,Oaxaca,19,4,0.21052631578947367
+Puebla,Puebla,104,21,0.20192307692307693
+Querétaro,Querétaro,121,25,0.2066115702479339
+Quintana Roo,Quintana Roo,11,1,0.09090909090909091
+San Luis Potosí,San Luis Potosí,5,0,0.0
+Sinaloa,Sinaloa,28,5,0.17857142857142858
+Sonora,Sonora,69,8,0.11594202898550725
+Tabasco,Tabasco,59,7,0.11864406779661017
+Tamaulipas,Tamaulipas,31,2,0.06451612903225806
+Texas,Texas,3,1,0.3333333333333333
+Tlaxcala,Tlaxcala,6,1,0.16666666666666666
+Veracruz,Veracruz,91,19,0.2087912087912088
+Yucatán,Yucatán,83,8,0.0963855421686747
+Zacatecas,Zacatecas,13,3,0.23076923076923078

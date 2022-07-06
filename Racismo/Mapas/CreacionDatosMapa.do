@@ -24,7 +24,7 @@ replace odio = 0 if odio == .
 replace odio_nacional = 0 if odio_nacional == .
 collapse (lastnm) _X _Y (lastnm) odio odio_nacional, by(_ID)
 gen obs = _n
-spmap odio using INEGI_Entidad__shp, id(obs) fcolor(Reds2) ndfcolor(dimgray) ndo(black) legstyle (1) name(Grafica_1, replace) title  (% Mensajes de odio abril)
+spmap odio_nacional using INEGI_Entidad__shp, id(obs) fcolor(Reds2) ndfcolor(dimgray) ndo(black) legstyle (1) name(Grafica_1, replace) title  (% Mensajes de odio mayo participación nacional)
 spmap engagements_n using INEGI_Entidad__shp, id(obs) fcolor(Reds2) ndfcolor(dimgray) ndo(black) label(data(INEGI_Entidad_label) xcoord(_CX) ycoord(_CY) label(NOMBRE) size(*0.7 ..) pos(12 0)) legstyle (1) name(Grafica_2, replace) title  (Normalized Engagement Feb-07 Mar-08)
 *merge 1:m _ID using INEGI_Entidad__shp
 shp2dta using "INEGI_Entidad_.shp", database("INEGI_Entidad_.dbf") coordinates(mexicocoordinates) genid(id) replace
