@@ -3,7 +3,7 @@
 /////////////////////////////////////////////////Informacion BrandWatch //////////////////////////////////////////
 ////////////////////////////////////////////////Departamento///////////////////////////////
 
-global user "/Users/juliodaly/Dropbox/Mi Mac (MacBook Air de Julio)/Documents/Barometro/Peru/Input/Input Informe Mensual/2021"
+global user "C:\Users\JOSE\Desktop\Trabajo\BX\Perú\Do files"
 cd "$user"
 
 **Renombrar documentos (Esto lo hago manual siguiendo el orden de descarga. Los documentos deben llamarse Total Xenofobia Salud Educacion Trabajo Seguridad .csv)
@@ -17,8 +17,11 @@ cd "$user"
 *Xenofobia 
 ****
 *CAMBIAR MES
-import delimited "$user/Septiembre/Xenofobia.csv", bindquote(nobind) stripquote(yes) encoding(UTF-8) rowrange(12) colrange(1) clear 
-rename (v1 v3) (Region Xenofobia)
+import excel "Perú_xenofobia.xlsx", firstrow clear 
+split Region, parse(",")
+drop Region
+rename Region1 Region
+*rename (v1 v3) (Region Xenofobia)
 
 *Falta la region de APURIMA, las regiones están ordenadas alfabeticamente en el id del mapa
 drop if Region == "Lima"
@@ -27,7 +30,7 @@ drop if Region == "Lima"
 
 gen area = 1 if Region == "Amazonas" 
 replace area = 2 if Region == "Ancash"  
-replace area = 3 if Region == "Apurimac"  
+replace area = 3 if Region == "Apurímac"  
 replace area = 4 if Region == "Arequipa"  
 replace area = 5 if Region == "Ayacucho"  
 replace area = 6 if Region == "Cajamarca"  
@@ -50,7 +53,7 @@ replace area = 22 if Region == "San Martín"
 replace area = 23 if Region == "Tacna"  
 replace area = 24 if Region == "Tumbes"  
 replace area = 25 if Region == "Ucayali"  
-
+save "clean_data.dta", replace
 
 drop v2
 

@@ -3,7 +3,7 @@
 **Este programa parte del archivo mapa.0m de cada mes para realizar los mapas de la tasa de xenofobia.
 **Los datos están a nivel departamental 
 ** Este programa crea un mapa para el mes actual, el mes anterior y la comparación entre ambos
-
+*"C:\Users\JOSE\Desktop\Trabajo\BX\Perú\Input\departamentos"
 
 global user "/Users/juliodaly/Dropbox/Mi Mac (MacBook Air de Julio)/Documents/Barometro/Peru"
 cd "$user"
@@ -32,22 +32,25 @@ drop _m
 tempfile Xenofobia 
 save `Xenofobia'
   
-cd "$user/Input/departamentos"
+cd "C:\Users\JOSE\Desktop\Trabajo\BX\Perú\Input\departamentos"
 use Peru, clear
 describe 
 rename id area
-merge 1:1 area using `Xenofobia'
+merge 1:1 area using "C:\Users\JOSE\Desktop\Trabajo\BX\Perú\Do files\clean_data.dta"
 drop _m
 
 *3. Creacion de mapas
 
 *Mes anterior
 
-spmap tasaxenofobia using perucoordinates, id(area) fcolor(Oranges) ndfcolor(dimgray) legstyle (1) name(Grafica_1, replace) title  (Abril 2021)
+help spmap
+
+
+spmap tasa_xenofobia_2021 using perucoordinates, id(area) fcolor(Oranges) ndfcolor(dimgray) legstyle (1) clm(custom) clb(0 0.05 0.1 0.2 0.7)  name(Grafica_1, replace)
 
 
 *Mes Actual
-spmap tasaxenofobia2 using perucoordinates, id(area) fcolor(Oranges) ndfcolor(dimgray) legstyle (1)name(Grafica_2, replace) // title (Tasa Xenofobia Marzo)
+spmap tasa_xenofobia_2022 using perucoordinates, id(area) fcolor(Oranges) ndfcolor(dimgray) legstyle (1) clm(custom) clb(0 0.05 0.1 0.2 0.7) name(Grafica_2, replace) // title (Tasa Xenofobia Marzo)
 gr export "$user/Datos Informe/2021/Septiembre/MapaTasaXenofobiaSeptiembrePeru.jpg", replace //cambiar mes
 
 *spmap Incremento using colomcoordinates, id(id) fcolor(Oranges) ndfcolor(dimgray) legstyle (1)name(Grafica_3, replace) title (Incremento)
@@ -56,7 +59,11 @@ gr export "$user/Datos Informe/2021/Septiembre/MapaTasaXenofobiaSeptiembrePeru.j
   gr combine Grafica_1 Grafica_2, col(2) graphregion(color(white)) ///
 	title("",color(black)) xsize(12) ysize(8) name(Gr,replace) 
 	
-gr export "$user/Datos Informe/2021/Septiembre/TasaXenofobia112020.jpg", replace
+gr export "grafico_comparativo.png", replace
+
+spmap Cambionormalizado using perucoordinates, id(area) fcolor(Oranges) ndfcolor(dimgray) legstyle (1) clm(custom) clb(0 0.2 0.4 0.6 0.8 1)  name(Grafica_3, replace)
+
+gr export "grafico_cambio_normalizado.png", replace
 
 
 
