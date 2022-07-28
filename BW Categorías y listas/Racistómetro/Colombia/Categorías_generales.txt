@@ -1,0 +1,11 @@
+<<<Odio>>>
+
+((negr* OR negrat* OR indio OR india OR indigena* OR priet* OR moren* OR mole OR piel OR tez) NEAR/5F (mugrient* OR zarrapastro* OR zarapastro* OR gatet* OR chach* OR (cara NEAR/2F olmeca) OR (negr* NEAR/5F (put* OR hp* OR ching* OR pendej* OR perr*)) OR perr* OR cabron* OR maldit* OR asesin* OR malpari* OR hp* OR hptas OR hijuep* OR gonorrea* OR putas OR suci* OR mugr* OR carton OR humild* OR victi* OR lloriqu* OR llora* OR lloríque* OR resent* OR llori* OR hipo* OR chill* OR percudid* OR coca* OR burla) )
+
+NOT ("Antirracismo" OR transeúntes OR "negrita linda" OR bronceada OR ( (cabello OR uribe OR gio OR ropa OR viuda OR aguil* OR encantan) NEAR/2F (negr* OR moren*)) OR @NegraTomasaaaa OR @MorenoM2001 OR defensores OR "Prieto" OR @Prietinho OR "guardianas de la memoria" OR (gano NEAR/2F pueblo))
+
+<<<INCLUSION>>
+
+((negr* OR moren* OR cart* OR indi* OR comunida* OR minor* OR afro*) NEAR/5F (hermano* OR encanta* OR integra* OR inclu* OR ama* OR uni* OR atend* OR brind* OR apoya* OR consider* OR escucha* OR acompaña* OR ayuda* OR respet* OR finan* OR abraza*))
+
+NOT (coca* OR corrupt*)

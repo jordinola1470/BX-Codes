@@ -1,0 +1,61 @@
+<<<INGRID BETANCOURT>>>
+
+(ingrid NEAR/1f (betancur OR betacourt)) OR @IBetancourtCol
+
+<<<FRANCIA MARQUEZ>>>
+
+(francia NEAR/1f marquez) OR @FranciaMarquezM
+
+<<<CAMARA>>>
+
+(katherine NEAR/1f Miranda) OR @MirandaBogota
+
+@juanitaGoe OR (juanita NEAR/1 Goebertus)
+
+(Cathy NEAR/1 Juvinao) OR @CathyJuvinao
+
+((maria OR mafe) NEAR/2f Carrascal) OR @MafeCarrascal
+
+(Margarita NEAR/1f Restrepo) OR @MargaritaRepo
+
+(Susana NEAR/1f Boreal) OR @SusanaBoreal
+
+(Clara NEAR/1f Sandoval) OR @clarasandoval
+
+((Juanita OR juana) NEAR/1f Cataño) OR @juanitacatano
+
+<<<SENADO>>>
+
+(mabel NEAR/1f lara) OR @MabelLaraNews
+
+(elizabeth NEAR/1f giraldo) OR @laclasemediera
+
+(ana NEAR/1f agudelo) OR @AnaPaolaAgudelo
+
+(caterine NEAR/1f ibarguen) OR @tripleCIbarguen
+
+(paloma  NEAR/1 Valencia) OR @PalomaValenciaL
+
+( angelica NEAR/1  lozano) OR @AngelicaLozanoC
+
+( Maria NEAR/1 Pizarro) OR @PizarroMariaJo
+
+( sandra NEAR/1 borda) OR @sandraborda
+
+( aida NEAR/1 avella ) OR @AidaAvellaE
+
+(clara OR (lopez NEAR/1 obregon)) OR  @ClaraLopezObre
+
+(maria NEAR/1f (fernanda NEAR/1 Cabal)) OR @MariaFdaCabal OR (la NEAR/1f cabal)
+
+(paola NEAR/1f holguin) OR @PaolaHolguin
+
+(Piedad NEAR/1f Cordoba) OR @piedadcordoba
+
+(Martha NEAR/1f Peralta) OR @marthaperaltae
+
+(Isabel NEAR/1f Zuleta) OR @ISAZULETA
+
+(Andrea NEAR/1f Padilla) OR @andreanimalidad
+
+(Sara NEAR/1f Castellanos) OR @sarag12

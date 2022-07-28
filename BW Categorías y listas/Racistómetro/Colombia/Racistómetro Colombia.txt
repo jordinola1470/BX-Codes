@@ -1,0 +1,19 @@
+<<<Palabras núcleo>>>
+ra?a OR (color NEAR/2f ((piel OR tez OR cara) OR mole OR cart?n OR cazuela OR mugre OR humilde OR olmeca)) OR raci* OR priet* OR indigenas OR indios OR indias OR razi*
+
+OR 
+
+<<<Jerga racista>>>
+(negr* NEAR/5F (piel OR olor OR raza OR color)) OR moren* OR nac? OR percudid* OR naquet* OR nigg* OR nige* OR trigueño OR indit* OR longuit* OR patirrajad* OR guache* OR guarich* OR "pelo quieto" OR gam?n OR ñero OR ñanga OR guis* OR gomel*
+
+OR
+
+<<<Origen>>>
+otom? OR zapotec* OR maya OR nahuati OR mextec*
+
+OR
+
+<<<Violencia a mayorías>>>
+blanquit* OR albin*
+
+NOT (author:@morenamx  OR thanos OR (Ivan NEAR/2f Moreno) OR "Antirracismo" OR transeúntes OR "negrita linda" OR bronceada OR ((cabello* OR uribe* OR gio* OR rop* OR viud* OR aguil* OR encanta* OR cuero* OR vesti*) NEAR/2F (negr* OR moren*)) OR @NegraTomasaaaa OR @MorenoM2001 OR defensores OR "Prieto" OR @Prietinho OR "guardianas de la memoria" OR (gano NEAR/2F pueblo) OR "negro o a color" OR "color rosa" OR "negro es mi color favorito" OR gato* OR gatit* OR "blanco y negro" OR "Moreno")

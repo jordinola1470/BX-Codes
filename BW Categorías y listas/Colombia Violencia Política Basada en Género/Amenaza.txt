@@ -1,0 +1,16 @@
+<<<AMENAZA FISICA>>>
+
+(voy NEAR/1f (matar OR quemar OR ahogar OR ahorcar OR golpear OR pegar OR dañar OR secuestrar OR asfixiar)) OR ((matar OR quemar OR ahogar OR ahorcar OR golpear OR pegar OR dañar OR secuestrar OR asfixiar) NEAR/1f (hij* OR esposa OR pareja)) OR muerete OR ((esposo OR marido OR pareja OR hombre) NEAR/2f (mato OR asesino OR asfixio OR quemo OR secuestro OR ahorco OR golpeo OR pego)) OR cuidate OR cuidado OR (quema* NEAR/2f acido) OR maten OR vif OR (violencia NEAR/1f intrafamiliar)
+
+<<<AMENAZA PSICOLOGICA>>>
+
+vigilar OR vigilamos OR vigilada OR 
+vigilando OR ((me OR la) NEAR/1f ((siguieron OR siguio)))
+
+<<<AMENAZA ECONOMICA>>>
+
+((dañar OR romper OR robar OR quemar OR destruir OR incendiar) NEAR/2f (casa OR hogar OR plata))
+
+<<<AMENAZA SEXUAL>>>
+
+violacion OR violar OR coger OR penetr* OR desnudar OR violo OR violaron OR chupal* OR viole OR ((chupa* OR chupo OR lame* OR toca*) NEAR/2f (pene OR pico OR pichula OR zorra)) OR zorra OR (te NEAR/1f (cojo OR rompo OR parto)) OR acariciame

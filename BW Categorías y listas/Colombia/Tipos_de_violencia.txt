@@ -1,0 +1,35 @@
+<<<APOYO CASTIGO>>>
+
+(
+deport* OR (se NEAR/1 vaya*) OR plag* OR ((tiene* OR debe*) NEAR/1 (regresar* OR volver* OR devolver*))
+OR ((saca* OR expuls* OR echar* OR mult* OR atrap* OR perfi* OR (("que bien" OR buen* OR "menos mal" OR almeno* OR mejo* OR bien* OR salva* OR chimba) NEAR/2f (captu* OR atrapa* OR detene*))) NEAR/3f (vene* OR venez* OR venequit* OR extranjer* OR migra* OR inmigran*))
+)
+NOT 
+(
+(pobre NEAR/1 pueblo) OR venecao OR venecolombia OR (malandr* NEAR/10 (politic* OR izquierd* OR derech*)) OR (predique* NEAR/2f respet*)
+OR deportiv* OR deporte* OR DeporTV OR porter* OR futbol*
+)
+
+<<<VIOLENCIA COLECTIVOS>>>
+
+(
+((malandr* OR expuls* OR detene* OR acaba* OR odi* OR (nos NEAR/1 (quita* OR roban)) OR satur* OR (se NEAR/1 vaya*) OR plaga* OR suci* OR floj* OR estorb* OR (representa* NEAR/1 problema*) OR ((tiene* OR debe*) NEAR/1 (regresar* OR volver* OR devolver*)) OR comunist* OR hp* OR hijuepu* OR mierd* OR perr* OR culipron* OR destruy* OR sofoc* OR guev* OR huev* OR malpar* OR ilegal* OR irregula* OR cabron* OR ignoran* OR gonorr* OR pichurri* OR zuripan* OR pirob* OR garmbim* OR brut* OR pecuec* OR peliteñid* OR malnaci* OR bandid* OR jivar* OR jibar*) NEAR/3f (venezolan?s OR migrantes OR extranjer?s OR venec?s OR venequit?s OR inmigrantes)) 
+)
+
+NOT 
+(
+(pobre NEAR/1 pueblo) OR venecao OR venecolombia OR (malandr* NEAR/10 (politic* OR izquierd* OR derech*)) OR (predique* NEAR/2f respet*)
+OR deportivo* OR deporte*
+)
+
+<<<LLAMADOS A LA ACCION>>>
+
+(
+((pelar OR matar OR calentar OR ((acabar OR terminar) NEAR/3f vida) OR bajar OR joder
+OR golpear OR abatidos OR masacre OR abatir OR violar OR (mano NEAR/2f dura) OR masacrar OR descuartizar OR chimbiar OR pegar OR linchar OR destruir) NEAR/1f (venec* OR venequit* OR migra* OR extranje* OR venez*))
+OR "matando venecos" OR "perjudicar venecos"
+)
+NOT 
+(
+(pobre NEAR/1 pueblo) OR venecao OR venecolombia OR (malandr* NEAR/10 (politic* OR izquierd* OR derech*)) OR (predique* NEAR/2f respet*) OR venecia
+)

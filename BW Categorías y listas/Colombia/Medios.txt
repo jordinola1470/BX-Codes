@@ -1,0 +1,926 @@
+<<<Tradicionales>>>
+RevistaSemana OR
+	larepublica_co OR
+	Portafolioco OR
+	RevistaDinero OR 
+	NoticiasCaracol OR 
+	NoticiasRCN OR
+	Citytv OR
+	InstitucionalTV OR
+	Canal1Colombia OR 
+	SenalColombia OR 
+	CABLENOTICIAS OR
+	CanalCapital OR
+	CanalTreceCo OR
+	NoticiasUno OR
+	NTN24 OR
+	lafm OR
+	BluRadioCo OR 
+	dinersrevista OR
+	colombiareports OR
+	mundoinstante OR
+	pulzo OR
+	PublimetroCol OR
+	RedPrensaVerde OR 
+	semana.com OR
+	larepublica.co OR
+	portafolio.co OR
+	dinero.com OR
+	noticias.caracoltv.com OR
+	noticias.canalrcn.com OR
+	citytv.com.co OR
+	canalinstitucional.tv OR
+	noticias.canal1.com.co OR
+	senalcolombia.tv OR
+	cablenoticias.tv OR
+	canalcapital.gov.co OR
+	canaltrece.com.co OR
+	noticiasuno.com OR
+	ntn24.com OR
+	lafm.com.co OR
+	bluradio.com OR
+	revistadiners.com.co OR
+	colombiareports.com OR
+	elmundoalinstante.com OR
+	pulzo.com OR
+	publimetro.co OR
+	redprensaverde.org OR
+elheraldoco OR
+LaLibertadCo OR
+CanalTelecaribe OR
+QhuboQuilla OR
+adnbarranquilla OR elheraldo.co OR
+diariolalibertad.com OR
+telecaribe.co OR
+qhubo.com OR
+diarioadn.co OR
+ELTIEMPO OR
+elespectador OR
+ElNuevoSiglo OR
+malpensante OR
+RevistaLNE OR
+citypaperbogota OR
+BogotaPost OR 
+QhuboBogota OR 
+adncolombia OR
+Gatopardocom OR eltiempo.com OR
+elespectador.com OR
+elcolombiano.com OR
+elnuevosiglo.com.co OR
+elmalpensante.com OR
+lanotaeconomica.com.co OR
+thecitypaperbogota.com OR
+thebogotapost.com OR
+qhubobogota.com OR
+diarioadn.co OR
+gatopardo.com OR
+Diarioccidente OR
+elpaiscali OR
+TelepacificoTV OR
+Noti90Minutos OR
+Redsonoraradio OR
+QhuboCali OR
+adncali OR occidente.co OR
+elpais.com.co OR
+telepacifico.com OR
+90minutos.co OR
+redsonoraradio.net OR
+qhubocali.com OR
+diarioadn.co OR
+laopinioncucuta OR
+QhuboCucuta OR
+TvcucutaC OR
+noticucuta OR
+TUKANAL OR
+CucutaEsNoticia OR
+LaVozDelNorteAM OR
+CaracolCucuta OR laopinion.com.co OR
+qhubo.com OR
+tvcucuta.com OR
+noticucuta3.blogspot.com OR
+tukanal.tv OR
+cucutaesnoticia.com OR
+elcolombiano OR
+Teleantioquia OR
+Telemedellin OR
+minuto30com OR
+QhuboMedallo OR
+ADNMedellin OR
+hora13noticias OR 
+Centropolis_med OR
+elpalpitar OR
+ActualidadPol OR
+DespiertaAnt OR
+vivirpoblado OR elcolombiano.com OR
+teleantioquia.co OR
+telemedellin.tv OR
+minuto30.com OR
+qhubo.com OR
+diarioadn.co OR
+h13n.com OR
+centropolismedellin.com OR
+elpalpitar.com OR
+actualidad.com.co OR
+despiertaantioquia.com OR
+vivirenelpoblado.com
+
+<<<Alternativos>>>
+
+D_C_Bogota OR
+	Agencia_API OR
+	ArgumentosyOpi OR
+	lasillavacia OR
+	noticucuta OR
+	2minutosco OR
+	Elsonajeroweb OR
+	siaradio OR
+	noticierolaruta OR
+	AlertaPaisa OR
+	orientesetuguia OR
+	acuariotv OR
+	cncnoticias OR
+	Informativoan OR
+	MiPutumayo OR
+	zonacero OR
+	AtlanticoEmi OR
+	primeronoticiaa1 OR
+	primeronoticiaa OR
+	CVnoticiastv OR
+	LaLibertadCo OR
+	CanalTropicaltv OR
+	elambito OR
+	NorteSeguro2018 OR
+	areacucuta OR
+	CucutaDenuncia OR
+	WALLTHER_VE OR
+	noticucuta OR
+	NorteNoticiasCu OR
+	EnterateCali OR
+	norte_periodico OR
+	canalguacari OR
+	TwiterosCali OR
+	YaCelacanto OR
+	HablaManizales OR
+	tintiando OR
+	NCTNOTICIAS OR
+	1anoticiass OR
+	OsBoyaca OR
+	aldianoticiasco OR
+	LaIndependenci1 OR
+	Prensalibcasan OR
+	elconucoacacias OR
+	EIExpedienteCol OR
+	hablalonoticias OR
+	7NNoticias OR
+	ElPregonar OR
+	45SegundosCom OR
+	AlPuntoCol OR
+	ColmundoRadio OR
+	ElVenezolanoCo OR
+	ExtraColombia OR
+	HSBnoticias OR
+	rodrigoprensa OR
+	Yariguies1027 OR
+	BLUSantanderes OR
+	Villavoalreves OR
+	Region_365 OR
+	ElInformador_SM OR
+	Seguimiento OR
+	elrotativoc OR
+	vernoticiassan1 OR
+	DiarioDelNorte OR
+	NoticiasGuajira OR
+	laregionalnet OR
+	elpaisvallenato OR
+	Soyquintopoder OR
+	PrensaLlanera OR
+	croniquindio OR
+	agenciaNDS OR
+	ASAKERW OR
+	transmisora720 OR
+	pvirtualcom OR
+	SuperPopayan OR
+	HoyDiarioMag OR
+	CHICACERETE OR
+	el_regionales OR
+	NoticiasBQ OR
+	elhomenoticias OR
+	HSBnoticias OR
+	HablemeC OR
+	elhomenoticias OR
+	confidencialcol OR
+	AlertaTolima OR
+	QHUBOTOLIMA OR
+	hesnoticia OR
+	norte_periodico OR
+	RioNoticiasCo OR
+	CHICACERETE OR
+	Coneolavozdelpu OR
+	lalenguacaribe OR
+	diarioriente OR
+	noticiasyabq OR
+	laotraverdadBAQ OR
+	noticoopercom OR
+ 	noticiasyabq OR
+ 	latertuliakilla OR
+	diarioelfrente OR
+	TvcucutaC OR
+	HoyNoticias2 OR
+	lareporteria OR
+	CasanareonlineC OR
+	LATALPAZ OR
+	Cambio24Oficial OR
+	LaJornadaco OR
+	RadioMagdalena OR
+	EventosStaMta OR
+	LaGuajira_ OR
+	hernandomontes6 OR
+	TuValledupar OR
+	croniquindio OR
+	SomosAgroNotas OR
+	SASComCreativa OR
+	CostaNoticiasTV OR
+	duvanedo OR
+	AlInformativo OR
+	NPIndependiente OR
+	kesedice OR
+	atntelevision OR
+	anticorrupto26_ OR
+	FronteraInforma OR
+	Horadelaverdad OR
+	SantamartaAD OR
+	LGCundinamarca OR
+	Caracol1170AM OR
+	lavibrante OR
+	Newsradio7arauc OR
+	ImpactoMundo_ OR
+	ElkanalTunja OR
+	fronteravivanew OR
+	momento24co OR
+	AnalisisUrbano OR
+	SeguridadCucuta OR
+	CucutaSeguridad OR
+	FunemeTito OR
+	El_NuevoOriente OR
+	radiosantafentc OR
+	kienyke OR
+	periodispublico OR
+	diariodelsur.com.co OR
+	atlinnovacion.com OR
+	diariolalibertad.com OR
+	extra.com.co OR
+	diariodelcauca.com.co OR
+	hoydiariodelmagdalena.com.co OR
+	diariodelhuila.com OR
+	costanoticias.com OR
+	areacucuta.com OR
+	confidencialcolombia.com OR
+	radiosantafe.com
+
+<<<Nacionales>>>
+
+author:(RevistaSemana OR
+larepublica_co OR
+Portafolioco OR
+RevistaDinero OR 
+NoticiasCaracol OR 
+NoticiasRCN OR
+Citytv OR
+InstitucionalTV OR
+Canal1Colombia OR 
+SenalColombia OR 
+CABLENOTICIAS OR
+CanalCapital OR
+CanalTreceCo OR
+NoticiasUno OR
+NTN24 OR
+lafm OR
+BluRadioCo OR 
+dinersrevista OR
+colombiareports OR
+mundoinstante OR
+pulzo OR
+PublimetroCol OR
+RedPrensaVerde) OR site:(semana.com OR
+larepublica.co OR
+portafolio.co OR
+dinero.com OR
+noticias.caracoltv.com OR
+noticias.canalrcn.com OR
+citytv.com.co OR
+canalinstitucional.tv OR
+noticias.canal1.com.co OR
+senalcolombia.tv OR
+cablenoticias.tv OR
+canalcapital.gov.co OR
+canaltrece.com.co OR
+noticiasuno.com OR
+ntn24.com OR
+lafm.com.co OR
+bluradio.com OR
+revistadiners.com.co OR
+colombiareports.com OR
+elmundoalinstante.com OR
+pulzo.com OR
+publimetro.co OR
+redprensaverde.org)
+
+(
+        title:(((captura* OR captur* OR desmantel* OR desmantelaron OR aseguramiento OR desarticula*
+        OR "medida de aseguramiento" OR preso OR detenid* OR detuvier*) NEAR/5f (venezolan* OR venec*)))
+    AND (
+        vene?uela OR venezolan* OR venec* OR venequit*
+    )
+    NOT (
+    Guaid* OR Maduro OR 
+    
+    author:(D_C_Bogota OR
+	Agencia_API OR
+	ArgumentosyOpi OR
+	lasillavacia OR
+	noticucuta OR
+	2minutosco OR
+	Elsonajeroweb OR
+	siaradio OR
+	noticierolaruta OR
+	AlertaPaisa OR
+	orientesetuguia OR
+	acuariotv OR
+	cncnoticias OR
+	Informativoan OR
+	MiPutumayo OR
+	zonacero OR
+	AtlanticoEmi OR
+	primeronoticiaa1 OR
+	primeronoticiaa OR
+	CVnoticiastv OR
+	LaLibertadCo OR
+	CanalTropicaltv OR
+	elambito OR
+	NorteSeguro2018 OR
+	areacucuta OR
+	CucutaDenuncia OR
+	WALLTHER_VE OR
+	noticucuta OR
+	NorteNoticiasCu OR
+	EnterateCali OR
+	norte_periodico OR
+	canalguacari OR
+	TwiterosCali OR
+	YaCelacanto OR
+	HablaManizales OR
+	tintiando OR
+	NCTNOTICIAS OR
+	1anoticiass OR
+	OsBoyaca OR
+	aldianoticiasco OR
+	LaIndependenci1 OR
+	Prensalibcasan OR
+	elconucoacacias OR
+	agenciaNDS OR
+	EIExpedienteCol OR
+	hablalonoticias OR
+	7NNoticias OR
+	ElPregonar OR
+	45SegundosCom OR
+	AlPuntoCol OR
+	ColmundoRadio OR
+	ElVenezolanoCo OR
+	ExtraColombia OR
+	HSBnoticias OR
+	rodrigoprensa OR
+	Yariguies1027 OR
+	BLUSantanderes OR
+	Villavoalreves OR
+	Region_365 OR
+	ElInformador_SM OR
+	Seguimiento OR
+	elrotativoc OR
+	vernoticiassan1 OR
+	DiarioDelNorte OR
+	NoticiasGuajira OR
+	laregionalnet OR
+	elpaisvallenato OR
+	Soyquintopoder OR
+	PrensaLlanera OR
+	croniquindio OR
+	agenciaNDS OR
+	ASAKERW OR
+	transmisora720 OR
+	pvirtualcom OR
+	SuperPopayan OR
+	HoyDiarioMag OR
+	CHICACERETE OR
+	el_regionales OR
+	NoticiasBQ OR
+	elhomenoticias OR
+	HSBnoticias OR
+	HablemeC OR
+	elhomenoticias OR
+	confidencialcol OR
+	AlertaTolima OR
+	QHUBOTOLIMA OR
+	hesnoticia OR
+	norte_periodico OR
+	RioNoticiasCo OR
+	CHICACERETE OR
+	Coneolavozdelpu OR
+	lalenguacaribe OR
+	diarioriente OR
+	noticiasyabq OR
+	laotraverdadBAQ OR
+	noticoopercom OR
+ 	noticiasyabq OR
+ 	latertuliakilla OR
+	diarioelfrente OR
+	TvcucutaC OR
+	HoyNoticias2 OR
+	lareporteria OR
+	CasanareonlineC OR
+	LATALPAZ OR
+	Cambio24Oficial OR
+	LaJornadaco OR
+	RadioMagdalena OR
+	EventosStaMta OR
+	LaGuajira_ OR
+	hernandomontes6 OR
+	TuValledupar OR
+	croniquindio OR
+	SomosAgroNotas OR
+	SASComCreativa OR
+	CostaNoticiasTV OR
+	duvanedo OR
+	AlInformativo OR
+	NPIndependiente OR
+	kesedice OR
+	atntelevision OR
+	anticorrupto26_ OR
+	FronteraInforma OR
+	Horadelaverdad OR
+	SantamartaAD OR
+	LGCundinamarca OR
+	Caracol1170AM OR
+	lavibrante OR
+	Newsradio7arauc OR
+	ImpactoMundo_ OR
+	ElkanalTunja OR
+	PoliciaBogota OR
+	region6policia OR
+	region7policia OR
+	Region8Policia OR
+	Region2Policia OR
+	Region3Policia OR
+	Region1Policia OR
+	Region4Policia OR
+	Region5Policia OR
+	PoliciaNarino OR
+	DevalPolicia OR
+	PoliciaMeta OR
+	PoliciaMedellin OR
+	PoliciaBoyaca OR
+	PoliciaMzales OR
+	PoliciaVillavo OR
+	PoliciaBmanga OR
+	PoliciaCali OR
+	PoliciaDEMAG OR
+	PoliciaCmarca OR
+	Policiantioquia OR
+	PoliciaCucuta OR
+	PoliciaQuindio OR
+	Policia_Caldas OR
+	SucrePolicia OR
+	PoliciaVichada OR
+	PoliciaGuainia OR
+	PoliciaArauca OR
+	PoliciaCasanare OR
+	GuajiraPolicia OR
+	PoliciaVaupes OR
+	PoliciaChoco OR
+	PoliciaDepuy OR
+	PoliciaUraba OR
+	PoliciAtlantico OR
+	PoliciaDECOR OR
+	PoliciaNteSder OR
+	HuilaPolicia OR
+	PoliciaBolivar OR
+	PoliciaCaqueta OR
+	PoliciaDeris OR
+	PoliciaDeTolima OR
+	PoliciaDEMAM OR
+	PoliciaMTunja OR
+	PoliciaMonteria OR
+	PoliciAmazonas OR
+	PoliciaDeCesar OR
+	PoliciaSanyProv OR
+	PoliciaPasto OR 
+	PoliciaStander OR
+	PoliciaStaMarta OR
+	PoliciaPereira OR
+	PoliciaIbague OR
+	PoliciaPopayan OR
+	PoliciaCtagena OR 
+	PoliciaColombia OR 
+	PoliciaCauca OR
+	fronteravivanew OR
+	momento24co OR
+	AnalisisUrbano OR
+	materocom OR
+	SeguridadCucuta OR
+	CucutaSeguridad OR
+	FunemeTito OR
+	El_NuevoOriente OR
+	radiosantafentc OR
+	kienyke OR
+	periodispublico
+	)
+	OR site:(diariodelsur.com.co OR
+	atlinnovacion.com OR
+	diariolalibertad.com OR
+	elcolombiano.com OR
+	extra.com.co OR
+	diariodelcauca.com.co OR
+	hoydiariodelmagdalena.com.co OR
+	diariodelhuila.com OR
+	costanoticias.com OR
+	areacucuta.com OR
+	confidencialcolombia.com OR
+	radiosantafe.com)
+    )
+)
+
+<<<BOGOTA>>>
+
+author:(ELTIEMPO OR
+elespectador OR
+ElNuevoSiglo OR
+malpensante OR
+RevistaLNE OR
+citypaperbogota OR
+BogotaPost OR 
+QhuboBogota OR 
+adncolombia OR
+Gatopardocom) OR site:(eltiempo.com OR
+elespectador.com OR
+elnuevosiglo.com.co OR
+elmalpensante.com OR
+lanotaeconomica.com.co OR
+thecitypaperbogota.com OR
+thebogotapost.com OR
+qhubobogota.com OR
+diarioadn.co OR
+gatopardo.com)
+
+(
+  ( 
+	author:(ELTIEMPO OR
+	elespectador OR
+	ElNuevoSiglo OR
+	malpensante OR
+	RevistaLNE OR
+	citypaperbogota OR
+	BogotaPost OR 
+	QhuboBogota OR 
+	adncolombia OR
+	Gatopardocom) OR 
+	site:(eltiempo.com OR
+	elespectador.com OR
+	elnuevosiglo.com.co OR
+	elmalpensante.com OR
+	lanotaeconomica.com.co OR
+	thecitypaperbogota.com OR
+	thebogotapost.com OR
+	qhubobogota.com OR
+	diarioadn.co OR
+	gatopardo.com)
+    )
+    AND (
+        title:(((captura* OR captur* OR desmantel* OR desmantelaron OR aseguramiento OR desarticula*
+        OR "medida de aseguramiento" OR preso OR detenid* OR detuvier*) NEAR/5f (venezolan* OR venec*)))
+    )
+    AND (
+        vene?uela OR venezolan* OR venec* OR venequit*
+    )
+    NOT (
+        Guaid* OR Maduro
+    )
+)
+
+(
+  ( 
+	author:(ELTIEMPO OR
+	elespectador OR
+	ElNuevoSiglo OR
+	malpensante OR
+	RevistaLNE OR
+	citypaperbogota OR
+	BogotaPost OR 
+	QhuboBogota OR 
+	adncolombia OR
+	Gatopardocom) OR 
+	site:(eltiempo.com OR
+	elespectador.com OR
+	elnuevosiglo.com.co OR
+	elmalpensante.com OR
+	lanotaeconomica.com.co OR
+	thecitypaperbogota.com OR
+	thebogotapost.com OR
+	qhubobogota.com OR
+	diarioadn.co OR
+	gatopardo.com)
+    )
+    AND (
+        (inseguridad OR robo OR atraco* OR ratero OR delincuente OR flete* OR 
+        ((arma OR armas) NEAR/2 blanca*) OR "seguridad publica"
+        OR (ejecuciones NEAR/2 extrajudiciales) OR
+        (fuerza NEAR/2 letal) OR tiro* OR asalt* OR extorsion* 
+        OR cosquilleo OR amenaz* OR bacrim OR droga* OR hurt* OR homi?idio OR sicari* OR panflet* 
+        OR microtrafic* OR microtr?fico OR pandill* OR band* OR operativo* OR desconfia* 
+        OR redada* OR (violencia NEAR/2 (intrafamiliar OR genero)) OR maltrat* OR allanamient* 
+        OR riña* OR combos OR duros OR "Bandas criminales" 
+        OR asesinat* OR puñal* OR violaci* OR acos*) NEAR/5f (venezolan* OR vene?uela OR venec*)
+    )
+    AND (
+        vene?uela OR venezolan* OR venec* OR venequit* OR (migrante NEAR/3f (venezolan* OR venezuel*))
+    )
+    NOT (
+        Guaid* OR Maduro OR Miss OR LaLiga OR xenofobi* OR ayudando OR ayudar OR title:("la liga" OR BetPlay OR LaLiga)
+    )
+)
+
+<<<CUCUTA>>>
+
+author:(laopinioncucuta OR
+QhuboCucuta OR
+TvcucutaC OR
+areacucuta OR
+noticucuta OR
+TUKANAL OR
+CucutaEsNoticia OR
+LaVozDelNorteAM OR
+CaracolCucuta) OR site:(laopinion.com.co OR
+qhubo.com OR
+tvcucuta.com OR
+areacucuta.com OR
+noticucuta3.blogspot.com OR
+tukanal.tv OR
+cucutaesnoticia.com)
+
+(
+  ( 
+    author:(laopinioncucuta OR
+	QhuboCucuta OR
+	TvcucutaC OR
+	areacucuta OR
+	noticucuta OR
+	TUKANAL OR
+	CucutaEsNoticia OR
+	LaVozDelNorteAM OR
+	CaracolCucuta) OR 
+	site:(laopinion.com.co OR
+	qhubo.com OR
+	tvcucuta.com OR
+	areacucuta.com OR
+	noticucuta3.blogspot.com OR
+	tukanal.tv OR
+	cucutaesnoticia.com)
+    )
+    AND (
+        title:(((captura* OR captur* OR desmantel* OR desmantelaron OR aseguramiento OR desarticula*
+        OR "medida de aseguramiento" OR preso OR detenid* OR detuvier*) NEAR/5f (venezolan* OR venec*)))
+    )
+    AND (
+        vene?uela OR venezolan* OR venec* OR venequit*
+    )
+    NOT (
+        Guaid* OR Maduro
+    )
+)
+
+(
+  ( 
+	author:(laopinioncucuta OR
+	QhuboCucuta OR
+	TvcucutaC OR
+	areacucuta OR
+	noticucuta OR
+	TUKANAL OR
+	CucutaEsNoticia OR
+	LaVozDelNorteAM OR
+	CaracolCucuta) OR 
+	site:(laopinion.com.co OR
+	qhubo.com OR
+	tvcucuta.com OR
+	areacucuta.com OR
+	noticucuta3.blogspot.com OR
+	tukanal.tv OR
+	cucutaesnoticia.com)
+    )
+    AND (
+        (inseguridad OR robo OR atraco* OR ratero OR delincuente OR flete* OR 
+        ((arma OR armas) NEAR/2 blanca*) OR "seguridad publica"
+        OR (ejecuciones NEAR/2 extrajudiciales) OR
+        (fuerza NEAR/2 letal) OR tiro* OR asalt* OR extorsion* 
+        OR cosquilleo OR amenaz* OR bacrim OR droga* OR hurt* OR homi?idio OR sicari* OR panflet* 
+        OR microtrafic* OR microtr?fico OR pandill* OR band* OR operativo* OR desconfia* 
+        OR redada* OR (violencia NEAR/2 (intrafamiliar OR genero)) OR maltrat* OR allanamient* 
+        OR riña* OR combos OR duros OR "Bandas criminales" 
+        OR asesinat* OR puñal* OR violaci* OR acos*) NEAR/5f (venezolan* OR vene?uela OR venec*)
+    )
+    AND (
+        vene?uela OR venezolan* OR venec* OR venequit* OR (migrante NEAR/3f (venezolan* OR venezuel*))
+    )
+    NOT (
+        Guaid* OR Maduro OR Miss OR LaLiga OR xenofobi* OR ayudando OR ayudar OR title:("la liga" OR BetPlay OR LaLiga)
+    )
+)
+
+<<<MEDELLIN>>>
+author:(elcolombiano OR
+Teleantioquia OR
+Telemedellin OR
+minuto30com OR
+QhuboMedallo OR
+ADNMedellin OR
+hora13noticias OR 
+Centropolis_med OR
+elpalpitar OR
+ActualidadPol OR
+DespiertaAnt OR
+vivirpoblado OR QHuboMedallo) OR site:(elcolombiano.com OR
+teleantioquia.co OR
+telemedellin.tv OR
+minuto30.com OR
+qhubo.com OR
+diarioadn.co OR
+h13n.com OR
+centropolismedellin.com OR
+elpalpitar.com OR
+actualidad.com.co OR
+despiertaantioquia.com OR
+vivirenelpoblado.com)
+
+<<<BARRANQUILLA>>>
+
+author:(elheraldoco OR
+LaLibertadCo OR
+CanalTelecaribe OR
+QhuboQuilla OR
+adnbarranquilla) OR site:(elheraldo.co OR
+diariolalibertad.com OR
+telecaribe.co OR
+qhubo.com OR
+diarioadn.co)
+
+<<<CALI>>>
+
+author:(Diarioccidente OR
+elpaiscali OR
+TelepacificoTV OR
+Noti90Minutos OR
+Redsonoraradio OR
+QhuboCali OR
+adncali) OR site:(occidente.co OR
+elpais.com.co OR
+telepacifico.com OR
+90minutos.co OR
+redsonoraradio.net OR
+qhubocali.com OR
+diarioadn.co)
+
+<<<POLICIA>>>
+
+(
+author:(PoliciaBogota OR
+	region6policia OR
+	region7policia OR
+	Region8Policia OR
+	Region2Policia OR
+	Region3Policia OR
+	Region1Policia OR
+	Region4Policia OR
+	Region5Policia OR
+	PoliciaNarino OR
+	DevalPolicia OR
+	PoliciaMeta OR
+	PoliciaMedellin OR
+	PoliciaBoyaca OR
+	PoliciaMzales OR
+	PoliciaVillavo OR
+	PoliciaBmanga OR
+	PoliciaCali OR
+	PoliciaDEMAG OR
+	PoliciaCmarca OR
+	Policiantioquia OR
+	PoliciaCucuta OR
+	PoliciaQuindio OR
+	Policia_Caldas OR
+	SucrePolicia OR
+	PoliciaVichada OR
+	PoliciaGuainia OR
+	PoliciaArauca OR
+	PoliciaCasanare OR
+	GuajiraPolicia OR
+	PoliciaVaupes OR
+	PoliciaChoco OR
+	PoliciaDepuy OR
+	PoliciaUraba OR
+	PoliciAtlantico OR
+	PoliciaDECOR OR
+	PoliciaNteSder OR
+	HuilaPolicia OR
+	PoliciaBolivar OR
+	PoliciaCaqueta OR
+	PoliciaDeris OR
+	PoliciaDeTolima OR
+	PoliciaDEMAM OR
+	PoliciaMTunja OR
+	PoliciaMonteria OR
+	PoliciAmazonas OR
+	PoliciaDeCesar OR
+	PoliciaSanyProv OR
+	PoliciaPasto OR 
+	PoliciaStander OR
+	PoliciaStaMarta OR
+	PoliciaPereira OR
+	PoliciaIbague OR
+	PoliciaPopayan OR
+	PoliciaCtagena OR PoliciaColombia OR PoliciaCauca 
+)
+AND (
+        title:(captura* OR captur* OR desmantel* OR desmantelaron OR aseguramiento OR desarticula*
+        OR "medida de aseguramiento" OR preso OR detenid* OR detuvier* OR incaut*)
+    )
+    NOT (
+        Guaid* OR Maduro
+    )
+)
+
+<<<POLICIA CAPTURAS>>>
+(
+author:(PoliciaBogota OR
+	region6policia OR
+	region7policia OR
+	Region8Policia OR
+	Region2Policia OR
+	Region3Policia OR
+	Region1Policia OR
+	Region4Policia OR
+	Region5Policia OR
+	PoliciaNarino OR
+	DevalPolicia OR
+	PoliciaMeta OR
+	PoliciaMedellin OR
+	PoliciaBoyaca OR
+	PoliciaMzales OR
+	PoliciaVillavo OR
+	PoliciaBmanga OR
+	PoliciaCali OR
+	PoliciaDEMAG OR
+	PoliciaCmarca OR
+	Policiantioquia OR
+	PoliciaCucuta OR
+	PoliciaQuindio OR
+	Policia_Caldas OR
+	SucrePolicia OR
+	PoliciaVichada OR
+	PoliciaGuainia OR
+	PoliciaArauca OR
+	PoliciaCasanare OR
+	GuajiraPolicia OR
+	PoliciaVaupes OR
+	PoliciaChoco OR
+	PoliciaDepuy OR
+	PoliciaUraba OR
+	PoliciAtlantico OR
+	PoliciaDECOR OR
+	PoliciaNteSder OR
+	HuilaPolicia OR
+	PoliciaBolivar OR
+	PoliciaCaqueta OR
+	PoliciaDeris OR
+	PoliciaDeTolima OR
+	PoliciaDEMAM OR
+	PoliciaMTunja OR
+	PoliciaMonteria OR
+	PoliciAmazonas OR
+	PoliciaDeCesar OR
+	PoliciaSanyProv OR
+	PoliciaPasto OR 
+	PoliciaStander OR
+	PoliciaStaMarta OR
+	PoliciaPereira OR
+	PoliciaIbague OR
+	PoliciaPopayan OR
+	PoliciaCtagena OR PoliciaColombia OR PoliciaCauca 
+)
+AND (
+        title:(((captura* OR captur* OR desmantel* OR desmantelaron OR aseguramiento OR desarticula*
+        OR "medida de aseguramiento" OR preso OR detenid* OR detuvier* OR incaut*) NEAR/5f (venezolan* OR venec*)))
+    )
+    AND (
+        vene?uela OR venezolan* OR venec* OR venequit*
+    )
+    NOT (
+        Guaid* OR Maduro
+    )
+)

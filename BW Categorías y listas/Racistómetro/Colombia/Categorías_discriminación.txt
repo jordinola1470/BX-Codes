@@ -1,0 +1,17 @@
+<<<MUJER>>>
+mujer* OR trans* OR feminis* OR feminaz* OR vieja* OR chava* OR morra* OR misogin* OR acosada* OR violada*
+
+<<<TONO DE PIEL>>>
+negrit* OR ((piel OR color OR tez) NEAR/5F (suci* OR mugr* OR cart* OR humild* OR mol* OR negr* OR priet* OR moren*)) OR priet* OR nac* OR percudid* OR moren*
+
+<<<ORIGEN>>>
+indi* OR artesan* OR "cara de artesanía" OR otom* OR zapotec* OR zapotec* OR may* OR nahuat* OR mixtec*
+
+<<<PERFILAMIENTO>>>
+deten* OR detu* OR polic* OR autorid* OR carcel* OR vigil*
+
+<<<BACKLASH>>>
+victi* OR lloriqu* OR llora* OR lloríque* OR resent* OR llori* OR hipo* OR chill*
+
+<<<ODIO>>>
+mugrient* OR zarrapastro* OR zarapastro* OR gatet* OR chach* OR (cara NEAR/2F olmeca) OR (negr* NEAR/5F (put* OR hp* OR ching* OR pendej* OR perr*))

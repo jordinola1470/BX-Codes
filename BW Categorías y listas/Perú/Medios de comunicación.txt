@@ -1,0 +1,274 @@
+<<<Medios peruanos>>>
+
+( 
+	author:(xitosape OR
+rpanamericana OR
+PanamericanaTV OR
+ovacionweb OR
+EXTRA_Peru OR
+ExpresoPeru OR
+elcomercio_peru OR
+larepublica_pe OR
+RevistaWAPA OR
+elbocononline OR
+diariocorreo OR
+elpopular_pe OR
+liberoperu OR
+atvpe OR
+radiouno_pe OR
+americatv_peru OR
+SanMartinAQP OR
+karibenape OR
+peru21noticias OR
+tromepe OR
+LimaAlDia OR
+informanteperu OR
+RPPNoticias OR
+elchino_pe OR
+larazon_pe OR
+elbuho_pe OR
+lamula OR
+PanoramaPTV OR
+diarioojo OR
+elpopular_pe OR
+Agencia_Andina OR
+IDL_R OR
+RadioNacionalFM OR
+elpoliperu OR
+eltiempopiura OR
+inforegion OR
+lahoradepiura OR
+SsnNoticias OR
+lalupa_pe OR
+LaIndustria_cix OR
+TVCosmosPeru OR
+radioondacero OR
+RadioLaZonaFM OR
+tuitdepor OR
+Gestionpe OR
+Diario_SF OR
+prensachalaca OR
+RadioChalaca OR
+diario_norteno OR
+weblaindustria OR
+eldestapeweb OR
+lainolvidablepe OR
+DiarioSatelite) OR 
+
+	site:(caretas.pe OR
+exitosanoticia.pe OR
+radiopanamericana.pe OR
+panamericana.pe OR
+Ovación.pe OR
+Extra.com.pe OR
+radiogalaxia.com.pe OR
+expreso.com.pe OR
+elcomercio.pe OR
+larepublica.pe OR
+wapa.pe OR
+elbocon.pe OR
+diariocorreo.pe OR
+Elpopular.pe OR
+libero.pe OR
+atv.pe OR
+radiouno.pe OR
+americatv.com.pe OR
+radiosanmartin.pe OR
+radiokaribena.pe OR
+peru21.pe OR
+trome.pe OR
+limaaldia.pe OR
+elinformanteperu.com OR
+rpp.pe OR
+elchino.pe OR
+larazon.pe OR
+elbuho.pe OR
+lamula.pe OR
+Panorama.com.pe OR
+ojo.pe OR
+elpopular.pe OR
+perurec.com OR
+andina.pe OR
+IDL-reporteros.pe OR
+losandes.com.pe OR
+radionacional.com.pe OR
+peruenlinea.pe OR
+radiofantastico.pe OR
+Accesoperu.com OR
+elpoli.pe OR
+eltiempo.pe OR
+inforegion.pe OR
+lahora.pe OR
+superstarnoticias.pe OR
+lalupa.pe OR
+Laindustriadelchiclayo.pe OR
+peru24.xyz OR
+tvcosmos.pe OR
+moda.com.pe OR
+ondacero.com.pe OR
+lazona.com.pe OR
+depor.com OR
+gestion.pe OR
+radiomelodia.com.pe OR
+gruporiberena.com OR
+radiostereo1fm.com OR
+diarioelpueblo.com.pe OR
+diariosinfronteras.pe OR
+prensachalaca.com OR
+radiochalaca.pe OR
+vozperu.pe OR
+radiocallao.com OR
+elnorteno.pe OR
+radionova.pe OR
+radioamerica961.com OR
+laindustria.pe OR
+eldestapeweb.com OR
+lainolvidable.pe OR
+satelite.pe))
+
+<<<Medios captura>>>
+( 
+	author:(xitosape OR
+rpanamericana OR
+PanamericanaTV OR
+ovacionweb OR
+EXTRA_Peru OR
+ExpresoPeru OR
+elcomercio_peru OR
+larepublica_pe OR
+RevistaWAPA OR
+elbocononline OR
+diariocorreo OR
+elpopular_pe OR
+liberoperu OR
+atvpe OR
+radiouno_pe OR
+americatv_peru OR
+SanMartinAQP OR
+karibenape OR
+peru21noticias OR
+tromepe OR
+LimaAlDia OR
+informanteperu OR
+RPPNoticias OR
+elchino_pe OR
+larazon_pe OR
+elbuho_pe OR
+lamula OR
+PanoramaPTV OR
+diarioojo OR
+elpopular_pe OR
+Agencia_Andina OR
+IDL_R OR
+RadioNacionalFM OR
+elpoliperu OR
+eltiempopiura OR
+inforegion OR
+lahoradepiura OR
+SsnNoticias OR
+lalupa_pe OR
+LaIndustria_cix OR
+TVCosmosPeru OR
+radioondacero OR
+RadioLaZonaFM OR
+tuitdepor OR
+Gestionpe OR
+Diario_SF OR
+prensachalaca OR
+RadioChalaca OR
+diario_norteno OR
+weblaindustria OR
+eldestapeweb OR
+lainolvidablepe OR
+DiarioSatelite) OR 
+
+	site:(caretas.pe OR
+exitosanoticia.pe OR
+radiopanamericana.pe OR
+panamericana.pe OR
+Ovación.pe OR
+Extra.com.pe OR
+radiogalaxia.com.pe OR
+expreso.com.pe OR
+elcomercio.pe OR
+larepublica.pe OR
+wapa.pe OR
+elbocon.pe OR
+diariocorreo.pe OR
+Elpopular.pe OR
+libero.pe OR
+atv.pe OR
+radiouno.pe OR
+americatv.com.pe OR
+radiosanmartin.pe OR
+radiokaribena.pe OR
+peru21.pe OR
+trome.pe OR
+limaaldia.pe OR
+elinformanteperu.com OR
+rpp.pe OR
+elchino.pe OR
+larazon.pe OR
+elbuho.pe OR
+lamula.pe OR
+Panorama.com.pe OR
+ojo.pe OR
+elpopular.pe OR
+perurec.com OR
+andina.pe OR
+IDL-reporteros.pe OR
+losandes.com.pe OR
+radionacional.com.pe OR
+peruenlinea.pe OR
+radiofantastico.pe OR
+Accesoperu.com OR
+elpoli.pe OR
+eltiempo.pe OR
+inforegion.pe OR
+lahora.pe OR
+superstarnoticias.pe OR
+lalupa.pe OR
+Laindustriadelchiclayo.pe OR
+peru24.xyz OR
+tvcosmos.pe OR
+moda.com.pe OR
+ondacero.com.pe OR
+lazona.com.pe OR
+depor.com OR
+gestion.pe OR
+radiomelodia.com.pe OR
+gruporiberena.com OR
+radiostereo1fm.com OR
+diarioelpueblo.com.pe OR
+diariosinfronteras.pe OR
+prensachalaca.com OR
+radiochalaca.pe OR
+vozperu.pe OR
+radiocallao.com OR
+elnorteno.pe OR
+radionova.pe OR
+radioamerica961.com OR
+laindustria.pe OR
+eldestapeweb.com OR
+lainolvidable.pe OR
+satelite.pe)) 
+
+AND (
+        title:(((captura* OR captur* OR desmantel* OR desmantelaron OR aseguramiento OR desarticula*
+        OR "medida de aseguramiento" OR preso OR detenid* OR detuvier* OR inseguridad OR robo OR robaron 
+	OR atraco* OR ratero OR delincuente OR flete* OR 
+        ((arma OR armas) NEAR/2f blanca*) OR "seguridad publica"
+        OR (ejecuciones NEAR/2f extrajudiciales) OR
+        (fuerza NEAR/2f letal) OR tiro* OR asalt* OR extorsion* 
+        OR cosquilleo OR amenaz* OR bacrim OR droga* OR hurt* OR homi?idio OR sicari* OR panflet* 
+        OR microtrafic* OR microtr?fico OR pandill* OR band* OR operativo* OR desconfia* 
+        OR redada* OR (violencia NEAR/2f (intrafamiliar OR genero)) OR maltrat* OR allanamient* 
+        OR riña* OR combos OR duros OR "Bandas criminales" 
+        OR asesinat* OR puñal* OR violaci* OR (acos* NEAR/5f (venezolan* OR vene?uela OR venec*))) NEAR/8f (venezolan* OR venec*))) 
+    )
+    AND (
+        vene?uela OR venezolan* OR venec* OR venequit* OR (migrante NEAR/3f (venezolan* OR venezuel*))
+    )
+    NOT (
+        Guaid* OR Maduro OR Miss OR LaLiga OR xenofobi* OR ayudando OR ayudar OR title:("la liga" OR BetPlay OR LaLiga)
+    )

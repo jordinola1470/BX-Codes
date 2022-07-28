@@ -1,0 +1,410 @@
+<<<EDUCACION>>>
+
+((cupo NEAR/3 (educativ* OR colegio* OR universidad* OR instituto*)) OR
+
+(presupuesto* NEAR/3 (colegio* OR educacion)) OR
+politecnico OR
+((inscripcion* OR inscrito*) NEAR/3 (colegio* OR jardin*)) OR
+(integracion NEAR/3 (colegio* OR universidad* OR jardin OR (sistema NEAR/1 educativo))) OR
+apostilla* OR
+(valida* NEAR/3 titulo*) OR
+icfes OR
+sena OR
+(xenofobia NEAR/1 escolar*) OR
+icbf OR "Instituto Colombiano de Bienestar Familiar" OR
+CIPI OR 
+cdi OR
+(informe NEAR/1 pisa) OR
+((prueba* OR examen*) NEAR/1 saber) OR
+(saber NEAR/1 (3 OR 5 OR 9 OR 11 OR tyt OR pro OR lenguaje OR matematica* OR (ciencia* NEAR/1 (natural* OR social*)))) OR
+(unidad NEAR/1 educativa) OR
+((infraestructura OR demanda*) NEAR/1 escolar) OR
+(certificado NEAR/1 grado) OR
+matricula* OR
+educacion OR
+(educacion NEAR/1 (basica OR media OR secundaria OR superior OR primaria OR gratis OR gratuit*)) OR
+educat* OR
+alumn* OR
+(derecho NEAR/3 educaci?n) OR
+escuela* OR
+estudiant* OR
+cole OR
+colegio* OR
+(comunidad* NEAR/1 escolar*) OR
+"comunidad escolar" OR
+(consejo NEAR/1 curso) OR
+"consejo de curso" OR
+mineduc OR
+mineducacion OR
+((ministerio OR secretaria) NEAR/1 educacion) OR
+"ministerio de educacion" OR
+NEM OR
+profesor* OR
+docente* OR
+egresado* OR 
+PSU OR
+((sala* OR salon*) NEAR/1 clase*) OR
+"sala de clase" OR
+simce OR
+(educacion NEAR/1 gratis) OR
+(cobertura NEAR/1 educativ*) OR
+(derecho* NEAR/1 (escolar* OR educa*)) OR
+convalida* OR
+(acceso NEAR/3 educaci?n) OR
+postula* OR
+inclusion OR
+(calidad* NEAR/2 (academica* OR educativa OR educacion)) OR
+(convivencia NEAR/1 escolar) OR 
+"ranking colegio" OR
+certifica* OR
+bullying OR
+(desercion NEAR/3 (escolar* OR educativa OR colegio* OR universidad*)) OR
+(jardin* NEAR/1 infant*) OR 
+"pre-jardin" OR
+prescolar OR
+preescolar OR
+(pre NEAR/1 escolar) OR
+"pre escolar" OR
+kinder OR
+playground OR
+parvul* OR
+(sala* NEAR/1 cuna*) OR
+analfabe* OR
+2x1 OR
+(enseÒanza NEAR/1 (basica OR primaria OR secundaria OR media)) OR
+preparatoria OR
+primaria OR
+(sin NEAR/3 estudios) OR
+(nivel NEAR/3 bajo) OR
+bachille* OR
+((instituto* OR institucion*) NEAR/1 (educativ* OR educacion* OR colegio* OR universidad* OR tecnico* OR tecnologico OR tecnica* OR profesional* OR universitar*)) OR
+liceo* OR
+secundaria OR
+preu OR
+preuniversitario* OR
+universi* OR
+postgrado* OR
+Profesional* OR
+pregrado OR
+preescolar* OR
+posgrado* OR
+diplomado OR maestria OR magister OR doctorado
+OR
+(carrera NEAR/2 (profesional* OR univers*)) OR
+((curso* OR clase*) NEAR/1f virtual*) OR (estudio* NEAR/1f (tecnico* OR superior* OR profesional* OR tecnolog*)))
+
+NOT (gerrit OR "Miguel Carrera" OR "Republica Dominicana" OR "clase media" OR "visa temporaria" OR "derecho humano" OR "Universidad de Concepcion" OR "Universidad de Chile" )
+
+
+<<<SALUD>>>
+
+<<<Prejuicios de salud>>>
+enferm* OR
+insalu* OR
+sucio* OR
+mugrien* OR
+mugre OR
+cochin* OR
+
+<<<Entidades de salud>>>
+Cesfam OR
+fonasa OR
+eps OR
+ips OR
+upc OR 
+fosyga OR
+fosiga OR
+
+
+<<<Enfermedades>>>
+covid* OR
+(corona NEAR/1 virus) OR
+bacteria OR
+brote OR
+candidiasi* OR
+candida OR
+clamidia* OR
+c?lera OR
+contagi* OR
+epidemia* OR
+ets OR
+gonorrea OR
+epatitis OR
+hepatitis OR
+herpes OR
+HPV OR
+infeccio* OR
+patogeno* OR
+ITS OR
+LADILLA* OR
+lepra OR
+SARNA OR
+sida OR
+tifus OR
+transmi* OR
+VIH OR
+virus OR
+vph OR
+S?FILIS OR
+tiÒa* OR
+(enfermedad* NEAR/1 (transmision OR sexual*)) OR
+"enfermedades de transmisi?n sexual" OR
+tuberculosis OR
+tbc OR
+paludismo OR
+malaria OR
+(fiebre NEAR/1 amarilla) OR
+"fiebre amarilla" OR
+denge OR
+dengue OR
+lepr* OR
+ebola OR
+papiloma OR
+cancer OR
+
+<<<Sistema de salud>>>
+((emergencia OR crisis) NEAR/1 sanitari*) OR
+sanitari* OR
+salud OR
+(derecho NEAR/1 salud) OR
+"derecho a la salud" OR
+(plan NEAR/1 invierno) OR
+"plan de invierno" OR
+auge OR
+((salud OR remedio* OR medicamento*) NEAR/1 gratis) OR
+"salud gratis" OR
+(seguro NEAR/1 social) OR
+"seguro social" OR
+consultorio OR
+"medicamentos gratis" OR
+(centro* NEAR/1 (salud OR medico*)) OR
+"centro de salud" OR
+clinica* OR
+vacun* OR
+"centro m?dico" OR
+medicamento* OR
+hospital* OR
+remedio* OR
+gratis OR
+colaps* OR
+(salud NEAR/1 gratuita) OR
+"salud gratuita" OR
+parto* OR
+embaraz* OR
+gestante* OR
+preÒada* OR
+abort* OR
+((dar OR dando) NEAR/1 luz) OR
+nacer* OR
+nacen OR
+naciendo OR
+pariendo OR
+parir* OR
+(planificacion NEAR/1 (sexual OR reproductiva OR familiar)) OR
+((colaps* OR cola* OR fila* OR llen* OR espera*) NEAR/3 (sistema OR salud OR sanitario* OR hospital*)) OR
+odontolog* OR (reaccion* NEAR/1f alerg*) OR (paciente* NEAR/1f venezolano*) OR desnutri* OR cuarentena* OR confinamiento* OR hipotermia OR medicina*
+
+NOT (Chile OR (criminales NEAR/1f venezolanos) OR anestesia OR (crisis NEAR/1f desempleo) OR transexual OR d1 OR despectiva*)
+
+
+<<<XENOFOBIA>>>
+
+((nos NEAR/1 (quita* OR roban)) OR satura* OR (se NEAR/1 vaya*) OR plaga* OR malandro* OR sucio* OR sucia* OR flojo* OR floja* OR estorba* OR estorbo* OR (representa* NEAR/1 problema*) OR ((frenar OR detener) NEAR/1 (migracion OR venezola* OR inmigracio*)) OR ((tiene* OR debe*) NEAR/1 (regresar* OR volver* OR devolver*)) OR (destruyen NEAR/1 (pais OR colombia OR nuestr*)) OR (mal NEAR/1 parido*) OR (de NEAR/1 mierda) OR cabron* OR (hij* NEAR/1 (puta* OR perra*)) OR puto* OR puta* OR bruto* OR ignorante* OR veneca* OR veneco* OR pobre* OR hpta* OR (tiene* NEAR/1 (mas OR derecho*)) OR lichig* OR gorrer* OR gonorrea OR zunga* OR huevon OR (mala* NEAR/1 costumbre*) OR garbimba OR jueputa OR hijueputa OR malpardi* OR pichurria OR pirobo OR gurrupleto* OR marica* OR cacorro* OR (calienta NEAR/1 huevo*) OR culipronta* OR fufa OR fufurufa OR guaricha OR guisa OR loba OR morronga OR ((mosca* OR mosquit*) NEAR/1 muerta*) OR pelitenid* OR pendej* OR prepago OR zuripanta OR chanda OR hpta OR pecuec* OR "hijo de puta" OR cerdo OR malnacido OR ijueputa* OR hijueputa* OR cafre OR mendigo OR bandido OR malandr* OR Òampira OR gonorrea OR caco OR zarzo OR chandoso* OR canchoso* OR jinch* OR jartera OR mamera OR chiviado* OR gamin* OR gurre* OR ((come OR coman) NEAR/1f mierda) OR guevon OR guebon) OR (venecos NEAR/2f mendig*) OR (fuera NEAR/1 colombia) OR (venec* NEAR/1 ilegal*) OR (veneco* NEAR/1 mierda) OR comunist* OR (vacuna* NEAR/2 venec*) OR (irregular* NEAR/1 venec*) OR (venec* NEAR/3 gratis)
+
+NOT 
+(
+(pobre NEAR/1 pueblo) OR venecao OR venecolombia OR (malandr* NEAR/10 (politic* OR izquierd* OR derech*)) OR (predique* NEAR/2f respet*)
+)
+
+<<<VIVIENDA>>>
+
+((emigrant*	OR
+inmigrant*	OR
+migrant*	OR extranjer* 	OR venezol*	OR
+veneco*	OR
+veneca*
+
+) NEAR/12 (  gheto* OR
+pie?a OR
+conventillo* OR
+"situaci?n de calle" OR
+campamento* OR
+toma* OR
+cite OR
+citÈ OR
+hacinamiento OR
+hacinad* OR
+acinamiento OR
+"media agua" OR
+mediagua OR
+"vivienda social" OR
+getto OR
+casa OR
+departamento* OR
+dpto OR
+arriendo* OR
+renta OR
+arrenda* OR
+viviend* OR
+alquil* OR
+"contrato de arriendo" OR
+"corredor de propiedades" OR
+depto* OR
+subsidio OR
+serviu OR
+"comprar casa" OR
+"libreta de ahorro" OR
+contrato OR
+villa* OR
+barrio*))
+
+OR
+
+((bajo NEAR/1f techo) OR propietario* OR (conjunto* NEAR/1f residencial*) OR arriend* OR dnp OR desaloj* OR vivienda* OR albergue* OR #bajotecho OR pagadiario* OR alojamient* OR hospedaje OR hogar* OR inquilinato* OR "situacion de calle" OR camarote* OR alquil* OR (planeacion NEAR/1f nacional) OR hacina* OR (centro* NEAR/1f colectiv*) OR ((sin OR "no tiene" OR "no tengo" OR necesit*) NEAR/2f casa))
+
+NOT "renta minima"
+
+<<<TRABAJO>>>
+
+(((emigrant* OR
+inmigrant*	OR migrant*	OR extranjer* 	OR venezol*	OR veneco*	OR veneca*	OR
+empl* OR
+pega* OR
+trabajador* OR
+labur* OR
+trabaj* OR
+actividad* OR
+labor* OR
+laburo OR
+"quitan trabajo" OR
+oficio* OR
+colocaci?n OR
+"roban trabajo" OR
+"robar trabajo" OR
+"quitar trabajo" OR
+desempleo OR
+cesant*
+
+
+) NEAR/12 (  irregular* OR
+explota* OR
+"vendedor ambulante" OR
+tempor* OR
+pituto* OR
+informal* OR
+"Venta ambulante" OR
+"contrato falso" OR
+"comprar contrato" OR
+polol* OR
+rebusq* OR
+coler* OR
+esclav* OR
+"talleres clandestino" OR
+"trata de persona" OR
+moler* OR
+super8 OR
+"super 8" OR
+guaguit* OR
+helados OR
+energ?ticas OR
+algod?n* OR
+negrer* OR
+negrear OR
+"vendedores ambulantes" OR
+callejer* OR
+micro* OR
+chocolate OR
+repartid* OR
+faena* OR
+obra* OR
+"no calificado" OR
+meser* OR
+Cajer* OR
+meser* OR
+pe?n* OR
+nana* OR
+emplead* OR
+niÒera* OR
+camellar OR
+obrer* OR
+quehacer* OR
+tarea* OR
+"puertas adentro" OR
+niÒer* OR
+nani* OR
+"baby siter" OR
+"baby sitter" OR
+babysitter OR
+contru* OR
+constru* OR
+bodega* OR
+bodegue* OR
+ch?fer OR
+conserje* OR
+concerje* OR
+jardiner* OR
+feria* OR
+vega OR
+rappi OR
+rapi OR
+"uber eats" OR
+"uber eat" OR
+cabify OR
+taxi* OR
+uber OR
+cabify OR
+cabifi OR
+aseo OR
+limpie?a OR
+vendedor* OR
+recepcion* OR
+bencina* OR
+"bomba de bencina" OR
+benciner* OR
+valledor OR
+lovalledor))
+
+OR 
+
+(salario* OR emprend* OR (genera* NEAR/1f empleo*) OR (vend* NEAR/1f (ambulant* OR calle* OR informal* OR product*)) OR ((ofert* OR consig* OR puest* OR venezuel* OR venec* OR venezol* OR inform* OR sexual* OR permiso* OR busc* OR quit* OR honrad* OR pide OR pidi* OR pidio OR puesto* OR ofrec* OR sin OR fuente OR tengo OR consig* OR consegu* OR informal* OR explot* OR temporal OR necesit*) NEAR/2 trabaj*) OR asalariad* OR carretillero OR rappi OR repartidor* OR mesero* OR domiciliario* OR tenderos OR ((contrat* OR vendedo*) NEAR/2 (venez* OR venec)) OR desemple* OR empleador* OR empleo))
+
+NOT ((chile NEAR/1f (fortalece OR expulsara OR deportara)) OR (infestados NEAR/1f venezolanos) OR (parasitar NEAR/1f colombia) OR vacunarÌa OR Chile OR sataniza)
+
+<<<SEGURIDAD>>>
+
+(delincuen* OR lapidar* OR crimen* OR asesin* OR ladron* OR robo OR robos OR robar* OR atraco* OR inseguridad OR seguridad OR narco* OR microtrafic* OR ((red* OR banda*) NEAR/1 criminal*) OR delict* OR crimin* OR asalt* OR atraca* OR atraco* OR pillo* OR hampa OR malandr* OR (camara* NEAR/1 seguridad) OR pandill* OR prostitu* OR ((trabaja* OR explotacion) NEAR/1 sexual) OR prosti OR viola* OR preso* OR maltrato OR sicario OR prepago OR dealer OR pelea* OR riña OR violencia OR violent* OR coca OR cocai* OR droga* OR mariguana OR marihuana OR mota OR cartel OR carteles OR pepera* OR saque* OR zetas OR destruy* OR destruir OR trafico OR cascar OR (meter NEAR/2 preso) OR traficante* OR (trafico NEAR/3 droga*) OR delito* OR homicid* OR hurto* OR arma OR armas OR armad* OR carcel* OR secuestr* OR banda* OR matar* OR masacre* OR (lancha* NEAR/1f piraÒa) OR guerrill* OR terroris* OR invad* OR malversa* OR interpol OR cadaver OR (fraude* NEAR/1f migratorio*) OR vandal* OR delinq* OR alterc* OR balea* OR (herid* NEAR/2 bala) OR encapuchad* OR atentad* OR ((mafioso* OR mafia) NEAR/2f (venez* OR venec*))) OR (orden NEAR/4f caos)
+
+NOT (((segunda OR tercera OR cuarta OR primera) NEAR/1 base) OR baseball OR (Ladrona NEAR/1f sucia) OR "el dolor de los venezolanos" OR Chile OR "velar por la integridad" OR (importar NEAR/1f alimentos) OR (inseguridad NEAR/1f alimentaria) OR (apologia NEAR/1f discriminacion) OR (venezolanos NEAR/1f huyendo) OR (vargas NEAR/1f llosa) OR (amo NEAR/1f imperial) OR (venezolanos NEAR/1f vacunados) OR (union NEAR/1f europea) OR (paciente NEAR/1f covid))
+
+<<<MUJER>>>
+
+(veneca* OR (mujer* NEAR/2f venezolana*) OR prostituta* OR ((roba OR quita*) NEAR/3f marido*) OR (trabajadora* NEAR/4f sexual) OR robamarido* OR quitamarid* OR parturienta*)
+NOT(pokemon* OR @VTVcanal8 OR (delincuencia NEAR/2f veneca) OR "Oscar Reyes" OR diputad* OR militar* OR (en NEAR/2f venezuela) OR liendrita OR ((persona* OR sujeto* OR individuo*) NEAR/4f venezolana*) OR "ratas venecas")
+
+<<<INTEGRACION>>>
+
+(xenofob* OR estigmatiza* 
+OR (insulto NEAR/1f racista) OR (eliminar NEAR/2f prejuicios) 
+OR (clasismo NEAR/1f tipico) OR (asquerosamente NEAR/1 despectivo) 
+OR (hijueputa NEAR/1f xenofobia) OR (bajele NEAR/2f xenofobia) 
+OR (raza NEAR/1 arribista) OR (estigmatizacion NEAR/2f hermanos) 
+OR (forma NEAR/1f peyorativa) OR (venezolanos NEAR/1f  (sufren OR respetan OR estigmatizados)) 
+OR (estigmatizar NEAR/2f venezolanos) OR (meterles NEAR/1f xenofobia) 
+OR racismo OR "esto es fascismo" OR (negarle NEAR/1f vacuna) 
+OR aporafobia OR (gente NEAR/2 vacia)
+OR (derecho* NEAR/3f (civil* OR humano*)) 
+OR (derecho NEAR/2f soÒar) OR (proteccion NEAR/3f migrantes) 
+OR ((exilio OR pueblo) NEAR/1f venezolano)  OR huyen
+OR respet* OR tolerancia OR tolerar* OR empati* OR herman*
+OR #NoSoyDelincuente OR honrad* OR generaliz* OR esperanza
+OR solucio* OR bienestar OR (amigos NEAR/2f Venezuela) 
+OR (colaborar NEAR/1f ayudando) OR fortaleza 
+OR (no NEAR/1f delincuentes) OR (niÒo* NEAR/1f venezolano*) 
+OR (venezuela NEAR/1f acogio) OR (venezolano* NEAR/1f pobre*)
+OR ((orgulloso OR grande) NEAR/3f veneco) OR (veneco NEAR/1f soy))
+NOT ((riesgo NEAR/4f seguridad) OR (mierdero NEAR/5f pais) OR (orden NEAR/4f caos) OR(nos NEAR/1 (quita* OR roban)) OR satura* OR (se NEAR/1 vaya*) OR plaga* OR malandro* OR sucio* OR sucia* OR flojo* OR floja* OR estorba* OR estorbo* OR (representa* NEAR/1 problema*) OR ((frenar OR detener) NEAR/1 (migracion OR venezola* OR inmigracio*)) OR ((tiene* OR debe*) NEAR/1 (regresar* OR volver* OR devolver*)) OR (destruyen NEAR/1 (pais OR colombia OR nuestr*)) OR (mal NEAR/1 parido*) OR (de NEAR/1 mierda) OR cabron* OR (hij* NEAR/1 (puta* OR perra*)) OR puto* OR puta* OR bruto* OR ignorante* OR veneca* OR veneco* OR pobre* OR hpta* OR (tiene* NEAR/1 (mas OR derecho*)) OR lichig* OR gorrer* OR gonorrea OR zunga* OR huevon OR (mala* NEAR/1 costumbre*) OR garbimba OR jueputa OR hijueputa OR malpardi* OR pichurria OR pirobo OR gurrupleto* OR marica* OR cacorro* OR (calienta NEAR/1 huevo*) OR culipronta* OR fufa OR fufurufa OR guaricha OR guisa OR loba OR morronga OR ((mosca* OR mosquit*) NEAR/1 muerta*) OR pelitenid* OR pendej* OR prepago OR zuripanta OR chanda OR hpta OR pecuec* OR "hijo de puta" OR cerdo OR malnacido OR ijueputa* OR hijueputa* OR cafre OR mendigo OR bandido OR malandr* OR Òampira OR gonorrea OR caco OR zarzo OR chandoso* OR canchoso* OR jinch* OR jartera OR mamera OR chiviado* OR gamin* OR gurre* OR ((come OR coman) NEAR/1f mierda) OR guevon OR guebon OR (venecos NEAR/2f mendig*) OR
+(fuera NEAR/1 colombia) OR (venec* NEAR/1 ilegal*) OR (veneco* NEAR/1 mierda) OR comunist* OR (vacuna* NEAR/2 venec*) OR (irregular* NEAR/1 venec*) OR (venec* NEAR/3 gratis) OR "Venezolanos de mierda" OR (mendigo* NEAR/1f venezolano*) OR (hijueputa* NEAR/1f venezolano*) OR vendepatria* OR (seÒores NEAR/1f uribistas) OR cubano* OR (tibio NEAR/1f uribista) OR cubano* OR ((seÒores OR tibios) NEAR/1f uribistaS) OR (bloguera NEAR/1f venezolana) OR ((poposetas NEAR/1f venezolanos) OR petrista*) OR (uribistas NEAR/1f solapados) OR narcoizquierda OR narco* OR (invasion* NEAR/1f venezolana*) OR (hpta NEAR/1f veneco) OR (metiendole NEAR/1f dedo) OR fetiche* OR "gota a gota" OR taladrada OR culiada OR @deisyyeraldine1 OR fifa OR colocho OR sudac* OR boyaco OR carne OR cuban* OR "dejemos de llamar xenofobia" OR traquetos OR contraccion OR jopo OR trigueÒa OR (pan NEAR/1f salado) OR verga OR leche OR (novio NEAR/1 veneco) OR  Darwin OR pacaraima OR leche OR entrenador OR BILATINBOYS OR rica OR desnuda OR cuerpazo OR site:denunciando.com OR pack OR webcammer OR (Roger NEAR/1f waters) OR (pan NEAR/1f jamon) OR narcisismo OR (todo NEAR/1f roban) OR #venecos
+OR mili* OR (captura* NOT (sesg* OR estigmatiza* OR trabaja*)) OR culi*
+  OR (web NEAR/1f cam*) OR dictad* OR espia* OR (gol* NOT #ConLaCamisetaDelOtro)
+  OR (hp* NEAR/1 (venec* OR fuera OR vaya*)) OR futbol OR futboli*
+  OR deporti* OR deportes OR culea* OR xxx)

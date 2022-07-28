@@ -17,7 +17,7 @@ cd "$user"
 *Xenofobia 
 ****
 *CAMBIAR MES
-import excel "Perú_xenofobia.xlsx", firstrow clear 
+import excel "Perú_Xenofobia_final.xlsx", firstrow clear 
 split Region, parse(",")
 drop Region
 rename Region1 Region

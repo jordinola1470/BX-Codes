@@ -1,0 +1,172 @@
+<<<MENOSPRECIO CAPACIDADES>>>
+
+esquizofre* OR senil OR loc* OR enferm* OR demente* OR idiota* OR tont* OR imbécil OR ignorante* OR trastornad* OR trastorno OR medicación OR retraso OR retrasad* OR chanta* OR ridícul* OR  (calladit* NEAR/3f (mejor OR bonit*)) OR remedio* OR lastre OR lacra OR (no NEAR/1f razona) OR ((hazte OR háganse) NEAR/1f ver) OR sensible OR huevon* OR hueon* OR weon* OR wn* OR les* OR niñit* OR niñ* OR desequilibr* OR alharac* OR cabra OR indecente OR pendej* OR chiquill* OR tontit* OR floj* OR inutil* OR vag* OR estupid* OR inexpert* OR retardad* OR huec* OR wec* OR parasito OR víctima OR vistima OR indolente OR inept* OR pendej*
+
+NOT ((derech* OR deten* OR detien* OR violen*) NEAR/5 (nino* OR niña* OR niñez))
+
+<<<ROLES Y MANDATOS DE GENERO>>>
+
+(mala NEAR/1f madre) OR ((descuidar OR abandona OR abandono) NEAR/2f (marido OR esposo OR hij*)) OR (servir NEAR/1f (almuerzo OR comida)) OR criar OR crianza OR egoísta OR ((quedate OR andate) NEAR/2f (casa OR cuidar OR cocin* OR limpiar OR planchar OR lavar)) OR fértil OR infértil OR
+
+histerica OR cuatica OR "anda con la regla" OR brigida OR hocicona OR loca OR sumisa OR callada OR silencio OR venenosa OR
+
+bruja OR lesbiana OR tortillera OR torta OR marimacho OR camiona OR bigotuda OR resentida OR amargada OR (mala NEAR/1f leche)
+
+<<<ALUSIONES AL CUERPO>>>
+
+rica OR guapa OR vieja OR hembris* OR linda OR rika OR "no le toca" OR "no le toco" OR qla OR culia OR reculia OR toxica OR degenerada OR "no le ha tocado" OR inculiable* OR pervertida OR (no NEAR/1f calienta) OR culona* OR culiable* OR culeable* OR cul?ada OR calentona* OR (buen NEAR/1f (cuero OR pellejo)) OR exagerada OR prosti* OR frigida* OR guachona* OR wachona OR guarra* OR mamacita* OR mamasita* OR mamazo* OR wachita OR guachita OR mina* OR mijita* OR maraca* OR maraka OR pechugona* OR potona* OR pendeja OR perra* OR penetrable* OR ponersela* OR ponerl* OR "se la pongo" OR  qla* OR soltera OR teta* OR zorra* OR (hija* NEAR/2f puta*) OR (come NEAR/1f moco) OR ((calienta OR calentando) NEAR/1f sopa) OR (la* NEAR/1f (chuchesu* OR conchesu*)) OR ((gusta* OR chupa* OR lame OR succiona OR quiere OR falta OR busca) NEAR/1f (pico* OR pichula* OR pixula* OR pene* OR piko* OR tula* OR  pija* OR verga*)) OR (pasar*  NEAR/1F (poto OR culo)) OR papiona OR bonita* OR deprava* OR fornica* OR golfa* OR dama* OR lumbrera* OR putifloja* OR despechada OR infollable OR pilucha* OR santa* OR loquilla OR semen OR malnacida* OR mamon* OR tortillera* OR abomina* OR decente* OR simia* OR morbo* OR maricona* OR vaga* OR frigida OR amante OR pelá OR flac* OR delgada OR gorda OR guatona OR watona OR obesa OR
+
+churra* OR 
+churrisi* OR 
+hembra OR 
+delicios* OR 
+buenis* OR 
+tetona* OR 
+bendecida OR 
+follar* OR 
+follen OR 
+comersela OR 
+(quiero NEAR/2f comer*) OR 
+rumbearse* OR 
+rumbearme* OR 
+tirar* OR 
+tira* OR 
+(hacer* NEAR/2f (cosas OR cositas)) OR 
+(no NEAR/3f (come* OR culea* OR folla* OR tira)) OR 
+(tamal NEAR/2f (e?vuelto OR en?uelto)) OR 
+tonel OR 
+viole* OR 
+(buen NEAR/2f polvo) OR flacuchenta
+
+NOT (bachelet OR chanchelet)
+
+<<<EXPRESIONES RACISTAS>>>
+
+indi* OR negrit* OR mapuchit* OR cholit* OR chol* OR african* OR simi* OR mon* OR terrorista OR mauchita OR culombiana OR
+
+ ((delincuente* OR terroris* OR encapuchad* OR extremista*) NEAR/3 (catrillanca OR mapuche*)) OR (grupo* NEAR/1f terrorist*)  OR "lider terrorista" OR (era NEAR/2f terrorista)
+
+<<<CLASISTAS>>>
+
+chul* OR flaite* OR rot* OR ordinari* OR indecente* OR marginal OR analfabet* OR (cara NEAR/2f (empleada OR nana)) OR (aprende NEAR/1f hablar) OR kuma* OR cuma* OR picante* OR rasca* OR chan* OR patipel* OR (sin NEAR/1f cultura) OR soez OR vulgar*
+
+<<<ANTIFEMINISMO>>>
+
+feminazi* OR femitard* OR #feminazi OR #femitard OR zorroridad OR #zorroridad OR pseudofeminista* OR feminazismo* OR #marchafeminazi OR #fuerafeminazis OR #femeninasnofeministas OR femiloca* OR #femitontas OR #feminismoesbasura OR #8Mnomerepresenta OR #feministasnazis OR #masculinazis OR #masculinazi OR masculinazi* OR femismierda OR #femismierda OR #feminazisceroneuronas OR #femimachos OR femimacho* OR #femiorcos OR #femiorco OR femiorco* OR #feminismoescancer OR #femisimios OR #feministaradas OR femimarxista* OR abortera
+
+<<<ALUSIONES AL CUERPO HOMBRES>>>
+
+<<<ALUSIONES AL CUERPO MUJERES>>>
+
+<<<DESPRESTIGIO>>>
+
+(feminazi* OR femitard* OR #feminazi OR #femitard OR zorroridad OR #zorroridad OR pseudofeminista* OR feminazismo* OR #marchafeminazi OR #fuerafeminazis OR comunaxa OR #femeninasnofeministas OR femiloca* OR #femitontas OR #feministasnazis OR #masculinazis OR #masculinazi OR masculinazi* OR femismierda OR #femismierda OR #antipatriarcal OR antipatriarcal OR #feminazisceroneuronas OR #femimachos OR femimacho* OR #femiorcos OR #femiorco OR femiorco* OR #feminismoescancer OR #femisimios OR #feministaradas OR femimarxista* OR
+miserable OR
+toxica OR sensible OR
+violentista OR nefasta OR
+(mala* NEAR/1 (madre OR mama*)) OR
+(abandon* NEAR/4 hij*) OR
+cinica OR
+ladrona OR descarada OR
+(rata NEAR/1 mierda)  OR
+deshonesta OR estupida OR patetica OR
+corrupta OR mafiosa OR
+hipocrita OR bandida OR  
+mentirosa OR oportunista OR
+patetica OR calaña OR
+pateticas OR
+madure OR atrevida OR
+madurar OR escapista OR
+loca OR locas OR inestable OR
+psicotica OR maniatica OR
+safada OR
+((hazte OR háganse OR hagase) NEAR/1f ver) OR
+(esta NEAR/3f (ida OR safada)) OR
+retardada OR
+parasito OR indolente OR
+esquizofrenica OR
+senil OR loca OR
+enferma OR demente OR
+trastornada OR retrasada
+)
+
+<<<MENOSPRECIO CAPACIDADES 2>>>
+
+(
+idiota* OR tonta OR imbécil OR ignorante* OR (calladita NEAR/3f (mejor OR bonita)) OR ((mejor OR bonit*)  NEAR/3f calladit*) OR ridicula OR (no NEAR/1f razona) OR huevona OR hueona OR weona OR niñita OR niña OR alharac* OR indecente OR pendeja* OR chiquilla OR chiquilina OR tontita OR tonta OR floja OR inutil OR vaga OR estupida OR inexperta OR
+inepta* OR
+(no NEAR/1 (tiene NEAR/1 experiencia)) OR
+bruta OR
+brutas OR
+idiota OR
+((use OR usar OR tiene OR vaci*) NEAR/2f (cerebro OR cabeza)) OR
+hueca OR
+reco?ida OR
+"dedos de frente" OR
+(No NEAR/1 (sabe NEAR/1 leer)) OR
+(no NEAR/1 (sabe NEAR/1 nada))
+)
+
+<<<MENOSPRECIO SEXUAL>>>
+ rica OR rika* OR qlia* OR culia* OR reculia OR "no le ha tocado" OR inculiable* OR pervertida OR puta OR (no NEAR/1 calienta) OR culona* OR culeable* OR culeada* OR culea OR calentona* OR (buen NEAR/1f (polvo OR cuero OR pellejo)) OR prostituida OR prosti OR frigida* OR guachona* OR wachona OR mamacita* OR mamasita* OR wachita OR guachita OR prostituta* OR perra OR perras OR penetrable OR "se la pongo" OR qla* OR zorra* OR ((gusta* OR chupa* OR lame OR succiona OR quiere OR falta OR busca) NEAR/1f (pico* OR pichula* OR pixula* OR pene* OR piko* OR tula* OR  pija* OR verga*)) OR (pasar* NEAR/1F (poto OR culo)) OR papiona OR deprava* OR fornica* OR golfa* OR putifloja* OR despechad* OR infollable OR pilucha* OR santurrona OR loquill* OR semen OR morbo* OR amante OR moza OR santurrona OR (mas NEAR/1 (facil NEAR/1 que)) OR
+rica OR
+guapa OR
+churra OR churras OR
+churrisima OR
+hembra OR
+(el NEAR/1f delicioso) OR
+follar OR
+follen OR
+culear OR
+comersela OR
+rumbearse OR
+rumbearme OR
+tirar OR
+(hacer* NEAR/1 (cositas)) OR
+(no NEAR/2f (come* OR culea* OR folla* OR tira)) OR
+(la NEAR/1 violen) OR violar OR viola OR violando OR violan OR
+cuquisuelta OR violable OR putita OR putica OR
+calienta?uevos OR (calienta NEAR/1f huevo*) OR
+(una NEAR/2f (facil OR perra OR puta OR zorra)) OR
+(me NEAR/1 (lo NEAR/1 mame)) OR
+paja OR
+pija OR
+orgasm OR orgasmico OR
+cuca OR
+chocha OR ((mamasita OR mamacita OR mamita) NEAR/1 (rika OR rica OR deliciosa)) OR (esta NEAR/1 (como NEAR/1 quiere)) OR riquisima OR prosti
+ 
+NOT (
+arrogante OR barsa OR verguenza OR vergonzoso OR traicion OR (vieja NEAR/1f politica) OR (( habla OR hablando) NEAR/1 paja) OR ((rabo OR rabos) NEAR/1(de NEAR/1 paja)) OR (hijo NEAR/1 (de NEAR/1 perra))      
+)
+
+<<<CUOTA DE GENERO>>>
+
+(
+((pobrecita  OR usando OR utilizan*) NEAR/3f (es NEAR/1f cuota))  OR
+((pobrecita  OR usando OR utilizan) NEAR/3f (como NEAR/1f cuota)) OR
+(ficha NEAR/3f (partido NEAR/1f politic*)) OR ((de OR es OR esta) NEAR/1 relleno) OR
+((Ficha OR herramienta OR títere OR munec* OR marioneta) NEAR/3f (politic*)) OR
+(cubrir NEAR/1f (paridad OR pariedad OR cuota)) OR
+(por NEAR/1f (ser NEAR/1f mujer)) OR
+((simple OR usan* OR solo) NEAR/1f adorno) OR
+(de NEAR/1 adorno) OR
+(necesitan NEAR/2f mujer*) OR ((pariedad OR paridad OR igualdad) NEAR/1 genero)
+)
+
+<<<INSTRUMENTALIZACION>>>
+
+(
+((Usada OR utilizada OR manipulada OR titeretada )NEAR/2f(hombres OR partido OR político OR política OR estado OR candidat* OR man)) OR
+"Hacer quedar bien a" OR
+((hace* NEAR/1f quedar) NEAR/1f bien) OR
+((quiere OR busca OR buscando) NEAR/1f (atencion NEAR/2f hombre*)) OR
+((no NEAR/1 sabe) NEAR/1 politica) OR
+"no sabe de política"  OR
+((no NEAR/1 tiene) NEAR/1 experiencia) OR
+"no tiene experiencia" OR
+((Marioneta OR titere OR herramienta) NEAR/1f politic* )
+) OR ((Ficha OR herramienta OR títere OR munec* OR marioneta) NEAR/3f (politic*)) OR titere OR titiriter*  OR "la estan usando" NOT((no NEAR/2f "experiencia?") OR ((saab OR Ecuador) NEAR/5f (saab OR lasso OR ecuador)) OR ((titere OR mamerto) NEAR/1 duque) OR (secuestrados NEAR/2f (herramienta NEAR/1 politica)) OR (duque NEAR/3f mamerto) OR (titere NEAR/1 duque)) NOT((titere NEAR/1 duque))
+
+<<<COHERENCIA>>>
+
+coherencia OR coherente* OR incoheren*

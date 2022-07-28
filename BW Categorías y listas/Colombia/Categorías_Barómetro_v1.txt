@@ -1,0 +1,177 @@
+<<<Categorías>>>
+
+<<<Seguridad>>>
+
+(delincuen* OR crimen* OR asesin* OR ladron* OR robo OR robos* OR robar OR atraco* OR inseguridad OR seguridad OR narco* OR microtrafic* OR ((red* OR banda*) NEAR/1 criminal*) OR delict* OR crimin* OR asalt* OR atraca* OR pillo* OR hampa OR malandr* OR (camara* NEAR/1 seguridad) OR pandill* OR prostitu* OR (trabajador* NEAR/1 sexual) OR prosti OR viola* OR preso* OR sicario OR prepago OR dealer OR pelea* OR riña OR violencia OR violent* OR coca OR cocai* OR droga* OR mariguana OR marihuana OR mota OR cartel* OR pepera* OR saque* OR zetas OR destruy* OR destruir OR trafico OR cascar)
+
+<<<Salud>>>
+
+((emigrant*	OR
+inmigrant*	OR
+migrant*	OR
+extranjer* 	OR
+venezola*	OR
+veneco*	OR
+veneca*
+
+
+) NEAR/12 (  enferm* OR
+sanitari* OR
+salud OR
+insalu* OR
+sucio* OR
+mugrien* OR
+mugre OR
+cochin* OR
+"derecho a la salud" OR
+"plan de invierno" OR
+auge OR
+"salud gratis" OR
+"seguro social" OR
+Cesfam OR
+consultorio OR
+"medicamentos gratis" OR
+"centro de salud" OR
+cl?nica* OR
+fonasa OR
+vacun* OR
+"centro m?dico" OR
+medicamento* OR
+hospital* OR
+cola* OR
+fila* OR
+llen* OR
+espera* OR
+remedio* OR
+gratis OR
+colaps* OR
+"salud gratuita" OR
+bacteria OR
+brote OR
+candidiasi* OR
+candida OR
+clamidia* OR
+c?lera OR
+contagi* OR
+epidemia* OR
+ets OR
+gonorrea OR
+epatitis OR
+hepatitis OR
+herpes OR
+HPV OR
+infeccio* OR
+patogeno* OR
+ITS OR
+LADILLA* OR
+lepra OR
+SARNA OR
+sida OR
+tifus OR
+transmi* OR
+VIH OR
+virus OR
+vph OR
+S?FILIS OR
+tiña* OR
+"enfermedades de transmisi?n sexual" OR
+tuberculosis OR
+tbc OR
+paludismo OR
+malaria OR
+"fiebre amarilla" OR
+denge OR
+dengue OR
+lepr* OR
+ebola OR
+papiloma OR
+parto* OR
+embara* OR
+preñada* OR
+parir)) NOT (banda* OR crimin* OR crimen* OR (pago* NEAR/1 vacuna*))
+
+<<<Educación>>>
+
+((emigrant*	OR
+inmigrant*	OR
+migrant*	OR
+extranjer* 	OR
+venezola*	OR
+veneco*	OR
+veneca*	 OR
+educaci?n OR
+educat* OR
+alumn* OR
+(derecho NEAR/3 educaci?n) OR
+escuela* OR
+estudiant* OR
+cole OR
+colegio* OR
+"comunidad escolar" OR
+"consejo de curso" OR
+mineduc OR
+"ministerio de educación" OR
+NEM OR
+profesor* OR
+PSU OR
+"sala de clase" OR
+simce OR
+"nivel de enseñanza"
+
+
+
+) NEAR/7 (  "educaci?n gratis" OR
+"cobertura educativa" OR
+"derechos  escolares" OR
+convalidaci?n OR
+junaeb OR
+"ley de inclusion" OR
+(acceso NEAR/3 educaci?n) OR
+ingresar OR
+postula* OR
+inclusi?n OR
+"calidad academica" OR
+"calidad educativa" OR
+"convivencia escolar" OR
+"ranking colegio" OR
+certifica* OR
+bullying OR
+(deserci?n NEAR/3 escolar) OR
+(calidad NEAR/3 educaci?n) OR
+"jardin de infantes" OR
+"Jardines Infantil" OR
+"pre escolar" OR
+junji OR
+kinder OR
+"playground" OR
+"pre escolar" OR
+preescolar OR
+parvul* OR
+"sala cuna" OR
+analfabe* OR
+2x1 OR
+"enseñanza basica" OR
+preparatoria OR
+primaria OR
+(sin NEAR/3 estudios) OR
+(nivel NEAR/3 bajo) OR
+bachille* OR
+"enseñanza media" OR
+"high school" OR
+instituto* OR
+liceo* OR
+media OR
+secundaria OR
+carrera* OR
+preu OR
+preuniversitario* OR
+universi* OR
+postgrado* OR
+Profesional* OR
+pregrado))
+
+NOT ("Miguel Carrera" OR "República Dominicana" OR "clase media" OR "visa temporaria" OR "derecho humano" OR "Universidad de Concepción" OR "Universidad de Chile")
+
+
+<<<Xenofobia>>>
+

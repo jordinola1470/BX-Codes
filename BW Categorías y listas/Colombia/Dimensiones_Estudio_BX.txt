@@ -1,0 +1,514 @@
+<<<DIMENSIONES ESTUDIOS>>>
+
+<<<MIGRANTES Y TRABAJO>>>
+
+((emigrant*	OR
+inmigrant*	OR
+migrant*	OR
+extranjer* 	OR
+venezol*	OR
+veneco*	OR
+veneca*
+
+) NEAR/12 (  gheto* OR
+pie?a OR
+conventillo* OR
+"situaci?n de calle" OR
+campamento* OR
+toma* OR
+cite OR
+cité OR
+hacinamiento OR
+hacinad* OR
+acinamiento OR
+"media agua" OR
+mediagua OR
+"vivienda social" OR
+getto OR
+casa OR
+departamento* OR
+dpto OR
+arriendo* OR
+renta OR
+arrenda* OR
+viviend* OR
+alquil* OR
+"contrato de arriendo" OR
+"corredor de propiedades" OR
+depto* OR
+subsidio OR
+serviu OR
+"comprar casa" OR
+"libreta de ahorro" OR
+contrato OR
+villa* OR
+barrio*))
+
+<<<MIGRANTES Y EDUCACION>>>
+
+((emigrant*	OR refugiad* OR
+inmigrant*	OR
+migrant*	OR
+extranjer* 	OR
+brazuca*	OR
+ecuatoriñ*	OR
+colombian*	OR
+Bolivian*	OR
+Peruan*	OR
+Argentin*	OR
+ecuatorian*	OR
+paraguay*	OR
+dominican*	OR
+bolivian*	OR
+cuban*	OR
+chilen*	OR
+sirio*	OR
+brazil	OR
+uruguay	OR
+arabe*	OR
+haitian*	OR
+español*	OR
+peruca*	OR
+paragua*	OR
+bolita*	OR
+chilote*	OR
+Yorugua*	
+
+
+) NEAR/15("educacion gratis"	OR
+"enseñanza basica"	OR
+"enseñanza media"	OR
+"high school"	OR
+"jardin de infantes"	OR
+"Jardines Infantil"	OR
+"pre escolar"	OR
+"ranking colegio"	OR
+"sala cuna"	OR
+academica	OR
+alumn*	OR
+analfabe*	OR
+apoderad*	OR
+B?sica	OR
+bachille*	OR
+bullying	OR
+"calidad academica"	OR
+"calidad educativa"	OR
+carrera*	OR
+certifica*	OR
+"cobertura educativa"	OR
+cole	OR
+colegio*	OR
+"comunidad escolar"	OR
+"consejo de curso"	OR
+convalidaci?n	OR
+"convivencia escolar"	OR
+creole	OR
+"derechos  escolares"	OR
+deserci?n	OR
+
+educaci?n	OR
+escolar*	OR
+escuela*	OR
+estudiant*	OR
+facultad*	OR
+inspector*	OR
+instituto*	OR
+junaeb	OR
+junji	OR
+kinder	OR
+"ley de inclusion"	OR
+liceo*	OR
+maestro*	OR
+media	OR
+mineduc	OR
+"ministerio de educacion"	OR
+NEM	OR
+"nivel de enseñanza"	OR
+p?blic*	OR
+parvul*	OR
+PISA	OR
+postgrado*	OR
+"pre escolar"	OR
+preescolar	OR
+preparatoria	OR
+preu	OR
+preuniversitario*	OR
+primaria	OR
+profesor*	OR
+PSU	OR
+"sala de clase"	OR
+secundaria	OR
+simce	OR
+universi*	OR
+2x1	OR
+"playground")) OR ((convalida*	OR
+apostilla*	OR
+regulariz*	) NEAR/5 (estudio*	OR
+titulo	OR
+carrera	OR
+universidad	OR
+pregrado	OR
+postgrado	))  OR ((ingresar	OR
+postula*	OR
+derecho	OR
+inclusi?n	OR
+desercion	OR
+ense?anza	OR
+educaci?n	OR
+conseg*	) NEAR/4 ( colegio*	OR
+escuela*	OR
+primaria*	OR
+liceo*	OR
+cole	OR
+secundaria*	OR
+universidad*	OR
+escolar*	OR
+clase*	OR
+infante*	OR
+b?sica	OR
+m?dia	OR
+adulto*	OR
+nocturna	))
+
+NOT ( "universidade* extranje*")
+
+<<<MIGRANTES Y SALUD>>>
+
+((emigrant*	OR
+inmigrant*	OR
+migrant*	OR
+extranjer* 	OR
+brazuca*	OR
+ecuatoriñ*	OR
+colombian*	OR
+Bolivian*	OR
+Peruan*	OR
+Argentin*	OR
+ecuatorian*	OR
+paraguay*	OR
+dominican*	OR
+bolivian*	OR
+cuban*	OR
+chilen*	OR
+sirio*	OR
+brazil	OR
+uruguay	OR
+arabe*	OR
+haitian*	OR
+español*	OR
+peruca*	OR
+paragua*	OR
+bolita*	OR
+chilote*	OR
+Yorugua*	
+
+
+) NEAR/15(
+
+"derecho a la salud"	OR
+"plan de invierno "	OR
+"salud gratis "	OR
+"seguro social"	OR
+auge 	OR
+bacteria	OR
+brote	OR
+cancer	OR
+CANDIDIASI*	OR
+Cesfam	OR
+candida	OR
+cl?nica*	OR
+CLAMIDIA*	OR
+colera	OR
+Consultorio*	OR
+contagi*	OR
+enferm*	OR
+epidemia*	OR
+ets	OR
+GES 	OR
+GONORREA	OR
+hepatitis	OR
+HERPES	OR
+HPV	OR
+infeccio*	OR
+patogeno*	OR
+ITS	OR
+LADILLA*	OR
+lepra	OR
+"medicamentos gratis "	OR
+PAMI	OR
+papiloma	OR
+parto*	OR
+pingado*	OR
+remedio*	OR
+S?FILIS	OR
+sanitari*	OR
+SAPU 	OR
+SARNA	OR
+sida	OR
+sucio*	OR
+tifus	OR
+transmi*	OR
+vacun*	OR
+"centro de salud"	OR
+VIH	OR
+virus	OR
+vph	OR
+hospital*	OR
+"centro m?dico"	OR
+embara*	OR
+preñada*	OR
+tiña*	OR
+"enfermedades de transmision sexual"	OR
+clinica*	OR
+medicina	OR
+fonasa	OR
+medicamento*	OR
+saludmigrantes	OR
+parir	OR
+medextranjeros	OR
+paludismo	OR
+mental	OR
+samu	OR
+tuberculosis	OR
+tbc	 ) )
+ OR ((m?dico*	OR
+docto?r*	OR
+especialist*	OR
+cirujan*	OR
+facultativ*	OR
+doc	OR
+drs	) NEAR/3f(español*	OR
+hatiano*	OR
+ecuatoriñ*	OR
+colombian*	OR
+Bolivian*	OR
+Peruan*	OR
+Argentin*	OR
+ecuatorian*	OR
+paraguay*	OR
+dominican*	OR
+bolivian*	OR
+cuban*	OR
+chilen*	OR
+nacional*	OR
+brasile*	OR
+me?icano*	)) OR ((control* OR barrera* OR examen) NEAR/3f (sanitario OR medico OR salud)) 
+ NOT (abort* OR "clinic* extranjer*" OR laborator* OR (clinic* NEAR/5f extranjero) OR     "viajar al extranjero")
+
+<<<MIGRANTES Y VIVIENDA>>>
+
+((emigrant*	OR
+inmigrant*	OR
+migrant*	OR
+extranjer* 	OR
+brazuca*	OR
+ecuatoriñ*	OR
+colombian*	OR
+Bolivian*	OR
+Peruan*	OR
+Argentin*	OR
+ecuatorian*	OR
+paraguay*	OR
+dominican*	OR
+bolivian*	OR
+cuban*	OR
+chilen*	OR
+sirio*	OR
+brazil	OR
+uruguay	OR
+arabe*	OR
+haitian*	OR
+español*	OR
+peruca*	OR
+paragua*	OR
+bolita*	OR
+chilote*	OR
+Yorugua*	
+
+
+) NEAR/15 (casa*	OR
+departamento*	OR
+gheto*	OR
+arriendo*	OR
+renta	OR
+pie?a	OR
+arrenda*	OR
+viviend*	OR
+"casa propia"	OR
+toma*	OR
+conventillo*	OR
+pensi?n	OR
+"situaci?n de calle"	OR
+vag*	OR
+campamento*	OR
+alquil*	OR
+"contrato de arriendo"	OR
+"corredor de propiedades"	OR
+depto*	OR
+subsidio 	OR
+serviu	OR
+"comprar casa"	OR
+"libreta de ahorro vivienda"	OR
+cite	OR
+contrato	OR
+villa*	OR
+barrio*	OR
+"la pobla"	OR
+hacinamiento	OR
+acinamiento	OR
+"media agua"	OR
+"vivienda social"	))
+
+<<<MIGRANTES Y DELINCUENCIA>>>
+
+((emigrant*	OR
+inmigrant*	OR
+migrant*	OR
+extranjer* 	OR
+brazuca*	OR
+ecuatoriñ*	OR
+colombian*	OR
+Bolivian*	OR
+Peruan*	OR
+Argentin*	OR
+ecuatorian*	OR
+paraguay*	OR
+dominican*	OR
+bolivian*	OR
+cuban*	OR
+chilen*	OR
+sirio*	OR
+brazil	OR
+uruguay	OR
+arabe*	OR
+haitian*	OR
+español*	OR
+peruca*	OR
+paragua*	OR
+bolita*	OR
+chilote*	OR
+Yorugua*	
+
+
+) NEAR/12 (  delincuent*  OR
+"amigo de lo ajeno"	OR
+"privan de libertad"	OR
+"roba marido"	OR
+ambulante*	OR
+amp?n*	OR
+arma*	OR
+asesin*	OR
+atacante	OR
+balacera*	OR
+banda*	OR
+Buchone*	OR
+caco*	OR
+cafiolo*	OR
+cartel*	OR
+cascarer*	OR
+chango*	OR
+choro	OR
+chorros	OR
+coca	OR
+cocai*	OR
+cogotero	OR
+crimi*	OR
+cuero*	OR
+delict*	OR
+delin*	OR
+delinque*	OR
+delito*	OR
+denun*	OR
+deporta?*	OR
+detectives	OR
+drog*	OR
+encarcele	OR
+enjuicie	OR
+escruchante*	OR
+escruche*	OR
+estaf*	OR
+falsific*	OR
+fardero*	OR
+fiolo*	OR
+fufa*	OR
+guaricha*	OR
+guiña	OR
+imputad*	OR
+ladr?n*	OR
+lanza*	OR
+loba*	OR
+macanear*	OR
+mafia*	OR
+malandra*	OR
+Malandrin*	OR
+malandros	OR
+mara?a*	OR
+marero*	OR
+mari?uana	OR
+mat?n	OR
+mechero*	OR
+mota	OR
+MRK	OR
+narco*	OR
+padrote*	OR
+pepera*	OR
+portona?o*	OR
+prestamist*	OR
+prostitu*	OR
+puta*	OR
+puto*	OR
+raponero*	OR
+rastrillo*	OR
+ratero	OR
+roban	OR
+robo*	OR
+ruca	OR
+saque*	OR
+secuestro	OR
+sicario*	OR
+terrorismo	OR
+tigre*	OR
+trafic*	OR
+trola*	OR
+tumbador	OR
+tumbero*	OR
+uñones	OR
+viol*	OR
+zetas	
+	 )) NOT (hij* NEAR/3 puta*)
+
+<<<MIGRANTES ILEGALES>>>
+
+((emigrant*	OR
+inmigrant*	OR
+migrant*	OR
+extranjer* 	OR
+brazuca*	OR
+ecuatoriñ*	OR
+colombian*	OR
+Bolivian*	OR
+Peruan*	OR
+Argentin*	OR
+ecuatorian*	OR
+paraguay*	OR
+dominican*	OR
+bolivian*	OR
+cuban*	OR
+chilen*	OR
+sirio*	OR
+brazil	OR
+uruguay	OR
+arabe*	OR
+haitian*	OR
+español*	OR
+peruca*	OR
+paragua*	OR
+bolita*	OR
+chilote*	OR
+Yorugua*	
+
+
+) NEAR/12 (ilegal* OR ilegal OR
+deport*
+
+	 )) NOT (hij* NEAR/3 puta*)

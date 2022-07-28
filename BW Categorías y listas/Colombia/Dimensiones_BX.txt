@@ -1,0 +1,439 @@
+<<<Dimensiones Barómetro>>>
+
+<<<Clasismo>>>
+((emigrant*	OR
+inmigrant*	OR
+migrant*	OR
+extranjer* 	OR
+venezola*  OR veneco* OR veneca*
+) NEAR/12 (  pobr* OR
+indigent* OR
+mendicidad OR
+mendig* OR
+picante* OR
+flaite* OR
+rasca* OR
+cuma* OR
+flaitongo* OR
+chula* OR
+flayte* OR
+chulo* OR
+torrante OR
+atorrante OR
+roto* OR
+callamper* OR
+poblacional OR
+rota* OR
+pordioser? OR
+indigente* OR
+vagabund* OR
+"situaci?n de calle" OR
+retras* OR
+subdesarroll* OR
+barbarie OR
+inciviliza* OR
+atrasad* OR
+miserable*))
+
+NOT ("pobres haitianos" OR "pobre haitiano" OR "pobre inmigrante" OR "pobre argentino")
+
+<<<Racismo>>>
+
+((emigrant*	OR
+inmigrant*	OR
+migrant*	OR
+extranjer* 	OR
+venezola* OR veneco* OR veneca*
+) NEAR/12 (  chol* OR
+negr* OR
+indio* OR
+india* OR
+negrit* OR
+curiche OR
+mono* OR
+simio* OR
+macaco OR
+makako OR
+makaco OR
+macako OR
+esclav* OR
+sudaca* OR
+sudaka*))
+
+NOT ("chaleco de mono" OR "simio* argentino*" OR "monóxido de carbono" OR "quieren en Chile" OR "amigo cuando es forastero" OR "medio argentino")
+
+<<<Cultural>>>
+((emigrant*	OR
+inmigrant*	OR
+migrant*	OR
+extranjer* 	OR
+venezola* OR
+veneco* OR
+veneca*
+
+) NEAR/5 (  ruidos* OR
+griton* OR
+"mal educad?s" OR
+maleducad* OR
+incult* OR
+ignorant* OR
+conflictiv* OR
+peleador* OR
+irrespetuos* OR
+irrespeto* OR
+ebri* OR
+floj* OR
+curao* OR
+curad* OR
+borrach* OR
+aprovechador* OR
+aprovechad* OR
+pesad* OR
+creid* OR
+arrogante* OR
+chanta* OR
+farsante* OR
+mentiros* OR
+grupient* OR
+toller* OR
+hip?crita* OR
+c?nic* OR
+pelador* OR 
+cahuiner* OR
+cawiner* OR
+malo* OR
+incompeten* OR
+ineficien* OR
+violador*))
+
+NOT ((menos OR
+xenofobo* OR
+xen?fob?) 
+NEAR/3 (ruidos* OR
+griton* OR
+"mal educad?s" OR
+maleducad* OR
+incult* OR
+ignorant* OR
+conflict* OR
+peleador* OR
+irrespetuos* OR
+irrespeto* OR
+ebri* OR
+floj* OR
+curao* OR
+curad* OR
+borrach* OR
+aprovechador* OR
+aprovechad* OR
+pesad* OR
+creid* OR
+arrogante* OR
+chanta* OR
+farsante* OR
+mentiros* OR
+grupient* OR
+toller* OR
+hip?crita* OR
+c?nic* OR
+pelador* OR 
+cahuiner* OR
+cawiner* OR
+malo* OR
+incompeten* OR
+ineficien* OR
+violador*))
+
+NOT ("diputado boliviano" OR 
+"no todos los extranjeros son malos" OR 
+papel?n OR 
+mundial OR 
+pelota*)
+
+
+<<<Seguridad>>>
+
+((emigrant*	OR
+inmigrant*	OR
+migrant*	OR
+extranjer* 	OR
+venezol*	OR
+veneco*	OR
+veneca*
+
+
+) NEAR/12 (  delincuent*  OR
+"ajuste de cuentas" OR
+"ajuste de cuenta" OR
+"amigo de lo ajeno"	OR
+"cafe con piernas" OR
+"café con piernas" OR
+"casa de putas" OR
+"casa e puta" OR
+"casa e putas" OR
+"cuento del tio" OR
+"gato de campo" OR
+"gato e campo" OR
+"moto chorro" OR
+"moto shorro" OR
+"pasta base" OR
+"pato malo" OR
+"privan de libertad"	OR
+"roba marido"	OR
+"trata de blancas" OR
+agresor* OR
+ambulante*	OR
+amp?n*	OR
+angustia OR
+angurri* OR
+arma*	OR
+asesin*	OR
+atacante	OR
+bala OR
+bala?era*	OR
+bala?o* OR
+banda*	OR
+burdel OR
+burrer* OR
+burundanga OR
+vurundanga OR
+cabaret* OR
+casaeputa OR
+cartel*	OR
+chanta* OR
+choro	OR
+coca	OR
+cocai*	OR
+cogotero	OR
+coquer* OR
+cokero OR
+cokera OR
+crimi*	OR
+cuero*	OR
+cuma* OR
+dealer OR
+diler OR
+delict*	OR
+delin*	OR
+delinque*	OR
+delito*	OR
+denun*	OR
+deporta?*	OR
+detectives	OR
+drog*	OR
+encarcele	OR
+enjuicie	OR
+escor* OR
+estaf*	OR
+falsific*	OR
+falopa OR
+faloper* OR
+fuga OR
+guiña	OR
+homicid* OR
+imputad*	OR
+jalan* OR
+kuma OR
+ladr?n*	OR
+lanza*	OR
+macanear*	OR
+mafia*	OR
+malandra*	OR
+Malandrin*	OR
+malandros	OR
+mara?a*	OR
+marak* OR
+maraq* OR
+marero*	OR
+mari?uana	OR
+mat?n	OR
+metrall* OR
+mocha* OR
+mechero*	OR
+mocher* OR
+mota	OR
+motochorro OR
+MRK	OR
+narco*	OR
+pandill* OR
+pasta* OR
+pasturr* OR
+paster* OR
+pistol* OR
+pitan?a OR
+portona?o*	OR
+pres* OR
+prestamist*	OR
+prostitu*	OR
+punga* OR
+puta*	OR
+puto*	OR
+ratero	OR
+rev?lver OR
+riña OR
+roban	OR
+robo*	OR
+ruca	OR
+saque*	OR
+sake* OR
+scor* OR
+secuestro	OR
+sicario*	OR
+terrorismo	OR
+tiroteo OR
+tople* OR
+trafic*	OR
+trata OR
+tumbador	OR
+tumbero*	OR
+viol* OR
+wiña*)) NOT ((hij* NEAR/3 puta*) OR "Caribbean Digital")
+
+<<<Trabajo>>>
+
+((emigrant*	OR
+inmigrant*	OR
+migrant*	OR
+extranjer* 	OR
+venezol*	OR
+veneco*	OR
+veneca*	OR
+empl* OR
+pega* OR
+trabajador* OR
+labur* OR
+trabaj* OR
+actividad* OR
+labor* OR
+laburo OR
+"quitan trabajo" OR
+oficio* OR
+colocaci?n OR
+"roban trabajo" OR
+"robar trabajo" OR
+"quitar trabajo" OR
+desempleo OR
+cesant*
+
+
+) NEAR/12 (  irregular* OR
+explota* OR
+"vendedor ambulante" OR
+tempor* OR
+pituto* OR
+informal* OR
+"Venta ambulante" OR
+"contrato falso" OR
+"comprar contrato" OR
+polol* OR
+rebusq* OR
+coler* OR
+esclav* OR
+"talleres clandestino" OR
+"trata de persona" OR
+moler* OR
+super8 OR
+"super 8" OR
+guaguit* OR
+helados OR
+energ?ticas OR
+algod?n* OR
+negrer* OR
+negrear OR
+"vendedores ambulantes" OR
+callejer* OR
+micro* OR
+chocolate OR
+repartid* OR
+faena* OR
+obra* OR
+"no calificado" OR
+meser* OR
+Cajer* OR
+meser* OR
+pe?n* OR
+nana* OR
+emplead* OR
+niñera* OR
+camellar OR
+obrer* OR
+quehacer* OR
+tarea* OR
+"puertas adentro" OR
+niñer* OR
+nani* OR
+"baby siter" OR
+"baby sitter" OR
+babysitter OR
+contru* OR
+constru* OR
+bodega* OR
+bodegue* OR
+ch?fer OR
+conserje* OR
+concerje* OR
+jardiner* OR
+feria* OR
+vega OR
+rappi OR
+rapi OR
+"uber eats" OR
+"uber eat" OR
+cabify OR
+taxi* OR
+uber OR
+cabify OR
+cabifi OR
+aseo OR
+limpie?a OR
+vendedor* OR
+recepcion* OR
+bencina* OR
+"bomba de bencina" OR
+benciner* OR
+valledor OR
+lovalledor))
+
+<<<Vivienda>>>
+
+((emigrant*	OR
+inmigrant*	OR
+migrant*	OR
+extranjer* 	OR
+venezol*	OR
+veneco*	OR
+veneca*
+
+) NEAR/12 (  gheto* OR
+pie?a OR
+conventillo* OR
+"situaci?n de calle" OR
+campamento* OR
+toma* OR
+cite OR
+cité OR
+hacinamiento OR
+hacinad* OR
+acinamiento OR
+"media agua" OR
+mediagua OR
+"vivienda social" OR
+getto OR
+casa OR
+departamento* OR
+dpto OR
+arriendo* OR
+renta OR
+arrenda* OR
+viviend* OR
+alquil* OR
+"contrato de arriendo" OR
+"corredor de propiedades" OR
+depto* OR
+subsidio OR
+serviu OR
+"comprar casa" OR
+"libreta de ahorro" OR
+contrato OR
+villa* OR
+barrio*))

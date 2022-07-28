@@ -1,0 +1,37 @@
+<<<PETRO>>>
+
+(((cuando OR como OR pensa* OR donde OR quien* OR piens* OR va* OR necesita* OR esta* OR hay OR ay) NEAR/4F (hace* OR proteger* OR expulsar* OR ayudar* OR manten* OR integrar* OR sacar* OR saque* OR acabar* OR inseguridad* OR crimen* OR regula* OR irregul* OR deporta* OR invasi* OR afilia* OR mafia* OR miedo OR trabaj* OR oportunidad*)) NEAR/4F (venezuel* OR venezola* OR venec* OR migrant* OR chusm* OR socialist*))
+
+AND ("Gustavo Petro" OR ((Gustavo OR G) NEAR/2F Petro*) OR @petrogustavo OR (Candidato NEAR/3F (Petro OR Gustavo)) OR @FranciaMarquezM OR @AABenedetti OR @RoyBarreras OR petro* OR gustav*)
+
+NOT (RT OR deport* OR fut* OR gol* OR delanter* OR #likesforlike OR #followforfollowback OR #seguidores OR #siguemeytesigo OR #followme OR "Me hizo vivir" OR "patrimonio venezolano")
+
+<<<FICO>>>
+
+(((cuando OR como OR pensa* OR donde OR quien* OR piens* OR va* OR necesita* OR esta* OR hay OR ay) NEAR/4F (hace* OR proteger* OR expulsar* OR ayudar* OR manten* OR integrar* OR sacar* OR saque* OR acabar* OR inseguridad* OR crimen* OR regula* OR irregul* OR deporta* OR invasi* OR afilia* OR mafia* OR miedo OR trabaj* OR oportunidad*)) NEAR/4F (venezuel* OR venezola* OR venec* OR migrant* OR chusm* OR socialist*))
+
+AND ("Federico Gutierrez" OR ((Federico OR fico) NEAR/2F gutierre*) OR @FicoGutierrez OR (Candidato NEAR/3F (Fico OR Federico OR Gutierre*)) OR @Rodrigo_LaraS OR @EnriquePenalosa OR @AlejandroChar OR @davidbarguil OR @DilianFrancisca OR fico)
+
+NOT (RT OR deport* OR fut* OR gol* OR delanter* OR #likesforlike OR #followforfollowback OR #seguidores OR #siguemeytesigo OR #followme OR "Me hizo vivir" OR "patrimonio venezolano")
+
+<<<FAJARDO>>>
+
+(((cuando OR como OR pensa* OR donde OR quien* OR piens* OR va* OR necesita* OR esta* OR hay OR ay) NEAR/4F (hace* OR proteger* OR expulsar* OR ayudar* OR manten* OR integrar* OR sacar* OR saque* OR acabar* OR inseguridad* OR crimen* OR regula* OR irregul* OR deporta* OR invasi* OR afilia* OR mafia* OR miedo OR trabaj* OR oportunidad*)) NEAR/4F (venezuel* OR venezola* OR venec* OR migrant* OR chusm* OR socialist*))
+
+AND ("Sergio Fajardo" OR (sergio NEAR/2F fajardo) OR @sergio_fajardo OR (Candidato NEAR/3F (sergio OR fajardo OR tibio)) OR @CarlosFGalan OR @juanmanuelgalan OR @JERobledo OR @agaviriau OR @CarlosAmayaR OR galan OR Robledo)
+
+NOT (RT OR deport* OR fut* OR gol* OR delanter* OR #likesforlike OR #followforfollowback OR #seguidores OR #siguemeytesigo OR #followme OR "Me hizo vivir" OR "patrimonio venezolano")
+
+<<<RODOLFO>>>
+
+(((cuando OR como OR pensa* OR donde OR quien* OR piens* OR va* OR necesita* OR esta* OR hay OR ay) NEAR/4F (hace* OR proteger* OR expulsar* OR ayudar* OR manten* OR integrar* OR sacar* OR saque* OR acabar* OR inseguridad* OR crimen* OR regula* OR irregul* OR deporta* OR invasi* OR afilia* OR mafia* OR miedo OR trabaj* OR oportunidad*)) NEAR/4F (venezuel* OR venezola* OR venec* OR migrant* OR chusm* OR socialist*))
+
+AND ("Rodolfo Hernandez" OR (rodolfo NEAR/2F hernandez) OR @ingrodolfohdez OR (Candidato NEAR/3F (rodolfo OR hernandez OR rhernandez)) OR rodolfo OR @CastilloMarelen)
+
+NOT (RT OR deport* OR fut* OR gol* OR delanter* OR #likesforlike OR #followforfollowback OR #seguidores OR #siguemeytesigo OR #followme OR "Me hizo vivir" OR "patrimonio venezolano")
+
+<<<GENERAL>>>
+
+(((cuando OR como OR pensa* OR donde OR quien* OR piens* OR va* OR necesita* OR esta* OR hay OR ay) NEAR/4F (hace* OR proteger* OR expulsar* OR ayudar* OR manten* OR integrar* OR sacar* OR saque* OR acabar* OR inseguridad* OR crimen* OR regula* OR irregul* OR deporta* OR invasi* OR afilia* OR mafia* OR miedo OR trabaj* OR oportunidad*)) NEAR/4F (venezuel* OR venezola* OR venec* OR migrant* OR chusm* OR socialist*))
+
+NOT (RT OR deport* OR fut* OR gol* OR delanter* OR #likesforlike OR #followforfollowback OR #seguidores OR #siguemeytesigo OR #followme OR "Me hizo vivir" OR "patrimonio venezolano")

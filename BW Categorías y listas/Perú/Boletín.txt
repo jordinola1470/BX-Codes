@@ -1,0 +1,6 @@
+<<<Preguntas>>>
+(
+(c?mo OR d?nde OR cu?ndo OR porqu? OR "por que" OR "por qué") NEAR/10 (venezolan*)
+) NOT (
+homo* OR chile* OR haiti* OR destrui* OR tona OR mendiga* OR necesidad* OR afgan* OR verga OR gradas OR vara OR cocaina OR africa* OR lima OR peru* OR cuba* OR eliminatorias OR jav OR UNAEcuador OR MissUniverso OR (capital NEAR/2 semilla) OR panam* OR calamitos* OR asesin* OR tension* OR colaps* OR tequeñ* OR diaspor* OR debat* OR LauraTcomunica OR ñaña OR invade* OR invac* OR premio* OR pseudointelectual* OR futbol OR ((robo* OR roba* OR asalto* OR asalta* OR golpea*) NEAR/6 venezolan* ) OR delincuencia* OR (pagar NEAR/5 palo) OR trasero OR delinqu* OR DEA OR culito OR interpol OR chachai OR gay OR chaleque* OR colombia OR centroamerica* OR (banda* NEAR/3 venezolan*) OR juego* OR marvel OR messi OR revés OR abogaduch* OR prende OR hampon* OR criminal* OR delincuen* OR rappi OR deporta* OR medalla* OR conmebol OR libertadores OR kata
+)

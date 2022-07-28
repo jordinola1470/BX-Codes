@@ -1,0 +1,19 @@
+<<<Palabras núcleo>>>
+ra?a OR (color NEAR/2f ((piel OR tez OR cara) OR mole OR cart?n OR cazuela OR mugre OR humilde OR olmeca)) OR raci* OR priet* OR indi* OR razi*
+
+OR 
+
+<<<Jerga racista>>>
+negr* OR moren* OR nac? OR percudid* OR naquet*
+
+OR
+
+<<<Origen>>>
+otom? OR zapotec* OR maya OR nahuati OR mextec*
+
+OR
+
+<<<Violencia a mayorías>>>
+blanquit* OR albin*
+
+NOT (author:@morenamx)

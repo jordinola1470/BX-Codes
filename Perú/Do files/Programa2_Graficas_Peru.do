@@ -31,12 +31,20 @@ drop _m
 *Ya que tenemos la información, la juntamos con la info de los mapas
 tempfile Xenofobia 
 save `Xenofobia'
+
+
+* Realizar eliminaciíon de departamentos con baja conectividad
+
+use "C:\Users\JOSE\Desktop\Trabajo\BX\Perú\Do files\clean_data.dta", clear
+keep if Region == "Callao" | Region == "Ica" | Region == "La Libertad" | Region == "Lambayeque" | Region == "Lima" | Region == "Lima Province" | Region == "Madre de Dios" | Region == "Moquegua" | Region == "Piura" | Region == "Tacna" | Region == "Ancash" 
+
+save "C:\Users\JOSE\Desktop\Trabajo\BX\Perú\Do files\clean_data_conectada.dta", replace
   
 cd "C:\Users\JOSE\Desktop\Trabajo\BX\Perú\Input\departamentos"
 use Peru, clear
 describe 
 rename id area
-merge 1:1 area using "C:\Users\JOSE\Desktop\Trabajo\BX\Perú\Do files\clean_data.dta"
+merge 1:1 area using "C:\Users\JOSE\Desktop\Trabajo\BX\Perú\Do files\clean_data_conectada.dta"
 drop _m
 
 *3. Creacion de mapas
@@ -46,11 +54,15 @@ drop _m
 help spmap
 
 
-spmap tasa_xenofobia_2021 using perucoordinates, id(area) fcolor(Oranges) ndfcolor(dimgray) legstyle (1) clm(custom) clb(0 0.05 0.1 0.2 0.7)  name(Grafica_1, replace)
+spmap tasa_xenofobia_2021 using perucoordinates, id(area) fcolor(Oranges) ndfcolor(dimgray) legstyle (1) name(Grafica_1, replace)
 
+*clm(custom) clb(0 0.05 0.1 0.2 0.7)
 
 *Mes Actual
-spmap tasa_xenofobia_2022 using perucoordinates, id(area) fcolor(Oranges) ndfcolor(dimgray) legstyle (1) clm(custom) clb(0 0.05 0.1 0.2 0.7) name(Grafica_2, replace) // title (Tasa Xenofobia Marzo)
+spmap tasa_xenofobia_2022 using perucoordinates, id(area) fcolor(Oranges) ndfcolor(dimgray) legstyle (1) name(Grafica_2, replace) // title (Tasa Xenofobia Marzo)
+
+*clm(custom) clb(0 0.05 0.1 0.2 0.7)
+
 gr export "$user/Datos Informe/2021/Septiembre/MapaTasaXenofobiaSeptiembrePeru.jpg", replace //cambiar mes
 
 *spmap Incremento using colomcoordinates, id(id) fcolor(Oranges) ndfcolor(dimgray) legstyle (1)name(Grafica_3, replace) title (Incremento)
