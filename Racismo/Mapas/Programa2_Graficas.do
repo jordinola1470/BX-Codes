@@ -13,7 +13,7 @@ cd "$user"
 *Mes t-2
 *CAMBIAR MES
 import delimited "Base_estados_mexicanos_completa.csv", encoding(UTF-8) clear
-rename estado Region 
+rename region Region
 gen area = 01 if Region == "Aguascalientes" 
 replace area = 02 if Region == "Baja California" 
 replace area = 03 if Region == "Baja California Sur"   
@@ -47,8 +47,8 @@ replace area = 30 if Region == "Veracruz"
 replace area = 31 if Region == "Yucatán"  
 replace area = 32 if Region == "Zacatecas"
 drop if area == .
-egen total_negativo = sum(count_negativo)
-gen odio_nacional = count_negativo/total_negativo
+egen total_negativo = sum(racismo)
+gen odio_nacional = racismo/total_negativo
 save "Base_estados_mexicanos_completa.dta", replace
 tempfile Xenofobia 
 save `Xenofobia'
