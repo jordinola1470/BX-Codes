@@ -42,7 +42,7 @@ def barra_carga(tiempo, usuarios):
 
 ### INPUT ###
 ## '/Users/diegoalejandrobermudezsierra/OneDrive - Universidad de los Andes/BX/Botometer/base_3_4.xlsx'
-print('Ejemplo:', '/Users/diegobermudez/BX/author_list.xlsx')
+print('Ejemplo:', '/Users/diegobermudez/BX/agosto_22_23_BM.xlsx')
 path = input('Digite el path del archivo (.xlsx) con los autores -- ')
 usuario = input('Digite su usuarios de twitter sin @ -- ')
 contraseña = input('Digite su contraseña de twitter -- ')
@@ -50,7 +50,9 @@ contraseña = input('Digite su contraseña de twitter -- ')
 folder = os.path.dirname(path)
 
 autores = pd.read_excel(path)
-autores = list(autores['autores'])
+autores = list(set(autores['autores']))
+autores = [autor for autor in autores if str(autor) != 'nan']
+print(len(autores))
 
 webpage = r'https://botometer.osome.iu.edu/' # edit me
 

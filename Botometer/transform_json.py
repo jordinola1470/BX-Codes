@@ -12,7 +12,7 @@ import pandas as pd
 
   
 # Opening JSON file
-path = r'C:\Users\JOSE\Desktop\Botometer\botometer 1.json'
+path = r'C:\Users\JOSE\Desktop\Trabajo\BX\Botometer\autores agosto 1.json'
 f = open(path,)
   
 data = json.load(f)
@@ -43,9 +43,9 @@ for i in range(1, len(data)):
     df = pd.concat([df, base])
     
 
-path = r"C:\Users\JOSE\Desktop\Botometer"
-for h in range(1, 6):
-    file_path = ''.join([path, '/botometer ', str(h), '.json'])
+path = r"C:\Users\JOSE\Desktop\Trabajo\BX\Botometer"
+for h in range(1, 5):
+    file_path = ''.join([path, '/autores agosto ', str(h), '.json'])
     print(file_path)
     f = open(file_path,)
     data = json.load(f)
@@ -64,9 +64,9 @@ for h in range(1, 6):
         df = pd.concat([df, base])
 
 df = df.reset_index(drop = True)
-df.to_excel(''.join([path, '/info_bots.xlsx']), index=True)       
-original = pd.read_excel('autores_destitucion.xlsx')      
-bots = pd.read_excel('info_bots.xlsx')
+df.to_excel(''.join([path, '/base_bm.xlsx']), index=True)       
+original = pd.read_excel('agosto_22_23_BM.xlsx')      
+bots = pd.read_excel('base_bm.xlsx')
 base_merge = pd.merge(original, bots, how='left', left_on='autores', right_on='screen_name')
 
 
@@ -77,6 +77,6 @@ recortada["Valores"] = round(recortada["Valores"] * 100)
 base_1 = pd.read_excel("base_p1.xlsx")
 final_merge = base_1.append(recortada)
 final_merge.to_excel("Base_completa.xlsx")
-recortada.to_excel("Base_mitad_2.xlsx")
-base_merge.to_excel('Base_1_final.xlsx')        
+recortada.to_excel("Base_mitad_2_bm.xlsx")
+base_merge.to_excel('Base_bm_merge_final.xlsx')        
         

@@ -1,0 +1,2 @@
+<<<Detonantes y principales actores de la campaña>>>
+#JuntanzaÉtnica OR author:AcdiVocaCol OR author:USAID_Colombia OR #PetronioCorazónPacífico OR #FiestasSanPacho OR #FiestasdeSanPacho OR ((diversidad* NEAR/2F etni*) NEAR/10F (juntanz* OR #JuntanzaÉtnica)) OR ((#indígenas OR #afrocolombianos) NEAR/10F (juntanz* OR #JuntanzaÉtnica))

@@ -1,0 +1,150 @@
+<<<Referencias basicas venezolanos>>>
+(
+
+    (venezolan* OR 
+    veneca* OR 
+    veneco* OR 
+    venesolan* OR 
+    ((invasor OR invad* OR aprovechad* OR malandr* OR ursurpa* OR rater* OR hampon* OR ampon*) NEAR/7F (migrante* OR veneco* OR vnk* OR veneca* OR extranjer* OR venezolan* OR venesolan* OR imigran* OR inmigran*)) OR
+    (oleada* NEAR/1F (migrante* OR imigran* OR inmigran* OR veneco* OR vnk* OR venca* OR extranjer* OR venezolan* OR venesolan* OR venezuel*))
+    )
+
+OR 
+ (hermano* NEAR/1F venezolan*)
+ OR
+
+<<<Migración ilegal y desplazamiento>>>
+(author:(MinGobiernoEc OR LassoGuillermo OR PoliciaEcuador) AND (
+(veneco* OR veneca* OR venezolan*
+OR 
+((invasor OR invaden OR aprovechad* OR malandr* OR usurpa* OR rater*) NEAR/7F (migrante OR inmigran* OR imigrant* OR veneco* OR veneca* OR extranje* OR venezolan)) 
+OR
+(oleada* NEAR/1 (migrante* OR imigrante* OR veneco* OR veneca* OR extranje* OR venezolan* OR venesolan* OR venezuel* OR Vnk*)))
+))
+
+OR 
+
+((@MinGobiernoEc OR @LassoGuillermo OR lasso OR @PoliciaEcuador) NEAR/7F ((veneco* OR veneca* OR venesolan* OR venezola* OR vnk* OR aprovechad* OR malandr* OR invasor* OR invadi* OR usurpa*) OR 
+(oleada* NEAR/1 (imigrante* OR inmigrante* OR migrante* OR migracion* OR imigracion* OR veneco* OR veneca* OR extranjer*)))
+)
+
+<<<ELiminar del query >>>
+NOT 
+(
+    <<<Contenido sexual>>>
+    ((culeo OR culeada) NEAR/1 mejor) OR 
+    (saca NEAR/1 leche) OR 
+    (venezol* NEAR/1 (tragon* OR rico OR rica OR hermos*)) OR   
+    follar OR masturbar* OR encovi OR 
+    (culo* NEAR/4 abierto*)OR 
+    (llename NEAR/5 culo*)OR 
+    (acaba* NEAR/4 culo) OR
+    (que NEAR/5 culo*) OR
+    (culo* NEAR/7 aguante) OR
+    (rico* NEAR/9 culo*) OR
+    (leche NEAR/9 cul*) OR
+    (culo* NEAR/8 redondo) OR
+    (culo* NEAR/20 teta*) OR
+    (culo* NEAR/9 4) OR
+    (probar NEAR/9 culo*) OR
+    (prepago NEAR/10 sexo) OR
+    sabrosa OR 
+    ((nalgona OR tetona OR culo*) NEAR/2f (nalgon* OR tetona OR culo*)) OR
+
+<<<random>>>
+    tinder OR
+
+<<<encuestas >>>
+    (crisis NEAR/1 venezuela) OR (encuesta NEAR/2 condiciones) OR
+
+<<<Contenido Político>>>
+    (financi* NEAR/1 campaña) OR 
+    (director* NEAR/1 (centro NEAR/1 democratico)) OR 
+    dictadura OR 
+    ((en OR ira OR compatriota* OR estudiar OR rid?culo OR patrimonio OR cargo* OR desde OR "en el" OR vista OR votar OR financia* OR conocer ) NEAR/6 (extranjero)) OR
+
+    ((oposicion OR gobierno OR dictadura) NEAR/1 (venezolan* OR venezuela)) OR 
+    d OR 
+    turquia OR 
+    narcoterroris* OR 
+    (narco NEAR/1f (terroris* OR chavis* OR dictadura)) OR 
+    maduro OR 
+    guaido OR 
+    16J OR 
+    tortura OR 
+    "libertad al pueblo venezolano" OR 
+    (asamblea NEAR/1f nacional) OR 
+    (diputad* NEAR/1 venezolan*) OR 
+    constituyente OR 
+    (preso* NEAR/1f politico*) OR 
+    tirano OR 
+    regimen OR 
+    chavis* OR 
+    sajarov OR 
+    farc OR 
+    chave? OR 
+    jolie OR 
+    odebrecht OR 
+    #rusia2018 OR 
+    narcotrafico OR 
+    fidel OR 
+    castrochavis* OR 
+    (papa NEAR/1f francisco) OR 
+    bolivar OR 
+    trump OR 
+    expropia* OR 
+    (eleccion* NEAR/1 libre*) OR 
+    (cese NEAR/1 usuarpacion) OR 
+    (grupo NEAR/1 lima) OR 
+    (gobierno NEAR/1 transicion) OR 
+    ((opositor* OR oposicion*) NEAR/1 (venezolan* OR venezuela)) OR 
+    (alejandro NEAR/1 guerra) OR 
+    ((lobo OR lobito) NEAR/1 guerra) OR 
+    ((estado OR gobierno) NEAR/1 (venezolan* OR venezuela)) OR 
+    (usurpacion NEAR/1 (venezolana OR venezuela OR gobierno)) OR 
+    (malandr* NEAR/2 (petro OR izquierd*)) OR
+    (Peru NEAR/10 contagio) OR (socialismo NEAR/10 venezolano) OR
+    (medicos NEAR/10 cubanos) OR
+    (@jguaido NEAR/3 oposicion) OR
+    (guerrilleros NEAR/20 virus) OR
+    (Coalicion NEAR/20 cubanos) OR
+    (Vacuna NEAR/1 Rusa) OR
+    (( Peru NEAR/10 contagio)OR(socialismo NEAR/10 venezolano)OR(medicos NEAR/10 cubanos)) OR
+    (darles NEAR/9 necesitadas) OR
+    (ganas NEAR/8 directo) OR
+    (victoria NEAR/4 venezuela) OR
+    (Lauderdale) OR
+    (incauta* NEAR/3 rifles) OR
+    (Ayala NEAR/10 democracia) OR
+    (campaña NEAR/10 300) OR
+    (trinidad NEAR/1 tobago) OR
+    (congo) OR
+    ( (1.800 OR 1800) NEAR/3 millones) OR
+    (consulado NEAR/3 saqueado) OR
+    (red NEAR/5 trafico) OR
+    (asesinada NEAR/5 EEUU) OR
+    (Aruba NEAR/5 delincuentes) OR
+<<<Variedad o shit chat>>>
+    (año NEAR/1f nuevo) OR 
+    pernil OR
+    ñeñe OR
+    (jorge NEAR/1 alfaro) OR
+    (gasolina NEAR/5 enfrentamiento*) OR
+    (450 NEAR/5 sanear) OR
+    (sucursal NEAR/3 mercantil) OR 
+    fanb OR 
+    pdvsa OR 
+    ((soberanía OR beisbol OR economia OR moneda OR petroleo OR petroler* OR futbol* OR equipo OR "segunda division" OR playa OR seleccion OR rock OR musica OR emisora* OR periodista* OR constitucion OR actor OR iglesia* OR portal OR modelo OR andes OR prensa OR actriz OR crudo OR delantero) NEAR/2 (venezuel* OR venezolan*))
+) <<<cierra el NOT >>>
+
+NOT
+(
+    tokio OR 
+    tokyo OR 
+    jjoo OR 
+    ((juegos OR jugador) NEAR/1f olimpicos) OR
+    #tokyo202? OR 
+    #Juegosolimpicos
+) <<<cierra el NOT de juegos olimpicos >>>
+
+)<<<cierra todo el query >>>
