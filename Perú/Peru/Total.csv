@@ -1,34 +1,35 @@
 "Chart Data Export",
-"Dimension 1","queries"
+"Dimension 1","all"
 "Dimension 2","regions"
 "Aggregate","volume"
-"Start Date","Wed Aug 25 04:00:00 UTC 2021"
-"End Date","Sun Sep 26 03:00:00 UTC 2021"
+"Start Date","Sat Jan 01 03:00:00 UTC 2022"
+"End Date","Sun Oct 02 03:00:00 UTC 2022"
 "Project Id","1998309817"
-"Query Id","[2000574935]"
+"Query Id","[2001085571]"
 
-"queries","[Q] Barómetro Migrante Perú"
-"Lima Province, Peru",14566
-"La Libertad, Peru",689
-"Arequipa, Peru",315
-"Piura, Peru",161
-"Lambayeque, Peru",126
-"Cusco, Peru",103
-"Ica, Peru",92
-"Lima, Peru",63
-"Cajamarca, Peru",58
-"Tacna, Peru",57
-"Ancash, Peru",38
-"Loreto, Peru",37
-"San Martín, Peru",30
-"Junín, Peru",25
-"Callao, Peru",22
-"Huánuco, Peru",20
-"Tumbes, Peru",18
-"Ucayali, Peru",13
-"Madre de Dios, Peru",10
-"Moquegua, Peru",10
-"Ayacucho, Peru",3
-"Pasco, Peru",2
-"Amazonas, Peru",1
-"Huancavelica, Peru",1
+"all","all"
+"Lima Province, Peru",73494
+"La Libertad, Peru",4452
+"Arequipa, Peru",1552
+"Piura, Peru",915
+"Lambayeque, Peru",724
+"Ica, Peru",680
+"Cusco, Peru",564
+"Ancash, Peru",402
+"Tacna, Peru",355
+"Loreto, Peru",336
+"Cajamarca, Peru",307
+"Lima, Peru",297
+"Junín, Peru",187
+"Huánuco, Peru",151
+"San Martín, Peru",138
+"Moquegua, Peru",118
+"Tumbes, Peru",83
+"Ucayali, Peru",78
+"Callao, Peru",68
+"Ayacucho, Peru",48
+"Madre de Dios, Peru",35
+"Amazonas, Peru",13
+"Apurímac, Peru",9
+"Huancavelica, Peru",4
+"Pasco, Peru",1

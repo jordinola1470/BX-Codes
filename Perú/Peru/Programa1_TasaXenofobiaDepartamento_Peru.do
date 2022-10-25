@@ -59,6 +59,7 @@ tempfile Xenofobia
 save `Xenofobia'
 
 **Ahora pego todos los archivos de categorias
+/*
 local archivos Educacion Salud Trabajo Seguridad
 foreach x of local archivos {
 *Xenofobia 
@@ -108,7 +109,7 @@ save `Xenofobia'
 
 tempfile Xenofobia 
 save `Xenofobia'
-
+*/
 
 **Ahora uso los totales para sacar la tasa de mensajes xenofobos 
 *CAMBIAR MES
@@ -123,7 +124,7 @@ drop if Region == "Lima"
 
 gen area = 1 if Region == "Amazonas" 
 replace area = 2 if Region == "Ancash"  
-replace area = 3 if Region == "Apurimac"  
+replace area = 3 if Region == "Apurímac"  
 replace area = 4 if Region == "Arequipa"  
 replace area = 5 if Region == "Ayacucho"  
 replace area = 6 if Region == "Cajamarca"  
@@ -150,6 +151,11 @@ replace area = 25 if Region == "Ucayali"
 
 drop v2
 merge 1:1 area using `Xenofobia'
+
+replace Xenofobia = 0 if Xenofobia == .
+gen tasa_xenofobia = Xenofobia/Total
+
+export delimited using "tasa_xenofobia_ene_oct_2022.csv", replace
 
 *Generar Tasas Xenofobia, Salud, Trabjo, Eduacion
 
