@@ -33,7 +33,7 @@ tempfile Xenofobia
 save `Xenofobia'
   
 **cd "$user/Input/departamentos"
-import delimited using "tasa_xenofobia_ene_oct_2022.csv", bindquote(nobind) stripquote(yes) encoding(UTF-8) clear
+import delimited using "tasa_integracion_ene_oct_2022.csv", bindquote(nobind) stripquote(yes) encoding(UTF-8) clear
 cap drop _merge
 tempfile Xenofobia 
 save `Xenofobia'
@@ -47,8 +47,8 @@ drop _m
 
 *Mes anterior
 
-spmap tasa_xenofobia using perucoordinates, id(area) fcolor(Blues) ndfcolor(dimgray) legstyle (1) name(Grafica_1, replace)
-gr export "MapaTasaXenofobiaeneoctPeru.jpg", replace //cambiar mes
+spmap tasa_xenofobia using perucoordinates, id(area) fcolor(Greens) ndfcolor(dimgray) legstyle (1) name(Grafica_1, replace)
+gr export "MapaTasaintegracioneneoctPeru.jpg", replace //cambiar mes
 
 *Mes Actual
 spmap tasaxenofobia2 using perucoordinates, id(area) fcolor(Blues) ndfcolor(dimgray) legstyle (1)name(Grafica_2, replace) // title (Tasa Xenofobia Marzo)

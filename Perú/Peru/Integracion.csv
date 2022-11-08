@@ -2,26 +2,33 @@
 "Dimension 1","queries"
 "Dimension 2","regions"
 "Aggregate","volume"
-"Start Date","Wed Aug 25 04:00:00 UTC 2021"
-"End Date","Sun Sep 26 03:00:00 UTC 2021"
+"Start Date","Sat Jan 01 03:00:00 UTC 2022"
+"End Date","Sun Oct 02 03:00:00 UTC 2022"
 "Project Id","1998309817"
-"Category","Integración"
-"Query Id","[2000574935]"
+"Any Category","Integración"
+"Query Id","[2001085571]"
 
-"queries","[Q] Barómetro Migrante Perú"
-"Lima Province, Peru",862
-"La Libertad, Peru",103
-"Arequipa, Peru",19
-"Cusco, Peru",10
-"Lambayeque, Peru",8
-"Cajamarca, Peru",7
-"Ica, Peru",7
-"Piura, Peru",7
-"Lima, Peru",6
-"Tacna, Peru",5
-"Junín, Peru",4
-"Ancash, Peru",3
-"Huánuco, Peru",2
-"Loreto, Peru",2
-"Callao, Peru",1
-"Madre de Dios, Peru",1
+"queries","[Q]Barómetro Migrante Perú"
+"Lima Province, Peru",6780
+"La Libertad, Peru",753
+"Arequipa, Peru",138
+"Lambayeque, Peru",74
+"Piura, Peru",62
+"Cusco, Peru",59
+"Ica, Peru",52
+"Cajamarca, Peru",49
+"Ancash, Peru",42
+"Lima, Peru",31
+"Loreto, Peru",27
+"Junín, Peru",25
+"Tacna, Peru",21
+"Huánuco, Peru",12
+"Moquegua, Peru",10
+"San Martín, Peru",10
+"Tumbes, Peru",8
+"Ayacucho, Peru",6
+"Callao, Peru",6
+"Madre de Dios, Peru",6
+"Ucayali, Peru",4
+"Amazonas, Peru",3
+"Apurímac, Peru",1

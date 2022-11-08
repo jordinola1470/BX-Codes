@@ -17,7 +17,7 @@ cd "C:\Users\JOSE\Desktop\Trabajo\BX\Perú\Peru"
 *Xenofobia 
 ****
 *CAMBIAR MES
-import delimited "Xenofobia.csv", bindquote(nobind) stripquote(yes) encoding(UTF-8) rowrange(12) colrange(1) clear 
+import delimited "Integracion.csv", bindquote(nobind) stripquote(yes) encoding(UTF-8) rowrange(12) colrange(1) clear 
 rename (v1 v3) (Region Xenofobia)
 
 *Falta la region de APURIMA, las regiones están ordenadas alfabeticamente en el id del mapa
@@ -155,7 +155,7 @@ merge 1:1 area using `Xenofobia'
 replace Xenofobia = 0 if Xenofobia == .
 gen tasa_xenofobia = Xenofobia/Total
 
-export delimited using "tasa_xenofobia_ene_oct_2022.csv", replace
+export delimited using "tasa_integracion_ene_oct_2022.csv", replace
 
 *Generar Tasas Xenofobia, Salud, Trabjo, Eduacion
 
