@@ -53,8 +53,10 @@ replace area = 73 if Region == "Tolima"
 replace area = 88 if Region == "San Andrés y Providencia"  
 replace area = 86 if Region == "Putumayo"  
 replace area = 95 if Region == "Guaviare"
-replace area = 96 if Region == "Guainía"   
-replace area = 99 if Region == "Vichada"  
+replace area = 96 if Region == "Guainía"
+replace area = 98 if Region == "Amazonas"     
+replace area = 99 if Region == "Vichada"
+replace area = 97 if Region == "Vaupes"   
 tempfile datos
 save `datos' 
 
