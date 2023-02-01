@@ -39,7 +39,7 @@ def barra_carga(tiempo):
             sys.stdout.flush()
     sys.stdout.write("]\n")
     return
-URL = r'https://www.tiktok.com/@lacarito2022/video/7121466607200701701'
+URL = r'https://www.tiktok.com/@bebyshg/video/7121055397770808581'
 driver = webdriver.Chrome(service = Service(ChromeDriverManager().install()))
 driver.get(URL)
 print("Esperando aparición y resolución de Captcha....")
@@ -48,7 +48,7 @@ barra_carga(15)
 # Recorrido externo comments
 comentarios_recorridos = list()
 centinela = True
-comment_externo = 1197
+comment_externo = 1
 comment_interno = 1
 base_final = pd.DataFrame()
 seccion_comments = '/html/body/div[2]/div[3]/div[2]/div[1]/div[2]/div[1]/div[3]/div[2]/div['
@@ -89,7 +89,7 @@ def comments_disponibles(pos_interna, pos_externa):
   else:
     pos_interna = 1
   return pos_interna
-scroll_down(5,60,1080)
+scroll_down(5,1,1080)
 while centinela == True:
   try:
     try:
@@ -101,7 +101,12 @@ while centinela == True:
     # Level 1 comment principal
     level = 1
     # Detectar el display name del usuario
-    display_name = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[1]/div[1]/a/span").text
+    try:
+      display_name = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[1]/div[1]/a/span").text
+      print(display_name)
+    except:
+      centinela = False
+      break
     # Detectar nombre de usuario
     username_thread = driver.find_element(by=By.PARTIAL_LINK_TEXT,value=display_name).get_attribute("href")
     # Detectar comment principal
@@ -122,7 +127,7 @@ while centinela == True:
         result = answers[answers.find('(')+1:answers.find(')')]
       except:
         answers = 0
-        results = 0
+        result = 0
     answers = int(result)
     d = {"level": level, "display_name": display_name, "username":username_thread, "comment":comment, "fecha": fecha, "likes":int(likes), "replies":answers, "Thread_author": username_thread}
     base_temporal = pd.DataFrame(data=d,index=[comment_externo])
@@ -206,7 +211,7 @@ while centinela == True:
     comentarios_recorridos.append(comment_externo)
     comment_externo = comment_externo + 1
     print("Acabé el comment " + str(comment_externo - 1) + ' perteneciente al usuario: ' + str(display_name))
-    if comment_externo % 10 == 1:
+    if comment_externo % 15 == 1:
       scroll_down(10, 1, 1080)
       try:
         driver.find_element(By.XPATH, value= '/html/body/div[8]/div/div[1]/div[2]')
@@ -221,6 +226,6 @@ while centinela == True:
     with open(r'C:\Users\JOSE\Desktop\Trabajo\BX\Tiktok\progreso.txt', 'w') as fp:
       fp.write(str(comentarios_recorridos[-1]))
     print(f'Error {type(e)}: e')
-    base_final.to_excel('Base_tiktok_final_1.xlsx')
+    base_final.to_excel('Base_tiktok_bebyshg.xlsx')
     
-base_final.to_excel('Base_tiktok_final_1.xlsx')   
+base_final.to_excel('Base_tiktok_bebyshg.xlsx')   
