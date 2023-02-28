@@ -1,7 +1,7 @@
 clear all
 global user "C:\Users\JOSE\Desktop\Trabajo\BX\Capturas de Venezolanos"
-cd "C:\Users\JOSE\Desktop\Trabajo\BX\Capturas de Venezolanos"
-
+*cd "C:\Users\JOSE\Desktop\Trabajo\BX\Capturas de Venezolanos"
+cd "D:\Trabajo\Barómetro\BX\Capturas de Venezolanos"
 import excel "Participación_migrantes_crimen.xlsx", firstrow 
 
 gen area = 5 if Region == "Antioquia" 
@@ -81,7 +81,7 @@ replace area = 97 if Region == "VAUPES"
 merge 1:1 area using `datos', nogen 
 
 save "Base_entera.dta", replace
-
+replace TasaparticipaciónenCrimen = 0 if TasaparticipaciónenCrimen == .
 spmap TasaparticipaciónenCrimen using colomcoordinates, id(id) fcolor(Reds) ndfcolor(dimgray) legstyle (1) name(Grafica_2, replace)
 
 graph export "mapa.png", replace
