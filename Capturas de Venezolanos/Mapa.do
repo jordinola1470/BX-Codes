@@ -1,7 +1,7 @@
 clear all
 global user "C:\Users\JOSE\Desktop\Trabajo\BX\Capturas de Venezolanos"
-*cd "C:\Users\JOSE\Desktop\Trabajo\BX\Capturas de Venezolanos"
-cd "D:\Trabajo\Barómetro\BX\Capturas de Venezolanos"
+cd "C:\Users\JOSE\Desktop\Trabajo\BX\Capturas de Venezolanos"
+*cd "D:\Trabajo\Barómetro\BX\Capturas de Venezolanos"
 import excel "Participación_migrantes_crimen.xlsx", firstrow 
 
 gen area = 5 if Region == "Antioquia" 
@@ -57,7 +57,7 @@ replace area = 41 if Region == "HUILA"
 replace area = 47 if Region == "MAGDALENA"   
 replace area = 50 if Region == "META"  
 replace area = 54 if Region == "NORTE DE SANTANDER"  
-replace area = 52 if id == 17
+replace area = 52 if id == 17 /* Nariño*/
 replace area = 70 if Region == "SUCRE"  
 replace area = 19 if Region == "CAUCA"  
 replace area = 44 if Region == "LA GUAJIRA"  
