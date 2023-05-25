@@ -39,7 +39,7 @@ def barra_carga(tiempo):
             sys.stdout.flush()
     sys.stdout.write("]\n")
     return
-URL = r'https://www.tiktok.com/@bebyshg/video/7121055397770808581'
+URL = r'https://www.tiktok.com/@medicossinfronteras/video/7164445151929093382'
 driver = webdriver.Chrome(service = Service(ChromeDriverManager().install()))
 driver.get(URL)
 print("Esperando aparición y resolución de Captcha....")
@@ -51,7 +51,7 @@ centinela = True
 comment_externo = 1
 comment_interno = 1
 base_final = pd.DataFrame()
-seccion_comments = '/html/body/div[2]/div[3]/div[2]/div[1]/div[2]/div[1]/div[3]/div[2]/div['
+seccion_comments = '/html/body/div[1]/div[3]/div[2]/div/div[2]/div[1]/div[3]/div[2]/div/div['
 def scroll_down(load_time, times, bottom):
   i = 0
   # Get scroll height
@@ -90,10 +90,26 @@ def comments_disponibles(pos_interna, pos_externa):
     pos_interna = 1
   return pos_interna
 scroll_down(5,1,1080)
+def validacion(seccion_comments, primer_usuario, driver):
+  try:
+    driver.find_element(By.XPATH, value = seccion_comments + '1]')
+    print('Sección de comments encontrada')
+  except:
+    print('No pudo seleccionar la sección de comments')
+  try:
+    driver.find_element(By.XPATH, value = primer_usuario).text
+  except:
+    print('No pudo capturar el primer username del primer comment')
+  return None
+try:
+  validacion(seccion_comments,'/html/body/div[1]/div[3]/div[2]/div/div[2]/div[1]/div[3]/div[2]/div/div[1]/div/div[1]/a/span',driver)
+except:
+  print('El bot no pasa las validaciones para correr')
+  sys.exit(1)
 while centinela == True:
   try:
     try:
-      driver.find_element(By.XPATH, value= '/html/body/div[8]/div/div[1]/div[2]')
+      driver.find_element(By.XPATH, value= '/html/body/div[7]/div/div[1]/div[2]/div')
       print('Hay captcha...')
       time.sleep(30)
     except:
@@ -133,6 +149,7 @@ while centinela == True:
     base_temporal = pd.DataFrame(data=d,index=[comment_externo])
     base_final = pd.concat([base_final, base_temporal], ignore_index=True)
     # Ahora entramos a las respuestas del comentario
+    seccion_replies = '/html/body/div[1]/div[3]/div[2]/div/div[2]/div/div[4]/div[2]/div/div['
     # Veces que debemos de hacer click para obtener replies
     times_click = math.ceil(answers/3)
     lista_click = [1] + [x+3 for x in range(answers) if (x % 3 == 1)]
@@ -142,40 +159,40 @@ while centinela == True:
       for t in lista_click:
         if t == 1:
           try:
-            driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[2]/div/p").click()
+            driver.find_element(By.XPATH, value = seccion_replies + str(comment_externo) + "]/div[2]/div/p").click()
           except:
             # Fallamos por poco, scrolldown a little
             scroll_down(3, 1, 1000)
             try:
-              driver.find_element(By.XPATH, value= '/html/body/div[8]/div/div[1]/div[2]')
+              driver.find_element(By.XPATH, value= '/html/body/div[7]/div/div[1]/div[2]/div')
               print('Hay captcha...')
               time.sleep(30)
             except:
               pass
             try:
-              driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[2]/div/p").click()
+              driver.find_element(By.XPATH, value = seccion_replies + str(comment_externo) + "]/div[2]/div/p").click()
             except:
               continue
         else:
           try:
-            driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[2]/div[" + str(t) + "]/p[1]").click()
+            driver.find_element(By.XPATH, value = seccion_replies + str(comment_externo) + "]/div[2]/div[" + str(t) + "]/p[1]").click()
           except:
             # Fallamos por poco, scrolldown a little
             scroll_down(3, 1, 1000)
             try:
-              driver.find_element(By.XPATH, value= '/html/body/div[8]/div/div[1]/div[2]')
+              driver.find_element(By.XPATH, value= '/html/body/div[7]/div/div[1]/div[2]/div')
               print('Hay captcha...')
               time.sleep(30)
             except:
               pass
             try:
-              driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[2]/div/p").click()
+              driver.find_element(By.XPATH, value = seccion_replies + str(comment_externo) + "]/div[2]/div/p").click()
             # El botón pudo desaparecer para este momento
             except:
               continue
         scroll_down(3, 1, 850)
         try:
-          driver.find_element(By.XPATH, value= '/html/body/div[8]/div/div[1]/div[2]')
+          driver.find_element(By.XPATH, value= '/html/body/div[7]/div/div[1]/div[2]/div')
           print('Hay captcha...')
           time.sleep(30)
         except:
@@ -192,15 +209,15 @@ while centinela == True:
         for j in range(1, valor_alcanzable+1):
           # Detectar el display name del usuario
           try:
-            display_name = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[2]/div[" + str(j) + "]/div[1]/a").text
+            display_name = driver.find_element(By.XPATH, value = seccion_replies + str(comment_externo) + "]/div[2]/div[" + str(j) + "]/div[1]/a").text
             # Detectar nombre de usuario
             username = driver.find_element(by=By.PARTIAL_LINK_TEXT,value=display_name).get_attribute("href")
             # Detectar comment principal
-            comment = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[2]/div[" + str(j) + "]/div[1]/p[1]").text
+            comment = driver.find_element(By.XPATH, value = seccion_replies + str(comment_externo) + "]/div[2]/div[" + str(j) + "]/div[1]/p[1]").text
             # Detectar fecha
-            fecha = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[2]/div["+ str(j) + "]/div[1]/p[2]/span[1]").text
+            fecha = driver.find_element(By.XPATH, value = seccion_replies + str(comment_externo) + "]/div[2]/div["+ str(j) + "]/div[1]/p[2]/span[1]").text
             # Detectar número de likes
-            likes = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[2]/div["+ str(j) + "]/div[1]/p[2]/div/span").text
+            likes = driver.find_element(By.XPATH, value = seccion_replies + str(comment_externo) + "]/div[2]/div["+ str(j) + "]/div[1]/p[2]/div/span").text
             # Detectar el número de respuestas
             reply = 0
             d = {"level": level, "display_name": display_name, "username":username, "comment":comment, "fecha": fecha, "likes":int(likes), "replies":reply, "Thread_author":username_thread}
@@ -214,7 +231,7 @@ while centinela == True:
     if comment_externo % 15 == 1:
       scroll_down(10, 1, 1080)
       try:
-        driver.find_element(By.XPATH, value= '/html/body/div[8]/div/div[1]/div[2]')
+        driver.find_element(By.XPATH, value= '/html/body/div[7]/div/div[1]/div[2]/div')
         print('Hay captcha...')
         time.sleep(30)
       except:
@@ -226,6 +243,6 @@ while centinela == True:
     with open(r'C:\Users\JOSE\Desktop\Trabajo\BX\Tiktok\progreso.txt', 'w') as fp:
       fp.write(str(comentarios_recorridos[-1]))
     print(f'Error {type(e)}: e')
-    base_final.to_excel('Base_tiktok_bebyshg.xlsx')
+    base_final.to_excel('Base_tiktok_medicossinfronteras.xlsx')
     
-base_final.to_excel('Base_tiktok_bebyshg.xlsx')   
+base_final.to_excel('Base_tiktok_medicossinfronteras.xlsx')   

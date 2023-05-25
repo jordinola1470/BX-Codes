@@ -2,11 +2,12 @@ clear all
 global user "C:\Users\JOSE\Desktop\Trabajo\BX\Capturas de Venezolanos"
 cd "C:\Users\JOSE\Desktop\Trabajo\BX\Capturas de Venezolanos"
 *cd "D:\Trabajo\Barómetro\BX\Capturas de Venezolanos"
-import excel "Participación_migrantes_crimen.xlsx", firstrow 
+import excel "Participación_migrantes_crimen_ciudades_mas_dptos.xlsx", firstrow 
 
 gen area = 5 if Region == "Antioquia" 
 replace area = 8 if Region == "Atlantico"  
 replace area =11 if Region == "Bogotá"  
+**# Bookmark #1
 replace area = 13 if Region == "Bolivar"  
 replace area = 15 if Region == "Boyacá"  
 replace area = 17 if Region == "Caldas"  
@@ -81,7 +82,7 @@ replace area = 97 if Region == "VAUPES"
 merge 1:1 area using `datos', nogen 
 
 save "Base_entera.dta", replace
-replace TasaparticipaciónenCrimen = 0 if TasaparticipaciónenCrimen == .
-spmap TasaparticipaciónenCrimen using colomcoordinates, id(id) fcolor(Reds) ndfcolor(dimgray) legstyle (1) name(Grafica_2, replace)
+replace Participaciónmigrantesencrime = 0 if Participaciónmigrantesencrime == .
+spmap Participaciónmigrantesencrime using colomcoordinates, id(id) fcolor(Reds) ndfcolor(dimgray) legstyle (1) name(Grafica_2, replace)
 
 graph export "mapa.png", replace
