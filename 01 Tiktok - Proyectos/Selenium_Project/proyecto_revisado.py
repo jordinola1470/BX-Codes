@@ -79,20 +79,27 @@ base_final = pd.DataFrame()
 
 
 #BOT - CODIGO DE EJECUCION GENERAL
+
+'''
+El codigo tiene como punto de referencia el container del comentario, accede a los datos del usuario por medio de un loop,
+en el cual se extraen los datos basicos, incluidos el numero de replies y likes, para posteriormente 
+ingresar al contenedor de las respuestas de su comentario. Repitiendo un la misma logida de recuperacion de datos que el proceso anterior
+'''
+
 while centinela == True:
   try:
     ##Validacion de acceso a la URL
     try:
       driver.find_element(By.XPATH, value= '/html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div[1]')
-      print('Hay captcha...')
-      time.sleep(30)
+      print('Hay captcha ... INICIO')
+      time.sleep(20)
     except:
       pass
 
     ##NAVEGACION Y DATOS PRINCIPALES    
     # Level 1 comment principal
     level = 1
-    # Detectar el display name del usuario
+    # Detectar el display name del usuario (i)
     try:
       display_name = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[1]/div[1]/a/span").text
       print(display_name)
@@ -136,19 +143,21 @@ while centinela == True:
     base_temporal = pd.DataFrame(data=d,index=[comment_externo])
     base_final = pd.concat([base_final, base_temporal], ignore_index=True)
 
-    # VALIDACIONES
+    # VALIDACIONES DATOS BASICOS 
 
     # print(base_final)
     # base_final.to_excel('Base_tiktok_medicossinfronteras.xlsx')- 
 
 ##################################################################################################################
 
-    ## RESPUESTAS A LOS COMENTARIOS
-    # Respuestas del comentario
+    ## RESPUESTAS A LOS COMENTARIOS 
+    # Respuestas del comentarios (i)
+
     # seccion_replies = '/html/body/div[1]/div[3]/div[2]/div/div[2]/div/div[4]/div[2]/div/div['
     seccion_replies = '/html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div['
 
-    # Apertura total de las respuestas - (veces que debemos de hacer click para aperturar el contenedor y tener todo en el DOM)
+    # APERTURA
+    # total de las respuestas - (veces que debemos de hacer click para aperturar el contenedor y tener todo en el DOM)
     times_click = math.ceil(answers/3)
     lista_click = [1] + [x+3 for x in range(answers) if (x % 3 == 1)]
     lista_click = lista_click[:len(lista_click)-1]
@@ -164,14 +173,13 @@ while centinela == True:
             # /html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div[1]/div[2]/div[2]/p
             # /html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div[1]/div[2]/div[4]/p[1]
             # /html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div[1]/div[2]/div[7]/p[1]
-            
           except:
             # Fallamos por poco, scrolldown a little
             scroll_down(3, 1, 1000)
             try:
               driver.find_element(By.XPATH, value= '/html/body/div[7]/div/div[1]/div[2]/div')
-              print('Hay captcha...')
-              time.sleep(30)
+              print('Hay captcha ... t=1 Mini Scroll Respuesta Comentarios')
+              time.sleep(20)
             except:
               pass
             try:
@@ -179,18 +187,16 @@ while centinela == True:
             except:
               continue
 
-        else:
+        else: 
           try:
             driver.find_element(By.XPATH, value = seccion_replies + str(comment_externo) + "]/div[2]/div[" + str(t) + "]/p[1]").click()
-#REVISAR 183
-
           except:
             # Fallamos por poco, scrolldown a little
             scroll_down(3, 1, 1000,driver)
             try:
               driver.find_element(By.XPATH, value= '/html/body/div[7]/div/div[1]/div[2]/div')
-              print('Hay captcha...')
-              time.sleep(30)
+              print('Hay captcha ... t!=1 Mini Scroll Respuesta Comentarios')
+              time.sleep(20)
             except:
               pass
             try:
@@ -198,20 +204,30 @@ while centinela == True:
             # El botón pudo desaparecer para este momento
             except:
               continue
+            #fin del loop IF  
+
+##################################################################################################################
+  
+        #Estrategia de tiempo, una vez terminada la apertura de replies por medio de los puntos de referencia del ciclo for, 
+        #se espera la carga en el DOM para comenzar con la recopilacion de la inforamcion de los replies
+
         scroll_down(3, 1, 850,driver)
         try:
           driver.find_element(By.XPATH, value= '/html/body/div[7]/div/div[1]/div[2]/div')
-          print('Hay captcha...')
-          time.sleep(30)
+          print('Hay captcha ... Fin de Iteracion Respuesta a Comentarios')
+          time.sleep(20)
         except:
           pass
 
-      # Recopilamos las replies
+      
+      # RECOPILACION      
+      # De las replies
       if comment_externo > 1:
         valor_alcanzable = comments_disponibles(answers, comment_externo,seccion_comments,driver)
         if valor_alcanzable == 0:
           answers = 1
           valor_alcanzable = answers
+
       else:
         valor_alcanzable = answers+1
       if answers != 0:
@@ -234,6 +250,7 @@ while centinela == True:
             base_final = pd.concat([base_final, base_temporal], ignore_index=True)
           except:
             continue
+
     comentarios_recorridos.append(comment_externo)
 
     comment_externo = comment_externo + 1

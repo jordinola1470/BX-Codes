@@ -1500,3 +1500,7 @@ console.error: (new TypeError("state.hideToggleDeferredTask is null", "resource:
 JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/bric-captcha-ttweb/core-captcha/va/2.31.0/1.0.0.119/static/js/vendors~sld.js, line 1: Script terminated by timeout at:
 405/bn/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/bric-captcha-ttweb/core-captcha/va/2.31.0/1.0.0.119/static/js/vendors~sld.js:1:12662
 
+1692391256387	Marionette	INFO	Stopped listening on port 59882
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692391257811	Marionette	INFO	Stopped listening on port 60074
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

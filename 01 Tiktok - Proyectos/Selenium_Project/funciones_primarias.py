@@ -21,7 +21,6 @@ def validacion(driver,seccion_comments):
 
 #COMENTARIOS DISPONIBLES - FUNCION
 def comments_disponibles(pos_interna, pos_externa,driver, seccion_comments):
-  print(pos_interna)
   if pos_interna > 0:
     try:
       display_name = driver.find_element(By.XPATH, value = seccion_comments + str(pos_externa) + "]/div[2]/div[" + str(pos_interna) + "]/div[1]/a")
