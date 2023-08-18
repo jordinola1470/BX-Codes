@@ -18,7 +18,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 #MODULO PROPIOS
-from funciones_primarias import validacion
+from funciones_primarias import validacion, comments_disponibles
 from funciones_secundarias import barra_carga,scroll_down
 
 '''Protocoloes SSL'''
@@ -27,6 +27,8 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 
+
+'''-------------------------------------------------------------------------------------------------------'''
 
 '''
 OBJETO DRIVER 
@@ -40,39 +42,35 @@ firefox_profile.set_preference("browser.download.folderList", 2)
 firefox_profile.set_preference("browser.download.dir", 'descargas')
 firefox_profile.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/pdf")
 
-# Navegador Firefox con el perfil configurado
+#Navegador Firefox con el perfil configurado
 driver = webdriver.Firefox(options=firefox_profile)
 
 #Instancia driver -  Acceso a la URL
 PAGINA_URL = 'https://www.tiktok.com/@mariannycorderoo/video/7234287154828938501?_r=1&_t=8eux31EZrok'
 driver.get(PAGINA_URL)
 
+
 '''-------------------------------------------------------------------------------------------------------'''
-#
-#
-#
-''' VALIDACION 
 
-Funcionamiento de acceso a la URL, navegacion y captura de segmentos del en X.Path
-Prueba del Scroll y de la Estrategia de Espera para la carga de mensajes
-
+''' 
+VALIDACION 
+  - Funcionamiento de acceso a la URL, navegacion y captura de segmentos del en X.Path
+  - Prueba del Scroll y de la Estrategia de Espera para la carga de mensajes
 '''
 seccion_comments = '/html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div['
 
-barra_carga(20)
-scroll_down(5,1,1080,driver)
-validacion(driver,seccion_comments)
+#Ejecucion de las pruebas de validacion, comentarlas cuando se aplique la aplicacion general
+
+# barra_carga(20)
+# scroll_down(5,1,1080,driver)
+# validacion(driver,seccion_comments)
 
 '''-------------------------------------------------------------------------------------------------------'''
-#
-#
-#
 
+
+'''PROGRAMA WEB SCRAPING TIK-TOK'''
 
 #VARIABLES PARA EL SCRAPING
-
-
-
 comentarios_recorridos = list()
 centinela = True
 comment_externo = 1
@@ -80,15 +78,18 @@ comment_interno = 1
 base_final = pd.DataFrame()
 
 
-
+#BOT - CODIGO DE EJECUCION GENERAL
 while centinela == True:
   try:
+    ##Validacion de acceso a la URL
     try:
-      driver.find_element(By.XPATH, value= '/html/body/div[7]/div/div[1]/div[2]/div')
+      driver.find_element(By.XPATH, value= '/html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div[1]')
       print('Hay captcha...')
-      time.sleep(30)
+      time.sleep(15)
     except:
       pass
+
+    ##NAVEGACION Y DATOS PRINCIPALES    
     # Level 1 comment principal
     level = 1
     # Detectar el display name del usuario
@@ -98,43 +99,70 @@ while centinela == True:
     except:
       centinela = False
       break
-    # Detectar nombre de usuario
+    # 01 Detectar nombre de usuario
     username_thread = driver.find_element(by=By.PARTIAL_LINK_TEXT,value=display_name).get_attribute("href")
-    # Detectar comment principal
+    # 02 Detectar comment principal
     comment = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[1]/div[1]/p[1]/span").text
-    # Detectar fecha
+    # 03 Detectar fecha
     fecha = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[1]/div[1]/p[2]/span[1]").text
-    # Detectar número de likes
+    # 04 Detectar número de likes
     likes = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[1]/div[1]/p[2]/div/span").text
-    # Detectar el número de respuestas
+    # 05 Detectar el número de respuestas
     try:
-      answers = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[2]/div/p").text
-      result = answers[answers.find('(')+1:answers.find(')')]
+      answers = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[2]/div[2]/p").text
+      
+      #result = answers[answers.find('(')+1 : answers.find(')')]
+      # result = ''.join([char for char in answers if char.isdigit()])
+      print(f'Numero de Respuestas {answers} ')
+    
     except:
       traceback.print_exc
       try:
         scroll_down(3, 1, 1030)
         answers = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[2]/div/p").text
-        result = answers[answers.find('(')+1:answers.find(')')]
+        # result = answers[answers.find('(')+1:answers.find(')')]
+        result = ''.join([char for char in answers if char.isdigit()])
+        
       except:
         answers = 0
         result = 0
-    answers = int(result)
+
+    # answers = int(result)
+    # print(f'Validacion Respuestas {answers}')
+    
     d = {"level": level, "display_name": display_name, "username":username_thread, "comment":comment, "fecha": fecha, "likes":int(likes), "replies":answers, "Thread_author": username_thread}
     base_temporal = pd.DataFrame(data=d,index=[comment_externo])
     base_final = pd.concat([base_final, base_temporal], ignore_index=True)
-    # Ahora entramos a las respuestas del comentario
-    seccion_replies = '/html/body/div[1]/div[3]/div[2]/div/div[2]/div/div[4]/div[2]/div/div['
-    # Veces que debemos de hacer click para obtener replies
+
+    # VALIDACIONES
+
+    # print(base_final)
+    # base_final.to_excel('Base_tiktok_medicossinfronteras.xlsx')- 
+
+##################################################################################################################
+
+    ## RESPUESTAS A LOS COMENTARIOS
+    # Respuestas del comentario
+    # seccion_replies = '/html/body/div[1]/div[3]/div[2]/div/div[2]/div/div[4]/div[2]/div/div['
+    seccion_replies = '/html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div['
+
+    # Apertura total de las respuestas - (veces que debemos de hacer click para aperturar el contenedor y tener todo en el DOM)
     times_click = math.ceil(answers/3)
     lista_click = [1] + [x+3 for x in range(answers) if (x % 3 == 1)]
     lista_click = lista_click[:len(lista_click)-1]
+
+    print(lista_click)
+
     if times_click != 0:
       level = 2
       for t in lista_click:
         if t == 1:
           try:
-            driver.find_element(By.XPATH, value = seccion_replies + str(comment_externo) + "]/div[2]/div/p").click()
+            driver.find_element(By.XPATH, value = seccion_replies + str(comment_externo) + "]/div[2]/div[2]/p").click()
+            # /html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div[1]/div[2]/div[2]/p
+            # /html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div[1]/div[2]/div[4]/p[1]
+            # /html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div[1]/div[2]/div[7]/p[1]
+            
           except:
             # Fallamos por poco, scrolldown a little
             scroll_down(3, 1, 1000)
@@ -148,6 +176,7 @@ while centinela == True:
               driver.find_element(By.XPATH, value = seccion_replies + str(comment_externo) + "]/div[2]/div/p").click()
             except:
               continue
+
         else:
           try:
             driver.find_element(By.XPATH, value = seccion_replies + str(comment_externo) + "]/div[2]/div[" + str(t) + "]/p[1]").click()
@@ -172,9 +201,12 @@ while centinela == True:
           time.sleep(30)
         except:
           pass
+
+
+
       # Recopilamos las replies
       if comment_externo > 1:
-        valor_alcanzable = comments_disponibles(answers, comment_externo)
+        valor_alcanzable = comments_disponibles(answers, comment_externo,driver)
         if valor_alcanzable == 0:
           answers = 1
           valor_alcanzable = answers
@@ -201,23 +233,29 @@ while centinela == True:
           except:
             continue
     comentarios_recorridos.append(comment_externo)
+
     comment_externo = comment_externo + 1
+    
+##################################################################################################################
+
+    ##  REPORTE POR PANTALLA DEL PROGRESO DEL BOT
     print("Acabé el comment " + str(comment_externo - 1) + ' perteneciente al usuario: ' + str(display_name))
     if comment_externo % 15 == 1:
-      scroll_down(10, 1, 1080)
+      scroll_down(10, 1, 1080,driver)
       try:
         driver.find_element(By.XPATH, value= '/html/body/div[7]/div/div[1]/div[2]/div')
         print('Hay captcha...')
         time.sleep(30)
       except:
         pass
+
   except Exception as e:
     traceback.print_exc()
     time.sleep(50)
     scroll_down(3, 1, 850)
+
     with open(r'C:\Users\JOSE\Desktop\Trabajo\BX\Tiktok\progreso.txt', 'w') as fp:
       fp.write(str(comentarios_recorridos[-1]))
     print(f'Error {type(e)}: e')
+
     base_final.to_excel('Base_tiktok_medicossinfronteras.xlsx')
-    
-base_final.to_excel('Base_tiktok_medicossinfronteras.xlsx')   
