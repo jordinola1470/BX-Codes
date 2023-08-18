@@ -1134,3 +1134,278 @@ DevTools listening on ws://127.0.0.1:57166/devtools/browser/afc981de-eff2-475c-a
 JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-d801507b.bf8ddbab2f33f1a272dc.js line 2 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692382301836	geckodriver	INFO	Listening on 127.0.0.1:57380
+1692382302355	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/45/_6zmnwkn6638scvzx_7pz4_m0000gn/T/rust_mozprofileGhCtpO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692382303006	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692382303425	Marionette	INFO	Listening on port 57386
+WebDriver BiDi listening on ws://127.0.0.1:57381
+Read port: 57386
+1692382303739	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57381/devtools/browser/7b1eb3cf-f6f1-41ef-9bdd-3672781492b8
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-d801507b.bf8ddbab2f33f1a272dc.js line 2 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-async-eb873fff.4854cd21d570d45122c4.js, line 2: Script terminated by timeout at:
+value@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-async-eb873fff.4854cd21d570d45122c4.js:2:62138
+value@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-async-eb873fff.4854cd21d570d45122c4.js:2:66410
+value@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-async-eb873fff.4854cd21d570d45122c4.js:2:68606
+removeEvent@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/5400.e4be4ba3288e853e1825.js:8:254548
+7535/Ne</</<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/5400.e4be4ba3288e853e1825.js:8:288012
+Uu@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:108285
+56800/t.unstable_runWithPriority@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:143148
+Ha@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:49055
+zu@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:107883
+yu@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:99411
+46955/qa/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:49278
+56800/t.unstable_runWithPriority@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:143148
+Ha@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:49055
+qa@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:49225
+Za@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:49158
+du@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:96891
+Ol@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:68654
+e@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/webapp-desktop.d151bc153c4fa22f3d6f.js:35:155330
+
+1692382374880	geckodriver	INFO	Listening on 127.0.0.1:57505
+1692382375392	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/45/_6zmnwkn6638scvzx_7pz4_m0000gn/T/rust_mozprofileSMiXcU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692382376028	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692382376446	Marionette	INFO	Listening on port 57511
+WebDriver BiDi listening on ws://127.0.0.1:57506
+Read port: 57511
+1692382376760	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57506/devtools/browser/8dd0534a-d613-43f5-bc64-dd820685bf75
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-d801507b.bf8ddbab2f33f1a272dc.js line 2 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692382396969	Marionette	INFO	Stopped listening on port 57386
+1692382398514	Marionette	INFO	Stopped listening on port 57175
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692382676657	Marionette	INFO	Stopped listening on port 57511
+1692382681539	geckodriver	INFO	Listening on 127.0.0.1:57727
+1692382682061	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/45/_6zmnwkn6638scvzx_7pz4_m0000gn/T/rust_mozprofile69xE5s"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692382682528	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692382682937	Marionette	INFO	Listening on port 57735
+WebDriver BiDi listening on ws://127.0.0.1:57728
+Read port: 57735
+1692382683270	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57728/devtools/browser/6d25ba18-d9ab-4884-931d-ee5c36f7659a
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-d801507b.bf8ddbab2f33f1a272dc.js line 2 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AADZzQmKAQAApAci586pkCXN-ZRbntwnH7IRh_NxHqo8Tympj_17OEBEHxRy&hTc6j8Njvn--z=q, line 1: Script terminated by timeout at:
+Aa<@https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AADZzQmKAQAApAci586pkCXN-ZRbntwnH7IRh_NxHqo8Tympj_17OEBEHxRy&hTc6j8Njvn--z=q:1:100468
+Ae@https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AADZzQmKAQAApAci586pkCXN-ZRbntwnH7IRh_NxHqo8Tympj_17OEBEHxRy&hTc6j8Njvn--z=q:1:77099
+Ab@https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AADZzQmKAQAApAci586pkCXN-ZRbntwnH7IRh_NxHqo8Tympj_17OEBEHxRy&hTc6j8Njvn--z=q:1:299070
+L@https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AADZzQmKAQAApAci586pkCXN-ZRbntwnH7IRh_NxHqo8Tympj_17OEBEHxRy&hTc6j8Njvn--z=q:1:298948
+notify@https://s20.tiktokcdn.com/tiktok/common/init.js?cache:1:865
+g@https://s20.tiktokcdn.com/tiktok/common/init.js?cache:1:2960
+Kt/value/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok_privacy_protection_framework/loader/1.0.0.484/index.js:4:23322
+value@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok_privacy_protection_framework/loader/1.0.0.484/index.js:4:23871
+c/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/slardar/fe/sdk_lite/browser-nocookie.lite.1.2.26.sg.js:1:2266
+value/XMLHttpRequest.prototype.send@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/secsdk/secsdk-lastest.umd.js:5:71374
+_0x4ba643@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js:1:536096
+_0x8e8767@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js:1:531689
+_0x2c88c6</_0x3da459/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:48121
+_0xcb0c6e@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:7435
+q@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:26942
+J@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:27823
+79108/e.prototype.send/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:32849
+79108/e.prototype.send@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:32435
+79108/e.prototype.sliceEvent@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:30844
+79108/e.prototype.report@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:30595
+79108/e.prototype.event/this.reportTimeout<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:29589
+
+1692382868459	geckodriver	INFO	Listening on 127.0.0.1:57925
+1692382868985	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/45/_6zmnwkn6638scvzx_7pz4_m0000gn/T/rust_mozprofileyk3Alp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692382869640	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692382870060	Marionette	INFO	Listening on port 57933
+WebDriver BiDi listening on ws://127.0.0.1:57926
+Read port: 57933
+1692382870357	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57926/devtools/browser/95c80482-c3b5-4805-a43e-204a2b026590
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-d801507b.bf8ddbab2f33f1a272dc.js line 2 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js, line 2: Script terminated by timeout at:
+56800/t.unstable_now@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:139509
+56800/w.port1.onmessage@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:140906
+
+1692383037545	Marionette	INFO	Stopped listening on port 57933
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692383040647	Marionette	INFO	Stopped listening on port 57735
+1692383044874	geckodriver	INFO	Listening on 127.0.0.1:58092
+1692383045399	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/45/_6zmnwkn6638scvzx_7pz4_m0000gn/T/rust_mozprofile6VH0tS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692383046049	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692383046462	Marionette	INFO	Listening on port 58102
+WebDriver BiDi listening on ws://127.0.0.1:58093
+Read port: 58102
+1692383046765	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58093/devtools/browser/75c775b5-fe94-4fb3-b7a8-e934b11910e0
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-d801507b.bf8ddbab2f33f1a272dc.js line 2 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-sigi.9cfbf33dbca2627d4be3.js, line 1: Script terminated by timeout at:
+fz@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-sigi.9cfbf33dbca2627d4be3.js:1:23827
+x@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/5400.e4be4ba3288e853e1825.js:1:9025
+7535/Ye<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/5400.e4be4ba3288e853e1825.js:8:296192
+ll@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:63356
+$l@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:71500
+Qi@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:117491
+Tu@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:102730
+_u@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:102658
+Cu@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:102519
+yu@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:99506
+46955/qa/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:49278
+56800/t.unstable_runWithPriority@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:143148
+Ha@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:49055
+qa@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:49225
+Za@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:49158
+du@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:96891
+Ol@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:68654
+50297/g/i<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/5400.e4be4ba3288e853e1825.js:1:7052
+a@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/webapp-desktop.d151bc153c4fa22f3d6f.js:35:129924
+
+1692383163718	Marionette	INFO	Stopped listening on port 58102
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692383175168	geckodriver	INFO	Listening on 127.0.0.1:58235
+1692383175697	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/45/_6zmnwkn6638scvzx_7pz4_m0000gn/T/rust_mozprofilekxY39L"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692383176365	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692383176784	Marionette	INFO	Listening on port 58245
+WebDriver BiDi listening on ws://127.0.0.1:58236
+Read port: 58245
+1692383177080	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58236/devtools/browser/df964322-b617-4eda-8e3a-f60a1864ae18
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-d801507b.bf8ddbab2f33f1a272dc.js line 2 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 1459: TypeError: state.hideToggleDeferredTask is null
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/bric-captcha-ttweb/core-captcha/va/2.31.0/1.0.0.119/static/js/vendors~sld.js, line 1: Script terminated by timeout at:
+405/bn/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/bric-captcha-ttweb/core-captcha/va/2.31.0/1.0.0.119/static/js/vendors~sld.js:1:12662
+
+1692383242744	geckodriver	INFO	Listening on 127.0.0.1:58374
+1692383243266	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/45/_6zmnwkn6638scvzx_7pz4_m0000gn/T/rust_mozprofileA33Vp2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692383243901	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692383244310	Marionette	INFO	Listening on port 58385
+Read port: 58385
+WebDriver BiDi listening on ws://127.0.0.1:58375
+1692383244402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58375/devtools/browser/eea295f5-ece5-4b8a-988c-4a2431957293
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692383250759	Marionette	INFO	Stopped listening on port 58245
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-d801507b.bf8ddbab2f33f1a272dc.js line 2 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1692385486936	geckodriver	INFO	Listening on 127.0.0.1:59242
+1692385487464	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/45/_6zmnwkn6638scvzx_7pz4_m0000gn/T/rust_mozprofile2y6eIl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692385488316	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692385488785	Marionette	INFO	Listening on port 59254
+WebDriver BiDi listening on ws://127.0.0.1:59243
+Read port: 59254
+1692385488973	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59243/devtools/browser/4ba45eaa-be30-4a04-b6f5-53b815357f5a
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-d801507b.bf8ddbab2f33f1a272dc.js line 2 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AIDHBAqKAQAAXOTzSoVFDfTRYfOMFAMgKfLjUwDuIVwtbMfBY_1HG34H7_0P&hTc6j8Njvn--z=q, line 1: Script terminated by timeout at:
+Fv@https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AIDHBAqKAQAAXOTzSoVFDfTRYfOMFAMgKfLjUwDuIVwtbMfBY_1HG34H7_0P&hTc6j8Njvn--z=q:1:297015
+z@https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AIDHBAqKAQAAXOTzSoVFDfTRYfOMFAMgKfLjUwDuIVwtbMfBY_1HG34H7_0P&hTc6j8Njvn--z=q:1:296988
+FW<@https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AIDHBAqKAQAAXOTzSoVFDfTRYfOMFAMgKfLjUwDuIVwtbMfBY_1HG34H7_0P&hTc6j8Njvn--z=q:1:83849
+Fv@https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AIDHBAqKAQAAXOTzSoVFDfTRYfOMFAMgKfLjUwDuIVwtbMfBY_1HG34H7_0P&hTc6j8Njvn--z=q:1:297099
+z@https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AIDHBAqKAQAAXOTzSoVFDfTRYfOMFAMgKfLjUwDuIVwtbMfBY_1HG34H7_0P&hTc6j8Njvn--z=q:1:296988
+FW<@https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AIDHBAqKAQAAXOTzSoVFDfTRYfOMFAMgKfLjUwDuIVwtbMfBY_1HG34H7_0P&hTc6j8Njvn--z=q:1:102172
+Fv@https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AIDHBAqKAQAAXOTzSoVFDfTRYfOMFAMgKfLjUwDuIVwtbMfBY_1HG34H7_0P&hTc6j8Njvn--z=q:1:297099
+z@https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AIDHBAqKAQAAXOTzSoVFDfTRYfOMFAMgKfLjUwDuIVwtbMfBY_1HG34H7_0P&hTc6j8Njvn--z=q:1:296988
+FW<@https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AIDHBAqKAQAAXOTzSoVFDfTRYfOMFAMgKfLjUwDuIVwtbMfBY_1HG34H7_0P&hTc6j8Njvn--z=q:1:111855
+FC@https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AIDHBAqKAQAAXOTzSoVFDfTRYfOMFAMgKfLjUwDuIVwtbMfBY_1HG34H7_0P&hTc6j8Njvn--z=q:1:77072
+Fv@https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AIDHBAqKAQAAXOTzSoVFDfTRYfOMFAMgKfLjUwDuIVwtbMfBY_1HG34H7_0P&hTc6j8Njvn--z=q:1:297110
+z@https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AIDHBAqKAQAAXOTzSoVFDfTRYfOMFAMgKfLjUwDuIVwtbMfBY_1HG34H7_0P&hTc6j8Njvn--z=q:1:296988
+notify@https://s20.tiktokcdn.com/tiktok/common/init.js?cache:1:865
+g@https://s20.tiktokcdn.com/tiktok/common/init.js?cache:1:2960
+Kt/value/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok_privacy_protection_framework/loader/1.0.0.484/index.js:4:23322
+value@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok_privacy_protection_framework/loader/1.0.0.484/index.js:4:23871
+c/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/slardar/fe/sdk_lite/browser-nocookie.lite.1.2.26.sg.js:1:2266
+value/XMLHttpRequest.prototype.send@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/secsdk/secsdk-lastest.umd.js:5:71374
+_0x4ba643@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js:1:536096
+_0x8e8767@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js:1:531689
+405/In/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/bric-captcha-ttweb/core-captcha/va/2.31.0/1.0.0.119/static/js/vendors~sld.js:1:14748
+f@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/bric-captcha-ttweb/core-captcha/va/2.31.0/1.0.0.119/static/js/vendors~sld.js:1:3426
+_0x2c88c6</_0x3da459/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:48121
+_0xcb0c6e@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:7435
+q@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:26942
+J@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:27823
+79108/e.prototype.send/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:32849
+79108/e.prototype.send@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:32435
+79108/e.prototype.sliceEvent@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:30844
+79108/e.prototype.report@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:30595
+79108/e.prototype.event/this.reportTimeout<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:29589
+
+1692385576987	Marionette	INFO	Stopped listening on port 59254
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692385588858	geckodriver	INFO	Listening on 127.0.0.1:59386
+1692385589386	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/45/_6zmnwkn6638scvzx_7pz4_m0000gn/T/rust_mozprofile7WsFQH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692385590058	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692385590481	Marionette	INFO	Listening on port 59394
+WebDriver BiDi listening on ws://127.0.0.1:59387
+Read port: 59394
+1692385590779	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59387/devtools/browser/9ba0d3a6-f4f7-4100-a02c-ebe4801091c4
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-d801507b.bf8ddbab2f33f1a272dc.js line 2 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?cache, line 1: Script terminated by timeout at:
+g@https://s20.tiktokcdn.com/tiktok/common/init.js?cache:1:3317
+c/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/slardar/fe/sdk_lite/browser-nocookie.lite.1.2.26.sg.js:1:2266
+Kt/value/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok_privacy_protection_framework/loader/1.0.0.484/index.js:4:23322
+value@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok_privacy_protection_framework/loader/1.0.0.484/index.js:4:23871
+value/XMLHttpRequest.prototype.send@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/secsdk/secsdk-lastest.umd.js:5:71374
+_0x4ba643@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js:1:536096
+_0x8e8767@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js:1:531689
+405/In/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/bric-captcha-ttweb/core-captcha/va/2.31.0/1.0.0.119/static/js/vendors~sld.js:1:14748
+f@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/bric-captcha-ttweb/core-captcha/va/2.31.0/1.0.0.119/static/js/vendors~sld.js:1:3426
+_0x2c88c6</_0x3da459/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:48121
+_0xcb0c6e@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:7435
+q@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:26942
+J@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:27823
+79108/e.prototype.send/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:32849
+79108/e.prototype.send@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:32435
+79108/e.prototype.sliceEvent@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:30844
+79108/e.prototype.report@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:30595
+79108/e.prototype.event/this.reportTimeout<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:29589
+

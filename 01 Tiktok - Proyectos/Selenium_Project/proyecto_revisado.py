@@ -85,7 +85,7 @@ while centinela == True:
     try:
       driver.find_element(By.XPATH, value= '/html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div[1]')
       print('Hay captcha...')
-      time.sleep(15)
+      time.sleep(30)
     except:
       pass
 
@@ -110,16 +110,16 @@ while centinela == True:
     # 05 Detectar el número de respuestas
     try:
       answers = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[2]/div[2]/p").text
-      
       #result = answers[answers.find('(')+1 : answers.find(')')]
-      # result = ''.join([char for char in answers if char.isdigit()])
-      print(f'Numero de Respuestas {answers} ')
-    
+      result = int(''.join([char for char in answers if char.isdigit()]))
+
+      print(f'Numero de Respuestas {answers}')
+      print(username_thread)
     except:
       traceback.print_exc
       try:
         scroll_down(3, 1, 1030)
-        answers = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[2]/div/p").text
+        answers = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[2]/div/[2]p").text
         # result = answers[answers.find('(')+1:answers.find(')')]
         result = ''.join([char for char in answers if char.isdigit()])
         
@@ -127,10 +127,12 @@ while centinela == True:
         answers = 0
         result = 0
 
-    # answers = int(result)
-    # print(f'Validacion Respuestas {answers}')
     
-    d = {"level": level, "display_name": display_name, "username":username_thread, "comment":comment, "fecha": fecha, "likes":int(likes), "replies":answers, "Thread_author": username_thread}
+    answers = result
+    print(f'Validacion Respuestas {answers}')
+    
+    d = {"level": level, "display_name": display_name, "username":username_thread, "comment":comment, "fecha": fecha, "likes":likes, "replies":answers, "Thread_author": username_thread}
+    
     base_temporal = pd.DataFrame(data=d,index=[comment_externo])
     base_final = pd.concat([base_final, base_temporal], ignore_index=True)
 
@@ -180,9 +182,11 @@ while centinela == True:
         else:
           try:
             driver.find_element(By.XPATH, value = seccion_replies + str(comment_externo) + "]/div[2]/div[" + str(t) + "]/p[1]").click()
+#REVISAR 183
+
           except:
             # Fallamos por poco, scrolldown a little
-            scroll_down(3, 1, 1000)
+            scroll_down(3, 1, 1000,driver)
             try:
               driver.find_element(By.XPATH, value= '/html/body/div[7]/div/div[1]/div[2]/div')
               print('Hay captcha...')
@@ -194,7 +198,7 @@ while centinela == True:
             # El botón pudo desaparecer para este momento
             except:
               continue
-        scroll_down(3, 1, 850)
+        scroll_down(3, 1, 850,driver)
         try:
           driver.find_element(By.XPATH, value= '/html/body/div[7]/div/div[1]/div[2]/div')
           print('Hay captcha...')
@@ -202,11 +206,9 @@ while centinela == True:
         except:
           pass
 
-
-
       # Recopilamos las replies
       if comment_externo > 1:
-        valor_alcanzable = comments_disponibles(answers, comment_externo,driver)
+        valor_alcanzable = comments_disponibles(answers, comment_externo,seccion_comments,driver)
         if valor_alcanzable == 0:
           answers = 1
           valor_alcanzable = answers
@@ -227,7 +229,7 @@ while centinela == True:
             likes = driver.find_element(By.XPATH, value = seccion_replies + str(comment_externo) + "]/div[2]/div["+ str(j) + "]/div[1]/p[2]/div/span").text
             # Detectar el número de respuestas
             reply = 0
-            d = {"level": level, "display_name": display_name, "username":username, "comment":comment, "fecha": fecha, "likes":int(likes), "replies":reply, "Thread_author":username_thread}
+            d = {"level": level, "display_name": display_name, "username":username, "comment":comment, "fecha": fecha, "likes":likes, "replies":reply, "Thread_author":username_thread}
             base_temporal = pd.DataFrame(data=d,index=[comment_externo])
             base_final = pd.concat([base_final, base_temporal], ignore_index=True)
           except:
@@ -252,10 +254,10 @@ while centinela == True:
   except Exception as e:
     traceback.print_exc()
     time.sleep(50)
-    scroll_down(3, 1, 850)
+    scroll_down(3, 1, 850,driver)
 
     with open(r'C:\Users\JOSE\Desktop\Trabajo\BX\Tiktok\progreso.txt', 'w') as fp:
       fp.write(str(comentarios_recorridos[-1]))
     print(f'Error {type(e)}: e')
 
-    base_final.to_excel('Base_tiktok_medicossinfronteras.xlsx')
+    base_final.to_excel('base_rental_tiktok.xlsx')
