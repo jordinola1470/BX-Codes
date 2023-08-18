@@ -256,7 +256,7 @@ while centinela == True:
     time.sleep(50)
     scroll_down(3, 1, 850,driver)
 
-    with open(r'C:\Users\JOSE\Desktop\Trabajo\BX\Tiktok\progreso.txt', 'w') as fp:
+    with open('progreso.txt', 'w') as fp:
       fp.write(str(comentarios_recorridos[-1]))
     print(f'Error {type(e)}: e')
 

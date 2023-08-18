@@ -1409,3 +1409,94 @@ J@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/t
 79108/e.prototype.report@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:30595
 79108/e.prototype.event/this.reportTimeout<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-dp-byted-tea-sdk-oversea.24619e9d716754b832a7.js:1:29589
 
+1692385751032	geckodriver	INFO	Listening on 127.0.0.1:59562
+1692385751562	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/45/_6zmnwkn6638scvzx_7pz4_m0000gn/T/rust_mozprofile2OJHlT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692385752205	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692385752613	Marionette	INFO	Listening on port 59570
+WebDriver BiDi listening on ws://127.0.0.1:59563
+Read port: 59570
+1692385752913	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59563/devtools/browser/90b7ad59-b35a-416e-9789-bca1a1e4cfa4
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-d801507b.bf8ddbab2f33f1a272dc.js line 2 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/bric-captcha-ttweb/core-captcha/va/2.31.0/1.0.0.119/static/js/vendors~sld.js, line 1: Script terminated by timeout at:
+405/bn/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/bric-captcha-ttweb/core-captcha/va/2.31.0/1.0.0.119/static/js/vendors~sld.js:1:12662
+
+1692385981610	geckodriver	INFO	Listening on 127.0.0.1:59745
+1692385982138	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/45/_6zmnwkn6638scvzx_7pz4_m0000gn/T/rust_mozprofile0It4jS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692385982807	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692385983228	Marionette	INFO	Listening on port 59753
+WebDriver BiDi listening on ws://127.0.0.1:59746
+Read port: 59753
+1692385983534	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59746/devtools/browser/93f72d05-52b2-4af4-8956-57313ca21170
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-d801507b.bf8ddbab2f33f1a272dc.js line 2 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js, line 2: Script terminated by timeout at:
+Dl@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:71656
+Qi@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:118680
+Tu@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:102730
+_u@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:102658
+Cu@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:102519
+yu@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:99506
+46955/qa/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:49278
+56800/t.unstable_runWithPriority@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:143148
+Ha@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:49055
+qa@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:49225
+Za@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:49158
+du@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:96891
+Ol@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:68654
+50297/g/i<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/5400.2e63f756d5acc2901eef.js:1:7052
+a@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/webapp-desktop.83550a1d338f4d41c4ed.js:35:129924
+
+1692386033190	Marionette	INFO	Stopped listening on port 59570
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692386036374	Marionette	INFO	Stopped listening on port 59753
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692386039327	Marionette	INFO	Stopped listening on port 59394
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692386103278	geckodriver	INFO	Listening on 127.0.0.1:59876
+1692386103802	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/45/_6zmnwkn6638scvzx_7pz4_m0000gn/T/rust_mozprofilejbKl7K"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692386104484	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692386104904	Marionette	INFO	Listening on port 59882
+WebDriver BiDi listening on ws://127.0.0.1:59877
+Read port: 59882
+1692386105201	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59877/devtools/browser/00d82a53-c019-4ef3-9c95-1938012c1fb6
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-d801507b.bf8ddbab2f33f1a272dc.js line 2 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/bric-captcha-ttweb/core-captcha/va/2.31.0/1.0.0.119/static/js/vendors~sld.js, line 1: Script terminated by timeout at:
+405/bn/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/bric-captcha-ttweb/core-captcha/va/2.31.0/1.0.0.119/static/js/vendors~sld.js:1:12662
+
+1692386368121	geckodriver	INFO	Listening on 127.0.0.1:60066
+1692386368644	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/45/_6zmnwkn6638scvzx_7pz4_m0000gn/T/rust_mozprofiles656D7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692386369274	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692386369695	Marionette	INFO	Listening on port 60074
+WebDriver BiDi listening on ws://127.0.0.1:60067
+Read port: 60074
+1692386370002	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60067/devtools/browser/fa4f564b-8a6c-44be-8106-f7b318ef8db8
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-d801507b.bf8ddbab2f33f1a272dc.js line 2 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("state.hideToggleDeferredTask is null", "resource://gre/actors/PictureInPictureChild.sys.mjs", 1459))
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/bric-captcha-ttweb/core-captcha/va/2.31.0/1.0.0.119/static/js/vendors~sld.js, line 1: Script terminated by timeout at:
+405/bn/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/bric-captcha-ttweb/core-captcha/va/2.31.0/1.0.0.119/static/js/vendors~sld.js:1:12662
+
