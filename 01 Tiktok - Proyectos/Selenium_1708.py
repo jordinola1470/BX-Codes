@@ -15,10 +15,9 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException
-
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.by import By
+
 
 '''-------------------------------------------------------------------------------------------------------'''
 ctx = ssl.create_default_context()
@@ -31,6 +30,7 @@ chrome_options.add_experimental_option("prefs", {
   "download.directory_upgrade": True,
   "safebrowsing.enabled": True
   })
+
 
 def barra_carga(tiempo):
     sys.stdout.flush()
@@ -45,16 +45,15 @@ def barra_carga(tiempo):
     return 
 
 URL = r'https://www.tiktok.com/@mariannycorderoo/video/7234287154828938501?_r=1&_t=8eux31EZrok'
-driver = webdriver.Chrome(service = Service(ChromeDriverManager().install()))
+driver = webdriver.Chrome()
 driver.get(URL)
 
 print("Esperando aparición y resolución de Captcha....")
-barra_carga(10)
+barra_carga(60)
 
 
 
 '''-------------------------------------------------------------------------------------------------------'''
-
 
 def scroll_down(load_time, times, bottom):
   i = 0
@@ -84,7 +83,7 @@ def scroll_down(load_time, times, bottom):
     i = i + 1
   return None
 
-scroll_down(5,1,1080)
+scroll_down(15,1,1080)
 
 '''-------------------------------------------------------------------------------------------------------'''
 
