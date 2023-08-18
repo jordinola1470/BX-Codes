@@ -106,6 +106,9 @@ try:
 except:
   print('El bot no pasa las validaciones para correr')
   sys.exit(1)
+
+
+
 while centinela == True:
   try:
     try:
