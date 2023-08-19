@@ -53,6 +53,7 @@ def scroll_down(load_time, times, bottom,driver):
 # result = int(''.join([char for char in answers if char.isdigit()]))
 # print(result)
 
+# seccion_comments = '/html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div["]/div[2]/div/p  
 
 # answer_1comments = '/html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div[1]/div[2]/div[2]/p'
 # answer_2comments = '/html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div[2]/div[2]/div/p'
