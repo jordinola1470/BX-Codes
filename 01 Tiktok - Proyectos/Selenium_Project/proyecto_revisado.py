@@ -114,27 +114,34 @@ while centinela == True:
     fecha = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[1]/div[1]/p[2]/span[1]").text
     # 04 Detectar número de likes
     likes = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[1]/div[1]/p[2]/div/span").text
-    # 05 Detectar el número de respuestas
+    # 05 Detectar el número de respuestas al comentario (answers)
     try:
-      answers = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[2]/div[2]/p").text
-      #result = answers[answers.find('(')+1 : answers.find(')')]
-      result = int(''.join([char for char in answers if char.isdigit()]))
+      
+      if comment_externo != 1:
+        answers = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[2]/div/p").text
+        result = int(''.join([char for char in answers if char.isdigit()]))
 
-      print(f'Numero de Respuestas {answers}')
-      print(username_thread)
+        print(f'Numero de Respuestas {answers} {username_thread}')
+
+      else: 
+        answers = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[2]/div[2]/p").text
+        result = int(''.join([char for char in answers if char.isdigit()]))
+
+        print(f'Numero de Respuestas {answers} {username_thread}')
+
     except:
       traceback.print_exc
       try:
         scroll_down(3, 1, 1030)
         answers = driver.find_element(By.XPATH, value = seccion_comments + str(comment_externo) + "]/div[2]/div/[2]p").text
         # result = answers[answers.find('(')+1:answers.find(')')]
-        result = ''.join([char for char in answers if char.isdigit()])
+        result = int(''.join([char for char in answers if char.isdigit()]))
+        print(f'Numero de Respuestas Excepcional {answers}')
         
       except:
         answers = 0
         result = 0
 
-    
     answers = result
     print(f'Validacion Respuestas {answers}')
     
@@ -153,7 +160,6 @@ while centinela == True:
     ## RESPUESTAS A LOS COMENTARIOS 
     # Respuestas del comentarios (i)
 
-    # seccion_replies = '/html/body/div[1]/div[3]/div[2]/div/div[2]/div/div[4]/div[2]/div/div['
     seccion_replies = '/html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div['
 
     # APERTURA
@@ -169,13 +175,15 @@ while centinela == True:
       for t in lista_click:
         if t == 1:
           try:
-            driver.find_element(By.XPATH, value = seccion_replies + str(comment_externo) + "]/div[2]/div[2]/p").click()
-            # /html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div[1]/div[2]/div[2]/p
-            # /html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div[1]/div[2]/div[4]/p[1]
-            # /html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div[1]/div[2]/div[7]/p[1]
+
+            if comment_externo != 1:
+              driver.find_element(By.XPATH, value = seccion_replies + str(comment_externo) + "]/div[2]/div/p").click()
+            else: 
+              driver.find_element(By.XPATH, value = seccion_replies + str(comment_externo) + "]/div[2]/div[2]/p").click()
+                                                
           except:
             # Fallamos por poco, scrolldown a little
-            scroll_down(3, 1, 1000)
+            scroll_down(3, 1, 1000,driver)
             try:
               driver.find_element(By.XPATH, value= '/html/body/div[7]/div/div[1]/div[2]/div')
               print('Hay captcha ... t=1 Mini Scroll Respuesta Comentarios')
@@ -222,14 +230,17 @@ while centinela == True:
       
       # RECOPILACION      
       # De las replies
+
+        #valore para desde el comentario 02 hacia adelante
       if comment_externo > 1:
         valor_alcanzable = comments_disponibles(answers, comment_externo,seccion_comments,driver)
         if valor_alcanzable == 0:
           answers = 1
           valor_alcanzable = answers
-
       else:
-        valor_alcanzable = answers+1
+        #valor para el primer comentario
+        valor_alcanzable = answers+1 
+
       if answers != 0:
         for j in range(1, valor_alcanzable+1):
           # Detectar el display name del usuario
@@ -245,9 +256,12 @@ while centinela == True:
             likes = driver.find_element(By.XPATH, value = seccion_replies + str(comment_externo) + "]/div[2]/div["+ str(j) + "]/div[1]/p[2]/div/span").text
             # Detectar el número de respuestas
             reply = 0
+
             d = {"level": level, "display_name": display_name, "username":username, "comment":comment, "fecha": fecha, "likes":likes, "replies":reply, "Thread_author":username_thread}
+            
             base_temporal = pd.DataFrame(data=d,index=[comment_externo])
             base_final = pd.concat([base_final, base_temporal], ignore_index=True)
+          
           except:
             continue
 
@@ -276,5 +290,6 @@ while centinela == True:
     with open('progreso.txt', 'w') as fp:
       fp.write(str(comentarios_recorridos[-1]))
     print(f'Error {type(e)}: e')
-
     base_final.to_excel('base_rental_tiktok.xlsx')
+
+base_final.to_excel('base_rental_tiktok.xlsx')

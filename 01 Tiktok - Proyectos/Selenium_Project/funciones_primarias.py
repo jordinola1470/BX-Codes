@@ -25,7 +25,7 @@ def comments_disponibles(pos_interna, pos_externa,driver, seccion_comments):
     try:
       display_name = driver.find_element(By.XPATH, value = seccion_comments + str(pos_externa) + "]/div[2]/div[" + str(pos_interna) + "]/div[1]/a")
     except:
-      comments_disponibles(pos_interna-1, pos_externa)
+      comments_disponibles(pos_interna-1, pos_externa,driver,seccion_comments)
   else:
     pos_interna = 1
   return pos_interna
