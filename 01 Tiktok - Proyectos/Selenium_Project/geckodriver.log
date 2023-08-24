@@ -1733,3 +1733,8 @@ Read port: 55272
 DevTools listening on ws://127.0.0.1:55265/devtools/browser/d1317f0a-77da-4c91-8ef0-5ae8cfe895d3
 JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-d801507b.bf8ddbab2f33f1a272dc.js line 2 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/bric-captcha-ttweb/core-captcha/va/2.31.0/1.0.0.119/static/js/vendors~sld.js, line 1: Script terminated by timeout at:
+405/bn/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/bric-captcha-ttweb/core-captcha/va/2.31.0/1.0.0.119/static/js/vendors~sld.js:1:12662
+
+1692424698903	Marionette	INFO	Stopped listening on port 55272
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
