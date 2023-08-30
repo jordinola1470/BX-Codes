@@ -23,6 +23,14 @@ class Data_Processing:
         print('\nvalidacion_datos',matriz['Nombre de agente'].isnull().value_counts())
 
         return matriz
+    
+    def linea_base(self,matriz_fecha,fecha_inicio,fecha_final):
+
+        matriz_fecha.set_index('FECHA',inplace=True)    
+        matriz_fecha = matriz_fecha.loc[fecha_inicio : fecha_final]
+
+        return matriz_fecha
+
 
 # matriz_lineaBase, matriz,lineaSalida 
      
