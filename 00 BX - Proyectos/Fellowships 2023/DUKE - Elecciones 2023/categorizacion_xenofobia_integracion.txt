@@ -1,0 +1,26 @@
+INTEGRACION
+
+(xenofob* OR estigmatiza* 
+OR (insulto NEAR/1f racista) OR (eliminar NEAR/2f prejuicios) 
+OR (clasismo NEAR/1f tipico) OR (asquerosamente NEAR/1 despectivo) 
+OR (hijueputa NEAR/1f xenofobia) OR (bajele NEAR/2f xenofobia) 
+OR (raza NEAR/1 arribista) OR (estigmatizacion NEAR/2f hermanos) 
+OR (forma NEAR/1f peyorativa) OR (venezolanos NEAR/1f  (sufren OR respetan OR estigmatizados)) 
+OR (estigmatizar NEAR/2f venezolanos) OR (meterles NEAR/1f xenofobia) 
+OR racismo OR "esto es fascismo" OR (negarle NEAR/1f vacuna) 
+OR aporafobia OR (gente NEAR/2 vacia)
+OR (derecho* NEAR/3f (civil* OR humano*)) 
+OR (derecho NEAR/2f soÒar) OR (proteccion NEAR/3f migrantes) 
+OR ((exilio OR pueblo) NEAR/1f venezolano)  OR huyen
+OR respet* OR tolerancia OR tolerar* OR empati* OR herman*
+OR #NoSoyDelincuente OR honrad* OR generaliz* OR esperanza
+OR solucio* OR bienestar OR (amigos NEAR/2f Venezuela) 
+OR (colaborar NEAR/1f ayudando) OR fortaleza 
+OR (no NEAR/1f delincuentes) OR (niÒo* NEAR/1f venezolano*) 
+OR (venezuela NEAR/1f acogio) OR (venezolano* NEAR/1f pobre*)
+OR ((orgulloso OR grande) NEAR/3f veneco) OR (veneco NEAR/1f soy))
+
+
+XENOFOBIA
+
+((nos NEAR/1 (quita* OR roban)) OR satura* OR (se NEAR/1 vaya*) OR plaga* OR malandro* OR sucio* OR sucia* OR flojo* OR floja* OR estorba* OR estorbo* OR (representa* NEAR/1 problema*) OR ((frenar OR detener) NEAR/1 (migracion OR venezola* OR inmigracio*)) OR ((tiene* OR debe*) NEAR/1 (regresar* OR volver* OR devolver*)) OR (destruyen NEAR/1 (pais OR colombia OR nuestr*)) OR (mal NEAR/1 parido*) OR (de NEAR/1 mierda) OR cabron* OR (hij* NEAR/1 (puta* OR perra*)) OR puto* OR puta* OR bruto* OR ignorante* OR veneca* OR veneco* OR pobre* OR hpta* OR (tiene* NEAR/1 (mas OR derecho*)) OR lichig* OR gorrer* OR gonorrea OR zunga* OR huevon OR (mala* NEAR/1 costumbre*) OR garbimba OR jueputa OR hijueputa OR malpardi* OR pichurria OR pirobo OR gurrupleto* OR marica* OR cacorro* OR (calienta NEAR/1 huevo*) OR culipronta* OR fufa OR fufurufa OR guaricha OR guisa OR loba OR morronga OR ((mosca* OR mosquit*) NEAR/1 muerta*) OR pelitenid* OR pendej* OR prepago OR zuripanta OR chanda OR hpta OR pecuec* OR "hijo de puta" OR cerdo OR malnacido OR ijueputa* OR hijueputa* OR cafre OR mendigo OR bandido OR malandr* OR Òampira OR gonorrea OR caco OR zarzo OR chandoso* OR canchoso* OR jinch* OR jartera OR mamera OR chiviado* OR gamin* OR gurre* OR ((come OR coman) NEAR/1f mierda) OR guevon OR guebon) OR (venecos NEAR/2f mendig*) OR (fuera NEAR/1 colombia) OR (venec* NEAR/1 ilegal*) OR (veneco* NEAR/1 mierda) OR comunist* OR (vacuna* NEAR/2 venec*) OR (irregular* NEAR/1 venec*) OR (venec* NEAR/3 gratis) OR ((fuera OR Fuera) NEAR/25F venezolan*)

@@ -1,0 +1,55 @@
+<<<Referencia a venezolanos>>>
+(
+   (
+       Veneco* OR veneca* OR venezolan* OR extranjero* OR
+       (
+           (
+               Invasor* OR invaden OR aprovechad* OR malandr* OR usurpa*
+           )
+       NEAR/7
+           (
+               migrante* OR veneco* OR veneca* OR extranjero* OR venezolan*
+           )
+       )
+       OR
+       (
+           oleada* NEAR/1 (migrante* OR veneco* OR veneca* OR extranjero* OR venezolan* OR venezuel*)
+       )
+   ) OR (derecho NEAR/3f asilo) OR refugiado* 
+
+
+OR
+
+
+<<<Migración ilegal y desplazamiento>>>
+(
+author:(migracioncol OR petrogustavo)
+AND
+((Veneco* OR veneca* OR venezolan*
+OR
+((Invasor* OR invaden OR aprovechad* OR malandr* OR usurpa* OR delincuen* OR delinqu* OR criminal*)NEAR/7         (migrante* OR veneco* OR veneca* OR extranjero* OR venezolan*))
+OR
+(oleada* NEAR/1 (migrante* OR veneco* OR veneca* OR extranjero* OR venezolan* OR venezuel*))))
+)
+
+
+OR 
+
+
+(
+(
+
+(colombia NEAR/1 humana) ) NEAR/7 ((Veneco* OR veneca* OR Invasor* OR invaden OR venezolan* OR aprovechad* OR malandr* OR usurpa*)
+OR
+(oleada* NEAR/1 (migrante* OR veneco* OR veneca* OR extranjero*))) 
+)
+
+
+OR
+#NoMasVenezolanosEnColombia OR #DeportenlosYa
+
+
+OR
+((recuper* OR muro* OR autoridad OR seguridad OR c?arcel*) NEAR/8F (venez* OR fronter* OR venec* OR extranjero* OR migrante* OR venezolan*))
+)
+
