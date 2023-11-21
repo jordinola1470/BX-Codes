@@ -23,9 +23,9 @@ def validacion_instagram(driver,seccion_comments):
     como punto de referencia'''
 
     try:
-        driver.find_element(By.XPATH, value = '/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/div[2]/div/div/div[1]/div/div[2]/div/span/div/div/span[1]/div/a/div/div/span').text
+        driver.find_element(By.XPATH, value = '/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/div[2]/div/div[1 ]/div/div[2]/div/span/div/div/span[1]/div/a/div/div/span').text
         print('UserName Encontrado')
     except Exception as e:
-        print('Excepción:', str(e))
+        print('UserName NO Encontrado', str(e))
     
     return None
